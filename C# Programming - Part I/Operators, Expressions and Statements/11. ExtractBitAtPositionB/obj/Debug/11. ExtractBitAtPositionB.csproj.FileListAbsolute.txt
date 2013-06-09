@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\11. ExtractBitAtPositionB\bin\Debug\_11.ExtractBitAtPositionB.exe.config
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\11. ExtractBitAtPositionB\bin\Debug\_11.ExtractBitAtPositionB.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\11. ExtractBitAtPositionB\bin\Debug\_11.ExtractBitAtPositionB.pdb
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\11. ExtractBitAtPositionB\obj\Debug\_11.ExtractBitAtPositionB.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\11. ExtractBitAtPositionB\obj\Debug\_11.ExtractBitAtPositionB.pdb

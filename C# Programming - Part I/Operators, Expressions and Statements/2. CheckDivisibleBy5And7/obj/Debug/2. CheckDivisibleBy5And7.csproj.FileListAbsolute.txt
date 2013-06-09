@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\2. CheckDivisibleBy5And7\bin\Debug\_2.CheckDivisibleBy5And7.exe.config
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\2. CheckDivisibleBy5And7\bin\Debug\_2.CheckDivisibleBy5And7.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\2. CheckDivisibleBy5And7\bin\Debug\_2.CheckDivisibleBy5And7.pdb
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\2. CheckDivisibleBy5And7\obj\Debug\_2.CheckDivisibleBy5And7.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\2. CheckDivisibleBy5And7\obj\Debug\_2.CheckDivisibleBy5And7.pdb

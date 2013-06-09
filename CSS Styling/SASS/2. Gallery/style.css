@@ -1,0 +1,17 @@
+nav ul li {
+  list-style-type: none;
+  display: inline-block; }
+  nav ul li label img {
+    width: 100px;
+    height: 100px; }
+
+.images {
+  position: relative; }
+  .images input[type=radio] {
+    display: none; }
+  .images img {
+    position: absolute;
+    z-index: 0; }
+  .images input[type=radio]:checked + img {
+    display: block;
+    z-index: 1; }

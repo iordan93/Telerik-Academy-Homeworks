@@ -1,0 +1,4 @@
+D:\Telerik\JavaScript - Part I\Operators, Expressions and Statements\3. CalculateRectangleArea\bin\_3.CalculateRectangleArea.dll
+D:\Telerik\JavaScript - Part I\Operators, Expressions and Statements\3. CalculateRectangleArea\bin\_3.CalculateRectangleArea.pdb
+D:\Telerik\JavaScript - Part I\Operators, Expressions and Statements\3. CalculateRectangleArea\obj\Debug\_3.CalculateRectangleArea.dll
+D:\Telerik\JavaScript - Part I\Operators, Expressions and Statements\3. CalculateRectangleArea\obj\Debug\_3.CalculateRectangleArea.pdb

@@ -1,0 +1,4 @@
+D:\Telerik\JavaScript - Part I\Operators, Expressions and Statements\4. CheckThirdDigit\bin\_4.CheckThirdDigit.dll
+D:\Telerik\JavaScript - Part I\Operators, Expressions and Statements\4. CheckThirdDigit\bin\_4.CheckThirdDigit.pdb
+D:\Telerik\JavaScript - Part I\Operators, Expressions and Statements\4. CheckThirdDigit\obj\Debug\_4.CheckThirdDigit.dll
+D:\Telerik\JavaScript - Part I\Operators, Expressions and Statements\4. CheckThirdDigit\obj\Debug\_4.CheckThirdDigit.pdb

@@ -1,0 +1,5 @@
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam\3. ClojureParser\bin\_3.ClojureParser.dll
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam\3. ClojureParser\bin\_3.ClojureParser.pdb
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam\3. ClojureParser\obj\Debug\3. ClojureParser.csprojResolveAssemblyReference.cache
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam\3. ClojureParser\obj\Debug\_3.ClojureParser.dll
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam\3. ClojureParser\obj\Debug\_3.ClojureParser.pdb

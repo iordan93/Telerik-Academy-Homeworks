@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\4. WeAllLoveBits\bin\Debug\_4.WeAllLoveBits.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\4. WeAllLoveBits\bin\Debug\_4.WeAllLoveBits.pdb
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\4. WeAllLoveBits\obj\Debug\_4.WeAllLoveBits.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\4. WeAllLoveBits\obj\Debug\_4.WeAllLoveBits.pdb

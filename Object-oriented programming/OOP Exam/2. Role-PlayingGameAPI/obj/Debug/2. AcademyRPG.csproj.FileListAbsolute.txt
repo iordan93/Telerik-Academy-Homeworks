@@ -1,0 +1,5 @@
+D:\Telerik\Object-oriented programming\OOP Exam\2. Role-PlayingGameAPI\bin\Debug\AcademyRPG.exe
+D:\Telerik\Object-oriented programming\OOP Exam\2. Role-PlayingGameAPI\bin\Debug\AcademyRPG.pdb
+D:\Telerik\Object-oriented programming\OOP Exam\2. Role-PlayingGameAPI\obj\Debug\2. AcademyRPG.csprojResolveAssemblyReference.cache
+D:\Telerik\Object-oriented programming\OOP Exam\2. Role-PlayingGameAPI\obj\Debug\AcademyRPG.exe
+D:\Telerik\Object-oriented programming\OOP Exam\2. Role-PlayingGameAPI\obj\Debug\AcademyRPG.pdb

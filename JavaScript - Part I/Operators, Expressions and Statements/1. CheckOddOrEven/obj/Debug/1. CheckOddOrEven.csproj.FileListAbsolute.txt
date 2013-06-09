@@ -1,0 +1,5 @@
+D:\Telerik\JavaScript - Part I\Operators, Expressions and Statements\1. CheckOddOrEven\bin\_1.CheckOddOrEven.dll
+D:\Telerik\JavaScript - Part I\Operators, Expressions and Statements\1. CheckOddOrEven\bin\_1.CheckOddOrEven.pdb
+D:\Telerik\JavaScript - Part I\Operators, Expressions and Statements\1. CheckOddOrEven\obj\Debug\1. CheckOddOrEven.csprojResolveAssemblyReference.cache
+D:\Telerik\JavaScript - Part I\Operators, Expressions and Statements\1. CheckOddOrEven\obj\Debug\_1.CheckOddOrEven.dll
+D:\Telerik\JavaScript - Part I\Operators, Expressions and Statements\1. CheckOddOrEven\obj\Debug\_1.CheckOddOrEven.pdb

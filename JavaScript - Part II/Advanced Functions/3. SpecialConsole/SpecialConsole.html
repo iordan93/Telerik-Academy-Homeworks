@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Special console</title>
+</head>
+<body>
+    <script src="specialConsole.js"></script>
+    <script>
+        var specialConsole = specialConsole();
+        var student = {name: "John", age: 13};
+
+        specialConsole.writeLine("Message: hello");
+        // Logs to the console "Message: hello"
+        specialConsole.writeLine("Message: {0}", "hello");
+        // Logs to the console "Message: hello"
+        specialConsole.writeLine("Student: {0}", student);
+        specialConsole.writeError("Error: {0}", "Something happened");
+        specialConsole.writeWarning("Warning: {0}", "A warning");
+    </script>
+</body>
+</html>

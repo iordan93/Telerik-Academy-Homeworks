@@ -1,0 +1,5 @@
+D:\Telerik\HTML Basics\HTML Forms and Frames\4. Laptops\bin\_4.Laptops.dll
+D:\Telerik\HTML Basics\HTML Forms and Frames\4. Laptops\bin\_4.Laptops.pdb
+D:\Telerik\HTML Basics\HTML Forms and Frames\4. Laptops\obj\Debug\4. Laptops.csprojResolveAssemblyReference.cache
+D:\Telerik\HTML Basics\HTML Forms and Frames\4. Laptops\obj\Debug\_4.Laptops.dll
+D:\Telerik\HTML Basics\HTML Forms and Frames\4. Laptops\obj\Debug\_4.Laptops.pdb

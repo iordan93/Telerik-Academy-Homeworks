@@ -1,0 +1,6 @@
+D:\Telerik\C# Programming - Part I\Primitive Data Types and Variables\12. PrintASCIICharacters\bin\Debug\_12.PrintASCIICharacters.exe.config
+D:\Telerik\C# Programming - Part I\Primitive Data Types and Variables\12. PrintASCIICharacters\bin\Debug\_12.PrintASCIICharacters.exe
+D:\Telerik\C# Programming - Part I\Primitive Data Types and Variables\12. PrintASCIICharacters\bin\Debug\_12.PrintASCIICharacters.pdb
+D:\Telerik\C# Programming - Part I\Primitive Data Types and Variables\12. PrintASCIICharacters\obj\Debug\12. PrintASCIICharacters.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\Primitive Data Types and Variables\12. PrintASCIICharacters\obj\Debug\_12.PrintASCIICharacters.exe
+D:\Telerik\C# Programming - Part I\Primitive Data Types and Variables\12. PrintASCIICharacters\obj\Debug\_12.PrintASCIICharacters.pdb

@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Loops\13. PrintSpiralMatrix\bin\Debug\_13.PrintSpiralMatrix.exe
+D:\Telerik\C# Programming - Part I\Loops\13. PrintSpiralMatrix\bin\Debug\_13.PrintSpiralMatrix.pdb
+D:\Telerik\C# Programming - Part I\Loops\13. PrintSpiralMatrix\obj\Debug\13. PrintSpiralMatrix.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\Loops\13. PrintSpiralMatrix\obj\Debug\_13.PrintSpiralMatrix.exe
+D:\Telerik\C# Programming - Part I\Loops\13. PrintSpiralMatrix\obj\Debug\_13.PrintSpiralMatrix.pdb

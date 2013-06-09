@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\3. CalculateRectangleArea\bin\Debug\_3.CalculateRectangleArea.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\3. CalculateRectangleArea\bin\Debug\_3.CalculateRectangleArea.pdb
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\3. CalculateRectangleArea\obj\Debug\_3.CalculateRectangleArea.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\3. CalculateRectangleArea\obj\Debug\_3.CalculateRectangleArea.pdb

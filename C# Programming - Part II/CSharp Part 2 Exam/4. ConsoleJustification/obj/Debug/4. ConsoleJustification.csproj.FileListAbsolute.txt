@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part II\CSharp Part 2 Exam\4. ConsoleJustification\bin\Debug\_4.ConsoleJustification.exe
+D:\Telerik\C# Programming - Part II\CSharp Part 2 Exam\4. ConsoleJustification\bin\Debug\_4.ConsoleJustification.pdb
+D:\Telerik\C# Programming - Part II\CSharp Part 2 Exam\4. ConsoleJustification\obj\Debug\_4.ConsoleJustification.exe
+D:\Telerik\C# Programming - Part II\CSharp Part 2 Exam\4. ConsoleJustification\obj\Debug\_4.ConsoleJustification.pdb
+D:\Telerik\C# Programming - Part II\CSharp Part 2 Exam\4. ConsoleJustification\obj\Debug\4. ConsoleJustification.csprojResolveAssemblyReference.cache

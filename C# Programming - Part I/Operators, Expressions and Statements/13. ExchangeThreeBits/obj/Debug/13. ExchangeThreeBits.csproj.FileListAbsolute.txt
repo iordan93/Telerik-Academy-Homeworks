@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\13. ExchangeThreeBits\bin\Debug\_13.ExchangeThreeBits.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\13. ExchangeThreeBits\bin\Debug\_13.ExchangeThreeBits.pdb
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\13. ExchangeThreeBits\obj\Debug\_13.ExchangeThreeBits.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\13. ExchangeThreeBits\obj\Debug\_13.ExchangeThreeBits.pdb
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\13. ExchangeThreeBits\obj\Debug\13. ExchangeThreeBits.csprojResolveAssemblyReference.cache

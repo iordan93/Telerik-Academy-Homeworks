@@ -1,0 +1,5 @@
+D:\Telerik\JavaScript - Part I\Operators, Expressions and Statements\2. CheckDivisibleBy5And7\bin\_2.CheckDivisibleBy5And7.dll
+D:\Telerik\JavaScript - Part I\Operators, Expressions and Statements\2. CheckDivisibleBy5And7\bin\_2.CheckDivisibleBy5And7.pdb
+D:\Telerik\JavaScript - Part I\Operators, Expressions and Statements\2. CheckDivisibleBy5And7\obj\Debug\2. CheckDivisibleBy5And7.csprojResolveAssemblyReference.cache
+D:\Telerik\JavaScript - Part I\Operators, Expressions and Statements\2. CheckDivisibleBy5And7\obj\Debug\_2.CheckDivisibleBy5And7.dll
+D:\Telerik\JavaScript - Part I\Operators, Expressions and Statements\2. CheckDivisibleBy5And7\obj\Debug\_2.CheckDivisibleBy5And7.pdb

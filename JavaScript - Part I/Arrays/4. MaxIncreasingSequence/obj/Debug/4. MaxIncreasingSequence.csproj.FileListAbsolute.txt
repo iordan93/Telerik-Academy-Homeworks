@@ -1,0 +1,5 @@
+D:\Telerik\JavaScript - Part I\Arrays\4. MaxIncreasingSequence\bin\_4.MaxIncreasingSequence.dll
+D:\Telerik\JavaScript - Part I\Arrays\4. MaxIncreasingSequence\bin\_4.MaxIncreasingSequence.pdb
+D:\Telerik\JavaScript - Part I\Arrays\4. MaxIncreasingSequence\obj\Debug\4. MaxIncreasingSequence.csprojResolveAssemblyReference.cache
+D:\Telerik\JavaScript - Part I\Arrays\4. MaxIncreasingSequence\obj\Debug\_4.MaxIncreasingSequence.dll
+D:\Telerik\JavaScript - Part I\Arrays\4. MaxIncreasingSequence\obj\Debug\_4.MaxIncreasingSequence.pdb

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Compare two character arrays lexicographically</title>
+</head>
+<body>
+    <p>This script will compare two character arrays lexicographically.</p>
+    <label for="firstArray">Enter the first character array (separate the members with spaces): </label>
+    <input type="text" id="firstArray" />
+    <br />
+    <label for="secondArray">Enter the second character array (separate the members with spaces): </label>
+    <input type="text" id="secondArray" />
+    <input type="submit" id="compareArrays" onclick="compareArrays()" value="Submit" />
+    <div id="result"></div>
+
+    <script type="text/javascript">
+        function compareArrays() {
+            // Read the arrays
+            var firstArray = document.getElementById("firstArray").value.split(" ");
+            var secondArray = document.getElementById("secondArray").value.split(" ");
+
+            // Compare the arrays (i.e. equal / not equal)
+            // If the lengths are different, the arrays are not equal
+            if (firstArray.length !== secondArray.length) {
+                document.getElementById("result").innerHTML = "The arrays are not equal.";
+            }
+
+            // If the lengths are equal, compare each character
+            else {
+                var areEqual = true;
+                for (var i = 0; i < firstArray.length; i++) {
+                    if (firstArray[i] !== secondArray[i]) {
+                        areEqual = false;
+                        break;
+                    }
+                }
+                if (areEqual) {
+                    document.getElementById("result").innerHTML = "The arrays are equal.";
+                }
+                else {
+                    document.getElementById("result").innerHTML = "The arrays are not equal.";
+                }
+            }
+        }
+    </script>
+</body>
+</html>

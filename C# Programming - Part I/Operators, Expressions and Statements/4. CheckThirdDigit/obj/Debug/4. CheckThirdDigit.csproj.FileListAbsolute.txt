@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\4. CheckThirdDigit\bin\Debug\_4.CheckThirdDigit.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\4. CheckThirdDigit\bin\Debug\_4.CheckThirdDigit.pdb
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\4. CheckThirdDigit\obj\Debug\_4.CheckThirdDigit.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\4. CheckThirdDigit\obj\Debug\_4.CheckThirdDigit.pdb

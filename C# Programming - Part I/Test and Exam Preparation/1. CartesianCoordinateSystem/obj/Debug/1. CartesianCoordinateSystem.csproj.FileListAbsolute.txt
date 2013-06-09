@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\1. CartesianCoordinateSystem\bin\Debug\_1.CartesianCoordinateSystem.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\1. CartesianCoordinateSystem\bin\Debug\_1.CartesianCoordinateSystem.pdb
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\1. CartesianCoordinateSystem\obj\Debug\1. CartesianCoordinateSystem.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\1. CartesianCoordinateSystem\obj\Debug\_1.CartesianCoordinateSystem.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\1. CartesianCoordinateSystem\obj\Debug\_1.CartesianCoordinateSystem.pdb

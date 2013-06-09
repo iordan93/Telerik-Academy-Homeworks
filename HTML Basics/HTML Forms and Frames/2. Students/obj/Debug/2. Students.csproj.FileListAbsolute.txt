@@ -1,0 +1,5 @@
+D:\Telerik\HTML Basics\HTML Forms and Frames\2. Students\bin\_2.Students.dll
+D:\Telerik\HTML Basics\HTML Forms and Frames\2. Students\bin\_2.Students.pdb
+D:\Telerik\HTML Basics\HTML Forms and Frames\2. Students\obj\Debug\2. Students.csprojResolveAssemblyReference.cache
+D:\Telerik\HTML Basics\HTML Forms and Frames\2. Students\obj\Debug\_2.Students.dll
+D:\Telerik\HTML Basics\HTML Forms and Frames\2. Students\obj\Debug\_2.Students.pdb

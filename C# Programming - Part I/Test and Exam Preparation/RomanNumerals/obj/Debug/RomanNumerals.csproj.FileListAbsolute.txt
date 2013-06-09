@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\RomanNumerals\bin\Debug\RomanNumerals.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\RomanNumerals\bin\Debug\RomanNumerals.pdb
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\RomanNumerals\obj\Debug\RomanNumerals.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\RomanNumerals\obj\Debug\RomanNumerals.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\RomanNumerals\obj\Debug\RomanNumerals.pdb

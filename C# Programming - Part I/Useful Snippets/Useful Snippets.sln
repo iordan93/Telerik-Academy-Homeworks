@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlankApplication", "BlankApplication\BlankApplication.csproj", "{BA4C7A8F-45C5-4DD9-BC87-0297148385E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitwiseTricks", "BitwiseTricks\BitwiseTricks.csproj", "{3F6A4E62-E766-47CA-B178-08809BCF90D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeConsequentBits", "ExchangeConsequentBits\ExchangeConsequentBits.csproj", "{ECB5A9E7-3E55-4E2B-93FD-320878E091AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayOfBits8x8", "ArrayOfBits8x8\ArrayOfBits8x8.csproj", "{270503D5-80E4-45A8-9CD2-1C3B2CA331DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointsRelativeToARectangle", "PointsRelativeToARectangle\PointsRelativeToARectangle.csproj", "{1A8BF263-F62B-44A6-AB91-D5BDB86D9B3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointsRelativeToACricle", "PointsRelativeToACricle\PointsRelativeToACricle.csproj", "{4BA39017-822C-4E27-B729-DB47E81CC2E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA4C7A8F-45C5-4DD9-BC87-0297148385E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4C7A8F-45C5-4DD9-BC87-0297148385E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4C7A8F-45C5-4DD9-BC87-0297148385E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4C7A8F-45C5-4DD9-BC87-0297148385E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F6A4E62-E766-47CA-B178-08809BCF90D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F6A4E62-E766-47CA-B178-08809BCF90D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F6A4E62-E766-47CA-B178-08809BCF90D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F6A4E62-E766-47CA-B178-08809BCF90D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB5A9E7-3E55-4E2B-93FD-320878E091AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB5A9E7-3E55-4E2B-93FD-320878E091AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB5A9E7-3E55-4E2B-93FD-320878E091AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB5A9E7-3E55-4E2B-93FD-320878E091AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270503D5-80E4-45A8-9CD2-1C3B2CA331DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270503D5-80E4-45A8-9CD2-1C3B2CA331DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270503D5-80E4-45A8-9CD2-1C3B2CA331DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270503D5-80E4-45A8-9CD2-1C3B2CA331DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A8BF263-F62B-44A6-AB91-D5BDB86D9B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8BF263-F62B-44A6-AB91-D5BDB86D9B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A8BF263-F62B-44A6-AB91-D5BDB86D9B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A8BF263-F62B-44A6-AB91-D5BDB86D9B3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BA39017-822C-4E27-B729-DB47E81CC2E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA39017-822C-4E27-B729-DB47E81CC2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA39017-822C-4E27-B729-DB47E81CC2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA39017-822C-4E27-B729-DB47E81CC2E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

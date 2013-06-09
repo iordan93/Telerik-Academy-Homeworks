@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Find the greatest of five variables</title>
+</head>
+<body>
+    <label for="firstNumber">Please enter the first number: </label>
+    <input type="text" id="firstNumber" />
+    <br />
+    <label for="secondNumber">Please enter the second number: </label>
+    <input type="text" id="secondNumber" />
+    <br />
+    <label for="thirdNumber">Please enter the third number: </label>
+    <input type="text" id="thirdNumber" />
+    <br />
+    <label for="fourthNumber">Please enter the fourth number: </label>
+    <input type="text" id="fourthNumber" />
+    <br />
+    <label for="fifthNumber">Please enter the fifth number: </label>
+    <input type="text" id="fifthNumber" />
+    <br />
+    <input type="submit" id="checkBiggest" onclick="checkBiggest()" value="Submit" />
+    <span id="result"></span>
+
+    <script type="text/javascript">
+        function checkBiggest() {
+            // Read the numbers
+            var firstNumber = parseFloat(document.getElementById("firstNumber").value);
+            var secondNumber = parseFloat(document.getElementById("secondNumber").value);
+            var thirdNumber = parseFloat(document.getElementById("thirdNumber").value);
+            var fourthNumber = parseFloat(document.getElementById("fourthNumber").value);
+            var fifthNumber = parseFloat(document.getElementById("fifthNumber").value);
+
+            // Compare the numbers two by two and with the fifth number
+            var max12 = Math.max(firstNumber, secondNumber);
+            var max34 = Math.max(thirdNumber, fourthNumber);
+            if (max12 < max34)
+            {
+                if (max34 < fifthNumber)
+                {
+                    document.getElementById("result").innerHTML = "The biggest number is " + fifthNumber + ".";
+                }
+                else
+                {
+                    document.getElementById("result").innerHTML = "The biggest number is " + max34 + ".";
+
+                }
+            }
+            else
+            {
+                if (max12 < fifthNumber)
+                {
+                    document.getElementById("result").innerHTML = "The biggest number is " + fifthNumber + ".";
+
+                }
+                else
+                {
+                    document.getElementById("result").innerHTML = "The biggest number is " + max12 + ".";
+
+                }
+            }
+            
+
+        }
+    </script>
+</body>
+</html>

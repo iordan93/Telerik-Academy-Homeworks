@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part I\Console Input and Output\1. SumOfNumbers\bin\Debug\_1.SumOfNumbers.exe
+D:\Telerik\C# Programming - Part I\Console Input and Output\1. SumOfNumbers\bin\Debug\_1.SumOfNumbers.pdb
+D:\Telerik\C# Programming - Part I\Console Input and Output\1. SumOfNumbers\obj\Debug\_1.SumOfNumbers.exe
+D:\Telerik\C# Programming - Part I\Console Input and Output\1. SumOfNumbers\obj\Debug\_1.SumOfNumbers.pdb

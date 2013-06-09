@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Console Input and Output\6. QuadraticEquation\bin\Debug\_6.QuadraticEquation.exe.config
+D:\Telerik\C# Programming - Part I\Console Input and Output\6. QuadraticEquation\bin\Debug\_6.QuadraticEquation.exe
+D:\Telerik\C# Programming - Part I\Console Input and Output\6. QuadraticEquation\bin\Debug\_6.QuadraticEquation.pdb
+D:\Telerik\C# Programming - Part I\Console Input and Output\6. QuadraticEquation\obj\Debug\_6.QuadraticEquation.exe
+D:\Telerik\C# Programming - Part I\Console Input and Output\6. QuadraticEquation\obj\Debug\_6.QuadraticEquation.pdb

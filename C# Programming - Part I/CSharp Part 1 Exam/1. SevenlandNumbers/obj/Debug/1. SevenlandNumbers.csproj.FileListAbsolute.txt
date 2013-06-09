@@ -1,0 +1,6 @@
+D:\Telerik\C# Programming - Part I\CSharp Part 1 Exam\1. SevenlandNumbers\bin\Debug\_1.SevenlandNumbers.exe.config
+D:\Telerik\C# Programming - Part I\CSharp Part 1 Exam\1. SevenlandNumbers\obj\Debug\1. SevenlandNumbers.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\CSharp Part 1 Exam\1. SevenlandNumbers\bin\Debug\_1.SevenlandNumbers.exe
+D:\Telerik\C# Programming - Part I\CSharp Part 1 Exam\1. SevenlandNumbers\bin\Debug\_1.SevenlandNumbers.pdb
+D:\Telerik\C# Programming - Part I\CSharp Part 1 Exam\1. SevenlandNumbers\obj\Debug\_1.SevenlandNumbers.exe
+D:\Telerik\C# Programming - Part I\CSharp Part 1 Exam\1. SevenlandNumbers\obj\Debug\_1.SevenlandNumbers.pdb

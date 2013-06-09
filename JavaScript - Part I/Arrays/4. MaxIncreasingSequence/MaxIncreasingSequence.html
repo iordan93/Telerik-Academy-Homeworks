@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Find the maximal increasing sequence in an array of numbers</title>
+</head>
+<body>
+    <p>This script will find the maximal increasing sequence in an array of numbers.</p>
+    <label for="number">Please enter a number: </label>
+    <input type="text" id="number" />
+    <input type="submit" id="addNumber" onclick="addNumber()" value="Add number" />
+    <input type="submit" id="printMaxSequence" onclick="printMaxSequence()" value="Submit" />
+    <div id="result"></div>
+    <div id="arrayContents"></div>
+
+    <script type="text/javascript">
+        // An array to store the numbers
+        var array = [];
+        
+        function addNumber() {
+            // Read the number
+            var number = parseFloat(document.getElementById("number").value);
+
+            // Push each number into the array
+            array.push(number);
+
+            // Print the added number in a sequence
+            document.getElementById("arrayContents").innerHTML += number + "<br />";
+
+        }
+
+        function printMaxSequence() {
+            // Clear the div each time (if not cleared, the new result appends to the bottom)
+            document.getElementById("result").innerHTML = "";
+            console.log(array);
+            var currentStart = 0;
+            var currentLength = 1;
+            var longestSequenceStart = 0;
+            var longestSequenceLength = 1;
+
+            for (var index = 1; index < array.length; index++) {
+                // Similar to the previous task but now we check if the current element is larger than the previous
+                if (array[index] > array[index - 1]) {
+                    currentLength++;
+                }
+                else {
+                    currentLength = 1;
+                    currentStart = index;
+                }
+                if (longestSequenceLength < currentLength) {
+                    longestSequenceLength = currentLength;
+                    longestSequenceStart = currentStart;
+                }
+            }
+
+            // Output
+            document.getElementById("result").innerHTML = "The max sequence is " + longestSequenceLength + " elements long.";
+        }
+    </script>
+</body>
+</html>

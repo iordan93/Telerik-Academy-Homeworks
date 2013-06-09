@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Console Input and Output\3. CompanyInfo\bin\Debug\_3.CompanyInfo.exe
+D:\Telerik\C# Programming - Part I\Console Input and Output\3. CompanyInfo\bin\Debug\_3.CompanyInfo.pdb
+D:\Telerik\C# Programming - Part I\Console Input and Output\3. CompanyInfo\obj\Debug\3. CompanyInfo.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\Console Input and Output\3. CompanyInfo\obj\Debug\_3.CompanyInfo.exe
+D:\Telerik\C# Programming - Part I\Console Input and Output\3. CompanyInfo\obj\Debug\_3.CompanyInfo.pdb

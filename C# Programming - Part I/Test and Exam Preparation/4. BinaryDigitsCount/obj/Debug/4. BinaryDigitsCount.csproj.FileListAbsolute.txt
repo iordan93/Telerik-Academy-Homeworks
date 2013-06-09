@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\4. BinaryDigitsCount\bin\Debug\_4.BinaryDigitsCount.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\4. BinaryDigitsCount\bin\Debug\_4.BinaryDigitsCount.pdb
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\4. BinaryDigitsCount\obj\Debug\_4.BinaryDigitsCount.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\4. BinaryDigitsCount\obj\Debug\_4.BinaryDigitsCount.pdb

@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Check if a point is within the circle K(O(0,0); 5)</title>
+</head>
+<body>
+    <p>Please enter the point's coordinates x and y:</p>
+    <label for="pointX">X: </label>
+    <input type="text" id="pointX" />
+    <label for="pointX">Y: </label>
+    <input type="text" id="pointY" />
+
+    <input type="submit" id="checkPoint" value="Submit" onclick="checkPoint()" />
+    <br />
+    <span id="result"></span>
+
+    <script type="text/javascript">
+        function checkPoint() {
+            // Read the numbers as floating point numbers
+            var pointX = parseFloat(document.getElementById("pointX").value);
+            var pointY = parseFloat(document.getElementById("pointY").value);
+
+            // Check the position of the points using the canonical equation of a circle, centered on O(0;0): sqrt(x * x + y * y)<= r*r
+            if (pointX * pointX + pointY * pointY <= 25) {
+                document.getElementById("result").innerHTML = "The point (" + pointX + "; " + pointY + ") is within the circle K(O(0,0); 5)";
+            }
+            else {
+                document.getElementById("result").innerHTML = "The point (" + pointX + "; " + pointY + ") is outside the circle K(O(0,0); 5)";
+
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+﻿ul > li {
+    display: block;
+    width: 110px;
+    height: 42px;
+    border-bottom: 1px solid #000000;
+}
+
+    ul > li:first-child {
+        border-top: 1px solid #000000;
+    }
+
+    ul > li a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+        ul > li a span.current {
+            font-weight: bold;
+        }
+
+.invisible {
+    display: none;
+}
+
+img {
+    width: 25px;
+    padding-top: 6px;
+    padding-left: 4px;
+}
+
+#wrapper #popup-box .popup-item .popup-content {
+    position: relative;
+    top: -35px;
+}
+
+    #wrapper #popup-box .popup-item .popup-content fieldset {
+        position: absolute;
+        left: 120px;
+        border: 1px solid #000000;
+    }
+
+        #wrapper #popup-box .popup-item .popup-content fieldset legend {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+a.btn-popup-close {
+    border: 1px solid #000000;
+    border-radius: 4px;
+    position: absolute;
+    left: 300px;
+    z-index: 2;
+    top: 12px;
+    background-color: #ffffff;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+button {
+    background: -webkit-linear-gradient(top, #cacaca 0%,#686868 100%); /* Chrome10+,Safari5.1+ */
+    border-radius: 15px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    color: #333333;
+}
+    button:hover {
+        background:#cccccc;
+    }

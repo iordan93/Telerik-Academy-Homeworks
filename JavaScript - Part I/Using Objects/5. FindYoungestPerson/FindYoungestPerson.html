@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Find the youngest person</title>
+</head>
+<body>
+    <p>This script will find the youngest person in an array of people.</p>
+    <span id="result"></span>
+
+    <script type="text/javascript">
+        function FindYoungestPerson(arrayOfPeople) {
+            var position = 0;
+            var minAge = arrayOfPeople[0].age;
+
+            for (var person in arrayOfPeople) {
+                if (arrayOfPeople[person].age < minAge) {
+                    minAge = arrayOfPeople[person].age;
+                    position = person;
+                }
+            }
+            return {
+                firstName: arrayOfPeople[position].firstName,
+                lastName: arrayOfPeople[position].lastName,
+                age: arrayOfPeople[position].age
+            };
+        }
+
+        // Test
+        var people = [
+            { firstName: "Georgi", lastName: "Ivanov", age: 35 },
+            { firstName: "Ivan", lastName: "Petrov", age: 5 },
+            { firstName: "Stoyan", lastName: "Nikolov", age: 40 },
+
+        ];
+        var youngest = FindYoungestPerson(people);
+        document.getElementById("result").innerHTML = "Youngest person: " + youngest.firstName + " " + youngest.lastName + " (" + youngest.age + " years old).";
+    </script>
+</body>
+</html>

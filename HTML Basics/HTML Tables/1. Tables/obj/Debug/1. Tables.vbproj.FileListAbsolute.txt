@@ -1,0 +1,8 @@
+D:\Telerik\HTML Basics\HTML Tables\1. Tables\bin\_1.Tables.dll
+D:\Telerik\HTML Basics\HTML Tables\1. Tables\bin\_1.Tables.pdb
+D:\Telerik\HTML Basics\HTML Tables\1. Tables\bin\_1.Tables.xml
+D:\Telerik\HTML Basics\HTML Tables\1. Tables\obj\Debug\_1.Tables.Resources.resources
+D:\Telerik\HTML Basics\HTML Tables\1. Tables\obj\Debug\1. Tables.vbproj.GenerateResource.Cache
+D:\Telerik\HTML Basics\HTML Tables\1. Tables\obj\Debug\_1.Tables.dll
+D:\Telerik\HTML Basics\HTML Tables\1. Tables\obj\Debug\_1.Tables.xml
+D:\Telerik\HTML Basics\HTML Tables\1. Tables\obj\Debug\_1.Tables.pdb

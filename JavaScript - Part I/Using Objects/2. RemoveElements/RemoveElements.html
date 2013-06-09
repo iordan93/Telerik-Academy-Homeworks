@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Remove elements</title>
+</head>
+<body>
+    <p>This script will remove each matching element from a given array.</p>
+    <span id="result"></span>
+
+    <script type="text/javascript">
+        Array.prototype.remove = function (element) {
+            var result = [];
+            // Scan each element. If it is equal to the one we are looking for, do not add it to the new array
+            for (var i = 0; i < this.length; i++) {
+                if (this[i] !== element) {
+                    result.push(this[i]);
+                }
+            }
+            return result;
+        }
+        document.getElementById("result").innerHTML = "Original array: " + [1, 2, 1, 4, 1, 3, 4, 1, 111, 3, 2, 1, "1"] + "<br>";
+        document.getElementById("result").innerHTML += "Modified array: " + [1, 2, 1, 4, 1, 3, 4, 1, 111, 3, 2, 1, "1"].remove(1);
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part II\Arrays\6. SubsequenceWithMaximalSum\bin\Debug\_6.SubsequenceWithMaximalSum.exe
+D:\Telerik\C# Programming - Part II\Arrays\6. SubsequenceWithMaximalSum\bin\Debug\_6.SubsequenceWithMaximalSum.pdb
+D:\Telerik\C# Programming - Part II\Arrays\6. SubsequenceWithMaximalSum\obj\Debug\6. SubsequenceWithMaximalSum.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part II\Arrays\6. SubsequenceWithMaximalSum\obj\Debug\_6.SubsequenceWithMaximalSum.exe
+D:\Telerik\C# Programming - Part II\Arrays\6. SubsequenceWithMaximalSum\obj\Debug\_6.SubsequenceWithMaximalSum.pdb

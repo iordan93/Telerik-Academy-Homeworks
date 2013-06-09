@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Compare two integers and exchange their values if needed</title>
+</head>
+<body>
+    <label for="number1">Please enter the first number: </label>
+    <input type="text" id="number1" />
+    <br />
+    <label for="number2">Please enter the second number: </label>
+    <input type="text" id="number2" />
+    <br />
+    <input type="submit" id="checkNumbers" onclick="checkNumbers()" value="Submit" />
+    <span id="result"></span>
+
+    <script type="text/javascript">
+        function checkNumbers() {
+            // Read the numbers
+            var number1 = parseInt(document.getElementById("number1").value);
+            var number2 = parseInt(document.getElementById("number2").value);
+
+            if (number1 > number2) {
+                var temp = number2;
+                number2 = number1;
+                number1 = temp;
+            }
+
+            // Output
+            document.getElementById("result").innerHTML = "Number 1: " + number1 + "<br />Number 2: " + number2;
+        }
+    </script>
+</body>
+</html>

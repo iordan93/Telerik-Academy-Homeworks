@@ -1,0 +1,4 @@
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam Preparation\2. GreedyDwarf\bin\_2.GreedyDwarf.dll
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam Preparation\2. GreedyDwarf\bin\_2.GreedyDwarf.pdb
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam Preparation\2. GreedyDwarf\obj\Debug\_2.GreedyDwarf.dll
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam Preparation\2. GreedyDwarf\obj\Debug\_2.GreedyDwarf.pdb

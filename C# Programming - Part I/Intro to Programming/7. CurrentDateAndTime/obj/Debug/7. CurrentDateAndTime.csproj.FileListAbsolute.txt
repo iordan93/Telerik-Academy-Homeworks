@@ -1,0 +1,7 @@
+D:\Telerik\C# Programming - Part I\Intro to Programming\7. CurrentDateAndTime\bin\Debug\_7.CurrentDateAndTime.exe.config
+D:\Telerik\C# Programming - Part I\Intro to Programming\7. CurrentDateAndTime\bin\Debug\_7.CurrentDateAndTime.exe
+D:\Telerik\C# Programming - Part I\Intro to Programming\7. CurrentDateAndTime\bin\Debug\_7.CurrentDateAndTime.pdb
+D:\Telerik\C# Programming - Part I\Intro to Programming\7. CurrentDateAndTime\bin\Debug\_7.CurrentDateAndTime.exe.CodeAnalysisLog.xml
+D:\Telerik\C# Programming - Part I\Intro to Programming\7. CurrentDateAndTime\bin\Debug\_7.CurrentDateAndTime.exe.lastcodeanalysissucceeded
+D:\Telerik\C# Programming - Part I\Intro to Programming\7. CurrentDateAndTime\obj\Debug\_7.CurrentDateAndTime.exe
+D:\Telerik\C# Programming - Part I\Intro to Programming\7. CurrentDateAndTime\obj\Debug\_7.CurrentDateAndTime.pdb

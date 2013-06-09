@@ -1,0 +1,4 @@
+D:\Telerik\Object-oriented programming\OOP Exam\2. Role-PlayingGameAPI\bin\Debug\_2.Role_PlayingGameAPI.exe
+D:\Telerik\Object-oriented programming\OOP Exam\2. Role-PlayingGameAPI\bin\Debug\_2.Role_PlayingGameAPI.pdb
+D:\Telerik\Object-oriented programming\OOP Exam\2. Role-PlayingGameAPI\obj\Debug\_2.Role_PlayingGameAPI.exe
+D:\Telerik\Object-oriented programming\OOP Exam\2. Role-PlayingGameAPI\obj\Debug\_2.Role_PlayingGameAPI.pdb

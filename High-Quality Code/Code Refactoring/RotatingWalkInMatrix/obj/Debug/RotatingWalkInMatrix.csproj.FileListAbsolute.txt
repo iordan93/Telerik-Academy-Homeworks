@@ -1,0 +1,6 @@
+D:\Telerik\High-Quality Code\Code Refactoring\RotatingWalkInMatrix\bin\Debug\RotatingWalkInMatrix.exe.config
+D:\Telerik\High-Quality Code\Code Refactoring\RotatingWalkInMatrix\bin\Debug\RotatingWalkInMatrix.exe
+D:\Telerik\High-Quality Code\Code Refactoring\RotatingWalkInMatrix\bin\Debug\RotatingWalkInMatrix.pdb
+D:\Telerik\High-Quality Code\Code Refactoring\RotatingWalkInMatrix\obj\Debug\RotatingWalkInMatrix.csprojResolveAssemblyReference.cache
+D:\Telerik\High-Quality Code\Code Refactoring\RotatingWalkInMatrix\obj\Debug\RotatingWalkInMatrix.exe
+D:\Telerik\High-Quality Code\Code Refactoring\RotatingWalkInMatrix\obj\Debug\RotatingWalkInMatrix.pdb

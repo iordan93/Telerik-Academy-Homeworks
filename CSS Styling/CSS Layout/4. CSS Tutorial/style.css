@@ -1,0 +1,125 @@
+﻿/* Global reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 11px;
+    background-color: #f1f1f1;
+    margin: 10px 0 0 10px;
+}
+
+/* Three-column layout */
+#left {
+    width: 150px;
+    float: left;
+}
+
+#mainContent {
+    width: 480px;
+    float: left;
+    background-color: #ffffff;
+    border: 1px solid #808080;
+    margin: 0 2px 0 2px;
+    padding: 15px 5px 30px 5px;
+}
+
+#right {
+    width: 150px;
+    float: left;
+    background-color: #ffffff;
+}
+
+/* Headings */
+
+h1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #ffffff;
+    background-color: #808080;
+    font-size: 12px;
+}
+
+/* Links */
+a {
+    display: block;
+}
+
+    a:link {
+        color: #900b09;
+    }
+
+    a:visited {
+        color: #340605;
+    }
+
+    a:hover {
+        color: #e7130f;
+    }
+
+/* Left sidebar */
+
+#left img {
+    float: left;
+    margin-right: 3px;
+}
+
+#left #home {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#left .menu {
+    margin-bottom: 10px;
+}
+
+    #left .menu header {
+        font-weight: bold;
+        color: #900b09;
+    }
+
+#left a {
+    text-decoration: none;
+}
+
+/* Right sidebar */
+#right .rightSection {
+    border: 1px solid #808080;
+    margin: 0 0 2px 0;
+    text-align: center;
+}
+    
+    /* All sections which do not have headings */
+    #right .rightSection>:not(h2) {
+        padding: 3px 0 3px 0;
+    }
+
+/* Main content */
+#mainContent hr {
+    color: #808080; /* For IE */
+    background-color: #808080;
+    height: 1px;
+    margin: 5px 0 5px 0;
+}
+
+#mainContent article img#css {
+    float: left;
+    margin-right: 15px;
+}
+
+#mainContent p {
+    margin: 7px 0 5px 0;
+}
+
+/* Clear the image float */
+#mainContent article {
+    overflow: auto;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

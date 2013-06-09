@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Army.ArmyObject">
+    <Position X="24.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAKAFAAAAgAICEgAAwAAABIJGAAYBBAABAAAAARAg=</HashCode>
+      <FileName>ArmyObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.BattleBuilding">
+    <Position X="4" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Buildings\BattleBuilding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Building">
+    <Position X="9.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAQAA=</HashCode>
+      <FileName>Buildings\Building.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Army.ClayMine">
+    <Position X="14" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAACAA=</HashCode>
+      <FileName>Buildings\ClayMine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Fortress">
+    <Position X="0.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAA=</HashCode>
+      <FileName>Buildings\Fortress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.FortressWall">
+    <Position X="2.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAA=</HashCode>
+      <FileName>Buildings\FortressWall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.GoldMine">
+    <Position X="18.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Buildings\GoldMine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.HealingBuilding">
+    <Position X="9.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAICAAAAAgAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Buildings\HealingBuilding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.IronFoundry">
+    <Position X="11.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Buildings\IronFoundry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Lumbermill">
+    <Position X="16.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Buildings\Lumbermill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.ProductionBuilding">
+    <Position X="15.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAA=</HashCode>
+      <FileName>Buildings\ProductionBuilding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Tent">
+    <Position X="5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Buildings\Tent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Tower">
+    <Position X="7.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Buildings\Tower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Creature">
+    <Position X="24.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAABBAAAAQAAAAAAA=</HashCode>
+      <FileName>Creatures\Creature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Army.FlyingCreature">
+    <Position X="23" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAIAABAAAAAAA=</HashCode>
+      <FileName>Creatures\FlyingCreature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Army.Griffin">
+    <Position X="20.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAABAAAAAAA=</HashCode>
+      <FileName>Creatures\Griffin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Pegasus">
+    <Position X="23" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAABAAAAAAA=</HashCode>
+      <FileName>Creatures\Pegasus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Phoenix">
+    <Position X="25.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAABAAAAAAA=</HashCode>
+      <FileName>Creatures\Phoenix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Werewolf">
+    <Position X="27.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Creatures\Werewolf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Formation" BaseTypeListCollapsed="true">
+    <Position X="50.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAgAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Formation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Army.HealingArgs">
+    <Position X="52.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>HealingArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Human">
+    <Position X="33.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAgQEAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Humans\Human.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Army.Knight">
+    <Position X="29.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Humans\Knight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Nomad">
+    <Position X="32" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Humans\Nomad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Paladin">
+    <Position X="34.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Humans\Paladin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Peasant">
+    <Position X="36.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Humans\Peasant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.BatteringRam">
+    <Position X="45.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Machines\BatteringRam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Catapult">
+    <Position X="47.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Machines\Catapult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.FireBallThrower">
+    <Position X="38.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAABAAAAAAA=</HashCode>
+      <FileName>Machines\FireBallThrower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Fireship">
+    <Position X="41" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAABAAAAAAA=</HashCode>
+      <FileName>Machines\Fireship.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Galleon">
+    <Position X="43.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Machines\Galleon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Machine">
+    <Position X="43.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAUAAAAEAIACAABAAgAAAAAAAAA=</HashCode>
+      <FileName>Machines\Machine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Army.Ship">
+    <Position X="42.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Machines\Ship.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Map">
+    <Position X="54.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAiAAAAAAgAAgAIAAAAAABAAAAAAAAAAAgAAAAAI=</HashCode>
+      <FileName>Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.MovingObject">
+    <Position X="34.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MovingObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="Army.Stats">
+    <Position X="50.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAACAAAAAgAAQAIAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Stats.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Army.Vitals">
+    <Position X="52.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAABAIAAAQCAAAAAAgAAAAo=</HashCode>
+      <FileName>Vitals.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Army.IAttackable" Collapsed="true">
+    <Position X="54.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAttackable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Army.IDefendable" Collapsed="true">
+    <Position X="50.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>IDefendable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Army.IFlyable" Collapsed="true">
+    <Position X="52.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>IFlyable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Army.IMovable" Collapsed="true">
+    <Position X="50.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMovable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Army.INameable" Collapsed="true">
+    <Position X="52.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>INameable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Army.Army.Resource">
+    <Position X="50.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAE=</HashCode>
+      <FileName>Resource.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Army.HealingHandler">
+    <Position X="52.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Buildings\HealingBuilding.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Army.FormationHandler&lt;T&gt;">
+    <Position X="50.25" Y="11.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Formation.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

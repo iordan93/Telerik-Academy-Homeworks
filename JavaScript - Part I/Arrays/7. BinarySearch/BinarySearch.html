@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Binary search</title>
+</head>
+<body>
+    <p>This script will look for a number in an array using the Binary search algorithm.</p>
+    <label for="number">Please enter the array, a number at a time. <strong>The array needs to be sorted</strong>: </label>
+    <br />
+    <input type="text" id="number" />
+    <input type="submit" id="addNumber" onclick="addNumber()" value="Add number" />
+    <br />
+    <label for="key">Please enter the element to look for: </label>
+    <input type="text" id="key" />
+    <input type="submit" id="search" onclick="search()" value="Submit" />
+    <div id="result"></div>
+    <div id="arrayContents"></div>
+
+    <script type="text/javascript">
+        // An array to store the numbers
+        var array = [];
+
+        function addNumber() {
+            // Read the number
+            var number = parseFloat(document.getElementById("number").value);
+
+            // Push each number into the array
+            array.push(number);
+
+            // Print the added number in a sequence
+            document.getElementById("arrayContents").innerHTML += number + "<br />";
+
+        }
+
+        function search() {
+            // Clear the div each time (if not cleared, the new result appends to the bottom)
+            document.getElementById("result").innerHTML = "";
+
+            // Get the key
+            var key = document.getElementById("key").value;
+
+            // Set the start and final index to the array's boundaries and set a flag if the answer has been found
+            var startIndex = 0;
+            var finalIndex = array.length;
+            var answer = 0;
+            var answerFound = false;
+            while (startIndex <= finalIndex) {
+                // Check which half of the array contains the element
+                var middleIndex = parseInt((startIndex + finalIndex) / 2,10);
+                if (array[middleIndex] < key) {
+                    startIndex = middleIndex + 1;
+                }
+                else if (array[middleIndex] > key) {
+                    finalIndex = middleIndex - 1;
+                }
+                    // If array[middleIndex] is equal to the key, the answer has been found
+                else {
+                    answer = middleIndex;
+                    answerFound = true;
+                    break;
+                }
+            }
+
+            // Output
+            if (answerFound) {
+                document.getElementById("result").innerHTML = "The index of " + key + " is " + answer + ".";
+             }
+            else {
+                document.getElementById("result").innerHTML = "The element " + key + " was not found in the array.";
+            }
+        }
+    </script>
+</body>
+</html>

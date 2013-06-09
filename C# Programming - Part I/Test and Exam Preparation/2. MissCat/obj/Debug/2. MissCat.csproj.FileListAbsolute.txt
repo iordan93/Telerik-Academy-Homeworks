@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\2. MissCat\bin\Debug\_2.MissCat.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\2. MissCat\bin\Debug\_2.MissCat.pdb
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\2. MissCat\obj\Debug\2. MissCat.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\2. MissCat\obj\Debug\_2.MissCat.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\2. MissCat\obj\Debug\_2.MissCat.pdb

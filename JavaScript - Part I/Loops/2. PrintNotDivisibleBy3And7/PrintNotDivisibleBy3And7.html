@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Print the numbers from 1 to N which are not divisible by 3 and 7</title>
+</head>
+<body>
+    <p>This script will print all numbers from 1 to N which are not divisible by 3 and 7 at the same time (i. e. not divisible by 21).</p>
+    <label for="number">Please enter the final number to print (N): </label>
+    <input type="text" id="number" />
+    <input type="submit" id="printNumbers" onclick="printNumbers()" value="Submit" />
+    <div id="result"></div>
+
+    <script type="text/javascript">
+        function printNumbers() {
+            // Read the numbers
+            var number = parseInt(document.getElementById("number").value);
+
+            // Clear the div each time (if not cleared, the new result appends to the bottom)
+            document.getElementById("result").innerHTML = "";
+
+            if (number < 1) {
+                document.getElementById("result").innerHTML = "You must enter an integer greater than or equal to 1.";
+            }
+            else {
+                // Output
+                for (var i = 1; i <= number; i++) {
+                    // If i is divisible by 21, do nothing, else go through the loop
+                    // Another way to check - if((i % 3 == 0) && (i % 7 == 0))
+                    if (i % 21 == 0) {
+                        continue;
+                    }
+                    document.getElementById("result").innerHTML += i + "<br />";
+                }
+            }
+        }
+    </script>
+</body>
+</html>

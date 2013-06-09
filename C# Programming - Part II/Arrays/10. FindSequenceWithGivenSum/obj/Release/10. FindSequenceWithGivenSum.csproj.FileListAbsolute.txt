@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part II\Arrays\10. FindSequenceWithGivenSum\bin\Release\_10.FindSequenceWithGivenSum.exe
+D:\Telerik\C# Programming - Part II\Arrays\10. FindSequenceWithGivenSum\bin\Release\_10.FindSequenceWithGivenSum.pdb
+D:\Telerik\C# Programming - Part II\Arrays\10. FindSequenceWithGivenSum\obj\Release\_10.FindSequenceWithGivenSum.exe
+D:\Telerik\C# Programming - Part II\Arrays\10. FindSequenceWithGivenSum\obj\Release\_10.FindSequenceWithGivenSum.pdb

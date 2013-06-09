@@ -1,0 +1,7 @@
+D:\Telerik\High-Quality Code\Test-Driven Development\PokerTests\bin\Debug\PokerTests.dll
+D:\Telerik\High-Quality Code\Test-Driven Development\PokerTests\bin\Debug\PokerTests.pdb
+D:\Telerik\High-Quality Code\Test-Driven Development\PokerTests\bin\Debug\Poker.exe
+D:\Telerik\High-Quality Code\Test-Driven Development\PokerTests\bin\Debug\Poker.pdb
+D:\Telerik\High-Quality Code\Test-Driven Development\PokerTests\obj\Debug\PokerTests.csprojResolveAssemblyReference.cache
+D:\Telerik\High-Quality Code\Test-Driven Development\PokerTests\obj\Debug\PokerTests.dll
+D:\Telerik\High-Quality Code\Test-Driven Development\PokerTests\obj\Debug\PokerTests.pdb

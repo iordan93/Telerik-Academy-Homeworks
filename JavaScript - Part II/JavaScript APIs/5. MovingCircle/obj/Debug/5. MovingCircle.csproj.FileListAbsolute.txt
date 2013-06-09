@@ -1,0 +1,5 @@
+D:\Telerik\JavaScript - Part II\JavaScript APIs\5. MovingCircle\bin\_5.MovingCircle.dll
+D:\Telerik\JavaScript - Part II\JavaScript APIs\5. MovingCircle\bin\_5.MovingCircle.pdb
+D:\Telerik\JavaScript - Part II\JavaScript APIs\5. MovingCircle\obj\Debug\5. MovingCircle.csprojResolveAssemblyReference.cache
+D:\Telerik\JavaScript - Part II\JavaScript APIs\5. MovingCircle\obj\Debug\_5.MovingCircle.dll
+D:\Telerik\JavaScript - Part II\JavaScript APIs\5. MovingCircle\obj\Debug\_5.MovingCircle.pdb

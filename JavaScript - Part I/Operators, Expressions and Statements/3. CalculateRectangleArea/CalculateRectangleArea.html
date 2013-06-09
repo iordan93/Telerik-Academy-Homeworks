@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Calculate the area of a rectangle</title>
+</head>
+<body>
+    <p>Please enter the rectangle's dimensions:</p>
+
+    <label for="width">Width: </label>
+    <input type="text" id="width" />
+    <label for="height">Height: </label>
+    <input type="text" id="height" />
+
+    <input type="submit" id="calculateArea" value="Submit" onclick="calculateArea()" />
+    <br />
+    <span id="result"></span>
+
+    <script type="text/javascript">
+        function calculateArea() {
+            // Read the numbers as floating-point numbers
+            var width = parseFloat(document.getElementById("width").value);
+            var height = parseFloat(document.getElementById("height").value);
+            var area = width * height;
+
+            document.getElementById("result").innerHTML = "The area of the rectangle is " + area + " square units.";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Module for working with the DOM tree</title>
+    <style type="text/css">
+        #myDiv {
+            background-color: #0ff;
+            width: 100px; height: 100px;
+        }
+
+        #wrapper {
+            background-color: #0ff; 
+            width: 150px; 
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div id="myDiv">
+    </div>
+    <br />
+    <div id="wrapper">
+    </div>
+
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ul>
+
+    <a href="#" class="button">Click me!</a>
+    <br /><br />
+    <div id="container">
+    </div>
+
+    <script src="domModule.js"></script>
+    <script type="text/javascript">
+        var domModule = new domModule();
+        var div = document.createElement("div");
+        div.style.width = "30px";
+        div.style.height = "30px";
+        div.style.backgroundColor = "#ff0";
+        // Change the div
+        domModule.appendChild(div, "#wrapper");
+        domModule.appendChild(div, "#myDiv");
+
+        domModule.removeChild("ul", "li:first-of-type");
+        // Remove the first li from each ul
+
+        domModule.addHandler("a.button", 'click',
+                             function () {
+                                 alert("Clicked")
+                             });
+
+        // The buffer flushes each time there are 100 elements, so it will show only 100 elements on the page
+        for (var i = 1; i <= 199; i++) {
+            div.innerHTML = i;
+            domModule.appendToBuffer("#container", div.cloneNode(true));
+        }
+    </script>
+</body>
+</html>

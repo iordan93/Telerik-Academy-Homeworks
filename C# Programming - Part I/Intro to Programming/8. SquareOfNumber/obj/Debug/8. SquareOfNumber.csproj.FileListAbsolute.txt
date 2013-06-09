@@ -1,0 +1,7 @@
+D:\Telerik\C# Programming - Part I\Intro to Programming\8. SquareOfNumber\bin\Debug\_8.SquareOfNumber.exe.config
+D:\Telerik\C# Programming - Part I\Intro to Programming\8. SquareOfNumber\bin\Debug\_8.SquareOfNumber.exe
+D:\Telerik\C# Programming - Part I\Intro to Programming\8. SquareOfNumber\bin\Debug\_8.SquareOfNumber.pdb
+D:\Telerik\C# Programming - Part I\Intro to Programming\8. SquareOfNumber\bin\Debug\_8.SquareOfNumber.exe.CodeAnalysisLog.xml
+D:\Telerik\C# Programming - Part I\Intro to Programming\8. SquareOfNumber\bin\Debug\_8.SquareOfNumber.exe.lastcodeanalysissucceeded
+D:\Telerik\C# Programming - Part I\Intro to Programming\8. SquareOfNumber\obj\Debug\_8.SquareOfNumber.exe
+D:\Telerik\C# Programming - Part I\Intro to Programming\8. SquareOfNumber\obj\Debug\_8.SquareOfNumber.pdb

@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\5. SubsetSums\bin\Debug\_5.SubsetSums.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\5. SubsetSums\bin\Debug\_5.SubsetSums.pdb
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\5. SubsetSums\obj\Debug\5. SubsetSums.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\5. SubsetSums\obj\Debug\_5.SubsetSums.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\5. SubsetSums\obj\Debug\_5.SubsetSums.pdb

@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\9. CheckWithinCircleAndOutOfRectangle\bin\Debug\_9.CheckWithinCircleAndOutOfRectangle.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\9. CheckWithinCircleAndOutOfRectangle\bin\Debug\_9.CheckWithinCircleAndOutOfRectangle.pdb
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\9. CheckWithinCircleAndOutOfRectangle\obj\Debug\_9.CheckWithinCircleAndOutOfRectangle.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\9. CheckWithinCircleAndOutOfRectangle\obj\Debug\_9.CheckWithinCircleAndOutOfRectangle.pdb

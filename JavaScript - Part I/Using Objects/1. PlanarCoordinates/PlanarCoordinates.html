@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Planar coordinates</title>
+</head>
+<body>
+    <p>This script works with coordinates in the Cartesian 2D plane.</p>
+    <span id="result"></span>
+
+    <script type="text/javascript">
+        function Point(x, y) {
+            return {
+                x: x,
+                y: y
+            }
+        }
+
+        function Line(pointA, pointB) {
+            return {
+                pointA: pointA,
+                pointB: pointB,
+                GetLength: function () {
+                    return CalculateDistance(pointA, pointB);
+                }
+            }
+        }
+
+
+        function CalculateDistance(pointA, pointB) {
+            return parseFloat(Math.sqrt(Math.pow(pointA.x - pointB.x, 2) + Math.pow(pointA.y - pointB.y, 2)));
+        }
+
+        function Triangle(sideA, sideB, sideC) {
+            // A triangle is only valid if the following inequalities are true
+            if (sideA.GetLength() >= sideB.GetLength() + sideC.GetLength() ||
+                sideB.GetLength() >= sideA.GetLength() + sideC.GetLength() ||
+                sideC.GetLength() >= sideA.GetLength() + sideB.GetLength()) {
+                throw new Error("The triangle you are trying to create is invalid");
+            }
+            return {
+                sideA: sideA,
+                sideB: sideB,
+                sideC: sideC,
+                ToString: function() {
+                    return "Triangle created: ("+this.sideA.GetLength() +", "+ this.sideB.GetLength()+", " + this.sideC.GetLength()+")<br />";
+                }
+            };
+        }
+        try {
+            // Valid test
+            var line1 = new Line(new Point(3, -3), new Point(1, 3));
+            var line2 = new Line(new Point(1, 3), new Point(-2, 1));
+            var line3 = new Line(new Point(-2, -1), new Point(3, -3));
+            var triangle = new Triangle(line1, line2, line3);
+            document.getElementById("result").innerHTML = triangle.ToString();
+            
+            // Invalid test - the sides cannot be sides of a triangle
+            var line4 = new Line(new Point(3, -30), new Point(10, 3));
+            var line5 = new Line(new Point(10, 3), new Point(2, -1));
+            var line6 = new Line(new Point(-2, -100), new Point(3, -3));
+            var invalidTriangle = new Triangle(line4, line5, line6);
+        }
+        catch (error) {
+            document.getElementById("result").innerHTML += error.message;
+        }
+    </script>
+</body>
+</html>

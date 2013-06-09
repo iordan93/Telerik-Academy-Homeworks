@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Console Input and Output\7. PrintSumOfNumbers\bin\Debug\_7.PrintSumOfNumbers.exe
+D:\Telerik\C# Programming - Part I\Console Input and Output\7. PrintSumOfNumbers\bin\Debug\_7.PrintSumOfNumbers.pdb
+D:\Telerik\C# Programming - Part I\Console Input and Output\7. PrintSumOfNumbers\obj\Debug\7. PrintSumOfNumbers.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\Console Input and Output\7. PrintSumOfNumbers\obj\Debug\_7.PrintSumOfNumbers.exe
+D:\Telerik\C# Programming - Part I\Console Input and Output\7. PrintSumOfNumbers\obj\Debug\_7.PrintSumOfNumbers.pdb

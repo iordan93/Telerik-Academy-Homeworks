@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Useful Snippets\BlankApplication\bin\Debug\BlankApplication.exe
+D:\Telerik\C# Programming - Part I\Useful Snippets\BlankApplication\bin\Debug\BlankApplication.pdb
+D:\Telerik\C# Programming - Part I\Useful Snippets\BlankApplication\obj\Debug\BlankApplication.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\Useful Snippets\BlankApplication\obj\Debug\BlankApplication.exe
+D:\Telerik\C# Programming - Part I\Useful Snippets\BlankApplication\obj\Debug\BlankApplication.pdb

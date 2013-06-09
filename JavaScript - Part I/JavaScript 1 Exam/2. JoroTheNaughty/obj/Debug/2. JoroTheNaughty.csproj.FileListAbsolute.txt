@@ -1,0 +1,5 @@
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam\2. JoroTheNaughty\bin\_2.JoroTheNaughty.dll
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam\2. JoroTheNaughty\bin\_2.JoroTheNaughty.pdb
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam\2. JoroTheNaughty\obj\Debug\_2.JoroTheNaughty.dll
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam\2. JoroTheNaughty\obj\Debug\_2.JoroTheNaughty.pdb
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam\2. JoroTheNaughty\obj\Debug\2. JoroTheNaughty.csprojResolveAssemblyReference.cache

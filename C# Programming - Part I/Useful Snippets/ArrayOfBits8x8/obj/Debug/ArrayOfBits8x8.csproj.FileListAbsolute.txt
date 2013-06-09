@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Useful Snippets\ArrayOfBits8x8\bin\Debug\ArrayOfBits8x8.exe
+D:\Telerik\C# Programming - Part I\Useful Snippets\ArrayOfBits8x8\bin\Debug\ArrayOfBits8x8.pdb
+D:\Telerik\C# Programming - Part I\Useful Snippets\ArrayOfBits8x8\obj\Debug\ArrayOfBits8x8.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\Useful Snippets\ArrayOfBits8x8\obj\Debug\ArrayOfBits8x8.exe
+D:\Telerik\C# Programming - Part I\Useful Snippets\ArrayOfBits8x8\obj\Debug\ArrayOfBits8x8.pdb

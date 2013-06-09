@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script src="vehicles.js"></script>
+    <script type="text/javascript">
+        var land = new LandVehicle(5);
+        console.log("----- Land vehicle speed -----");
+        land.Accelerate();
+        console.log(land.speed);
+
+        var air = new AirVehicle(1, AfterburnerSwitchState.On);
+        console.log("----- Air vehicle speed -----");
+        air.ToggleAfterburnerSwitchesState();
+        air.Accelerate()
+        console.log(air.speed);
+
+        var water = new WaterVehicle(2, 5, PropellerDirection.Counterclockwise);
+        console.log("----- Water vehicle speed -----");
+        water.TogglePropellersDirection();
+        water.Accelerate();
+        console.log(water.speed);
+
+        var amphibious = new AmphibiousVehicle(AmphibiousMode.Land, 5, 2, 2, PropellerDirection.Clockwise);
+        console.log("----- Amphibious vehicle speed -----");
+        console.log("Land: " + amphibious.Accelerate());
+        amphibious.ChangeMode();
+        console.log("Water: " + amphibious.Accelerate());
+    </script>
+</body>
+</html>

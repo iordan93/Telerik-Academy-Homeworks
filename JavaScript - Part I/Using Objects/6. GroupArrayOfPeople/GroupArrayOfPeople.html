@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Group an arrayOfPeople of people</title>
+</head>
+<body>
+    <p>This script will group an arrayOfPeople of people by their first names, last names or ages.</p>
+    <span id="result"></span>
+
+    <script type="text/javascript">
+        function GroupPeople(arrayOfPeople, groupingOption) {
+            var grouped = [];
+
+            switch (groupingOption) {
+                case "firstName": GroupByFirstName(arrayOfPeople); break;
+                case "lastName": GroupByLastName(arrayOfPeople); break;
+                case "age": GroupByAge(arrayOfPeople); break;
+                default: throw new Error("The parameter \"groupingField\" is wrong.");
+            }
+
+            function GroupByFirstName(arrayOfPeople) {
+                var sorted = [];
+                for (var i = 0; i < arrayOfPeople.length; i++) {
+                    if (sorted[arrayOfPeople[i].firstName] == undefined) {
+                        sorted[arrayOfPeople[i].firstName] = [];
+                    }
+                    else {
+                        sorted[arrayOfPeople[i].firstName].push(arrayOfPeople[i]);
+                    }
+                }
+                return sorted;
+            }
+
+            function GroupByLastName(arrayOfPeople) {
+                var sorted = [];
+                for (var i = 0; i < arrayOfPeople.length; i++) {
+                    if (sorted[arrayOfPeople[i].lastName] == undefined) {
+                        sorted[arrayOfPeople[i].lastName] = [];
+                    }
+                    else {
+                        sorted[arrayOfPeople[i].lastName].push(arrayOfPeople[i]);
+                    }
+                }
+                return sorted;
+            }
+
+            function GroupByAge(arrayOfPeople) {
+                var sorted = [];
+                for (var i = 0; i < arrayOfPeople.length; i++) {
+                    if (sorted[arrayOfPeople[i].age] == undefined) {
+                        sorted[arrayOfPeople[i].age] = [];
+                    }
+                    else {
+                        sorted[arrayOfPeople[i].age].push(arrayOfPeople[i]);
+                    }
+                }
+                return sorted;
+            }
+        }
+
+        // Test
+        var people = [
+            { firstName: "Georgi", lastName: "Ivanov", age: 35 },
+            { firstName: "Ivan", lastName: "Petrov", age: 5 },
+            { firstName: "Stoyan", lastName: "Nikolov", age: 40 },
+            { firstName: "Marin", lastName: "Marinov", age: 35 }
+        ];
+
+        var g = (GroupPeople(people, "age"));
+        for (var i in g) {
+            console.log(i.firstName
+                )
+        }
+    </script>
+</body>
+</html>

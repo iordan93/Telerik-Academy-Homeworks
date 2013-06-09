@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\1. FighterAttack\obj\Debug\1. FighterAttack.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\1. FighterAttack\bin\Debug\_1.FighterAttack.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\1. FighterAttack\bin\Debug\_1.FighterAttack.pdb
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\1. FighterAttack\obj\Debug\_1.FighterAttack.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\1. FighterAttack\obj\Debug\_1.FighterAttack.pdb

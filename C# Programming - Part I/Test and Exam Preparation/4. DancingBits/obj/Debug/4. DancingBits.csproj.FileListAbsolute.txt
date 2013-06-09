@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\4. DancingBits\obj\Debug\4. DancingBits.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\4. DancingBits\bin\Debug\_4.DancingBits.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\4. DancingBits\bin\Debug\_4.DancingBits.pdb
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\4. DancingBits\obj\Debug\_4.DancingBits.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\4. DancingBits\obj\Debug\_4.DancingBits.pdb

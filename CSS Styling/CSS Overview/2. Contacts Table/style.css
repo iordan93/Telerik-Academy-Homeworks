@@ -1,0 +1,80 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Table */
+table {
+    font-family: 'Segoe UI', Calibri, Cambria, Arial;
+    font-size: 16px;
+    border-collapse:collapse;
+	margin:auto
+}
+
+th {
+    color: #ffffff;
+    font-weight: normal;
+    /* Gradient background */
+    background: rgb(94,195,5); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(94,195,5,1) 0%, rgba(86,185,6,1) 50%, rgba(82,180,5,1) 60%, rgba(83,181,6,1) 73%, rgba(78,177,6,1) 90%, rgba(80,180,6,1) 95%, rgba(53,149,0,1) 98%, rgba(43,122,5,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(94,195,5,1)), color-stop(50%,rgba(86,185,6,1)), color-stop(60%,rgba(82,180,5,1)), color-stop(73%,rgba(83,181,6,1)), color-stop(90%,rgba(78,177,6,1)), color-stop(95%,rgba(80,180,6,1)), color-stop(98%,rgba(53,149,0,1)), color-stop(100%,rgba(43,122,5,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(94,195,5,1) 0%,rgba(86,185,6,1) 50%,rgba(82,180,5,1) 60%,rgba(83,181,6,1) 73%,rgba(78,177,6,1) 90%,rgba(80,180,6,1) 95%,rgba(53,149,0,1) 98%,rgba(43,122,5,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(94,195,5,1) 0%,rgba(86,185,6,1) 50%,rgba(82,180,5,1) 60%,rgba(83,181,6,1) 73%,rgba(78,177,6,1) 90%,rgba(80,180,6,1) 95%,rgba(53,149,0,1) 98%,rgba(43,122,5,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(94,195,5,1) 0%,rgba(86,185,6,1) 50%,rgba(82,180,5,1) 60%,rgba(83,181,6,1) 73%,rgba(78,177,6,1) 90%,rgba(80,180,6,1) 95%,rgba(53,149,0,1) 98%,rgba(43,122,5,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(94,195,5,1) 0%,rgba(86,185,6,1) 50%,rgba(82,180,5,1) 60%,rgba(83,181,6,1) 73%,rgba(78,177,6,1) 90%,rgba(80,180,6,1) 95%,rgba(53,149,0,1) 98%,rgba(43,122,5,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ec305', endColorstr='#2b7a05',GradientType=0 ); /* IE6-9 */
+}
+
+td, th {
+    padding: 5px;
+    text-align: left;
+    vertical-align: text-top;
+    border: 1px solid #cacaca;
+}
+
+tbody > tr:nth-child(2n) {
+    background-color: #ececd8;
+}
+
+/* Column widths */
+/* Contact Name */
+th:nth-child(n+1), td:nth-child(n+1) {
+    width: 200px;
+}
+
+/* City */
+th:nth-child(n+2), td:nth-child(n+2) {
+    width: 120px;
+}
+
+/* Country */
+th:nth-child(n+3), td:nth-child(n+3) {
+    width: 150px;
+}
+
+/* Is Promoted */
+th:nth-child(n+4), td:nth-child(n+4) {
+    width: 100px;
+}
+
+/* Flags */
+.flag {
+    width: 40px;
+    height: 30px;
+    background: url("flags-sprite.jpg");
+    background-repeat: no-repeat;
+    margin-right: 3px;
+    float: left;
+}
+
+.flag-Germany {
+    background-position: 0px, 0px;
+}
+
+.flag-Mexico {
+    background-position: -40px, 0px;
+}
+
+.flag-UK {
+    background-position: -80px, 0px;
+}

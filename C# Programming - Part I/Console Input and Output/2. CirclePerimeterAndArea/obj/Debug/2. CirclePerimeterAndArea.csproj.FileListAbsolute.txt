@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part I\Console Input and Output\2. CirclePerimeterAndArea\bin\Debug\_2.CirclePerimeterAndArea.exe
+D:\Telerik\C# Programming - Part I\Console Input and Output\2. CirclePerimeterAndArea\bin\Debug\_2.CirclePerimeterAndArea.pdb
+D:\Telerik\C# Programming - Part I\Console Input and Output\2. CirclePerimeterAndArea\obj\Debug\_2.CirclePerimeterAndArea.exe
+D:\Telerik\C# Programming - Part I\Console Input and Output\2. CirclePerimeterAndArea\obj\Debug\_2.CirclePerimeterAndArea.pdb

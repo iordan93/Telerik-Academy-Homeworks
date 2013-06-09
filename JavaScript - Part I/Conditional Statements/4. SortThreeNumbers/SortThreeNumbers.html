@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sort three numbers in descending order</title>
+</head>
+<body>
+    <label for="firstNumber">Please enter the first number: </label>
+    <input type="text" id="firstNumber" />
+    <br />
+    <label for="secondNumber">Please enter the second number: </label>
+    <input type="text" id="secondNumber" />
+    <br />
+    <label for="thirdNumber">Please enter the third number: </label>
+    <input type="text" id="thirdNumber" />
+    <br />
+    <input type="submit" id="checkSign" onclick="checkBiggest()" value="Submit" />
+    <span id="result"></span>
+
+    <script type="text/javascript">
+        function checkBiggest() {
+            // Read the numbers
+            var firstNumber = parseFloat(document.getElementById("firstNumber").value);
+            var secondNumber = parseFloat(document.getElementById("secondNumber").value);
+            var thirdNumber = parseFloat(document.getElementById("thirdNumber").value);
+
+            var biggestNumber, middleNumber, smallestNumber;
+
+            // Order the numbers
+            // This is best checked using a diagram
+            if (firstNumber > secondNumber) {
+                if (thirdNumber > firstNumber) {
+                    biggestNumber = thirdNumber;
+                    middleNumber = firstNumber;
+                    smallestNumber = secondNumber;
+                }
+                else {
+                    if (secondNumber > thirdNumber) {
+                        biggestNumber = firstNumber;
+                        middleNumber = secondNumber;
+                        smallestNumber = thirdNumber;
+                    }
+                    else {
+                        biggestNumber = firstNumber;
+                        middleNumber = thirdNumber;
+                        smallestNumber = secondNumber;
+                    }
+                }
+            }
+            else {
+                if (thirdNumber > secondNumber) {
+                    biggestNumber = thirdNumber;
+                    middleNumber = secondNumber;
+                    smallestNumber = firstNumber;
+                }
+                else {
+                    if (firstNumber > thirdNumber) {
+                        biggestNumber = secondNumber;
+                        middleNumber = firstNumber;
+                        smallestNumber = thirdNumber;
+                    }
+                    else {
+                        biggestNumber = secondNumber;
+                        middleNumber = thirdNumber;
+                        smallestNumber = firstNumber;
+                    }
+                }
+            }
+
+            document.getElementById("result").innerHTML = "The biggest number is " + biggestNumber + ".<br />"
+            + "The middle number is " + middleNumber + ".<br />"
+            + "The smallest number is " + smallestNumber + ".<br />";
+
+        }
+    </script>
+</body>
+</html>

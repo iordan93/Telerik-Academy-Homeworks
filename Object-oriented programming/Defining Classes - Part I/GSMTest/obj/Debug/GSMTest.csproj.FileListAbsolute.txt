@@ -1,0 +1,6 @@
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMTest\bin\Debug\GSMTest.exe
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMTest\bin\Debug\GSMTest.pdb
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMTest\bin\Debug\_1._12.GSM.dll
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMTest\bin\Debug\_1._12.GSM.pdb
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMTest\obj\Debug\GSMTest.exe
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMTest\obj\Debug\GSMTest.pdb

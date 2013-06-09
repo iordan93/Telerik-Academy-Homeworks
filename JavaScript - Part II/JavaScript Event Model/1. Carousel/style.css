@@ -1,0 +1,13 @@
+﻿#carousel-container {
+    float: left;
+}
+
+button {
+    float: left;
+    margin: 10px;
+    vertical-align: central;
+}
+
+#carousel-container img:not(.current) {
+    display: none;
+}

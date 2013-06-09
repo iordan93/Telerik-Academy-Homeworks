@@ -1,0 +1,5 @@
+D:\Telerik\HTML Basics\HTML Forms and Frames\1. Registration Form\bin\_1.Registration_Form.dll
+D:\Telerik\HTML Basics\HTML Forms and Frames\1. Registration Form\bin\_1.Registration_Form.pdb
+D:\Telerik\HTML Basics\HTML Forms and Frames\1. Registration Form\obj\Debug\1. Registration Form.csprojResolveAssemblyReference.cache
+D:\Telerik\HTML Basics\HTML Forms and Frames\1. Registration Form\obj\Debug\_1.Registration_Form.dll
+D:\Telerik\HTML Basics\HTML Forms and Frames\1. Registration Form\obj\Debug\_1.Registration_Form.pdb

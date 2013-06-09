@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part II\Arrays\1. InitializeArray\bin\Debug\_1.InitializeArray.exe
+D:\Telerik\C# Programming - Part II\Arrays\1. InitializeArray\bin\Debug\_1.InitializeArray.pdb
+D:\Telerik\C# Programming - Part II\Arrays\1. InitializeArray\obj\Debug\1. InitializeArray.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part II\Arrays\1. InitializeArray\obj\Debug\_1.InitializeArray.exe
+D:\Telerik\C# Programming - Part II\Arrays\1. InitializeArray\obj\Debug\_1.InitializeArray.pdb

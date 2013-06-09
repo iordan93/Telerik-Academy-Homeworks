@@ -1,0 +1,7 @@
+D:\Telerik\High-Quality Code\High-Quality Code Exam Preparation\FreeContentCatalog\bin\Debug\FreeContentCatalog.exe.config
+D:\Telerik\High-Quality Code\High-Quality Code Exam Preparation\FreeContentCatalog\obj\Debug\FreeContentCatalog.csprojResolveAssemblyReference.cache
+D:\Telerik\High-Quality Code\High-Quality Code Exam Preparation\FreeContentCatalog\bin\Debug\FreeContentCatalog.exe
+D:\Telerik\High-Quality Code\High-Quality Code Exam Preparation\FreeContentCatalog\bin\Debug\FreeContentCatalog.pdb
+D:\Telerik\High-Quality Code\High-Quality Code Exam Preparation\FreeContentCatalog\bin\Debug\PowerCollections.dll
+D:\Telerik\High-Quality Code\High-Quality Code Exam Preparation\FreeContentCatalog\obj\Debug\FreeContentCatalog.exe
+D:\Telerik\High-Quality Code\High-Quality Code Exam Preparation\FreeContentCatalog\obj\Debug\FreeContentCatalog.pdb

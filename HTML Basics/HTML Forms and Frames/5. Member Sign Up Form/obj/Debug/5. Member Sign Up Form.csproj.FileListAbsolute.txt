@@ -1,0 +1,4 @@
+D:\Telerik\HTML Basics\HTML Forms and Frames\5. Member Sign Up Form\bin\_5.Member_Sign_Up_Form.dll
+D:\Telerik\HTML Basics\HTML Forms and Frames\5. Member Sign Up Form\bin\_5.Member_Sign_Up_Form.pdb
+D:\Telerik\HTML Basics\HTML Forms and Frames\5. Member Sign Up Form\obj\Debug\_5.Member_Sign_Up_Form.dll
+D:\Telerik\HTML Basics\HTML Forms and Frames\5. Member Sign Up Form\obj\Debug\_5.Member_Sign_Up_Form.pdb

@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Check if the third digit of a number (from right to left) is 7</title>
+</head>
+<body>
+    <label for="number">Please enter the number: </label>
+    <input type="text" id="number" />
+
+    <input type="submit" id="checkDigit" value="Submit" onclick="checkDigit()" />
+    <span id="result"></span>
+
+    <script type="text/javascript">
+        function checkDigit() {
+            // Read the number as integer - if it is a floating point number, take only the whole part
+            var number = parseInt(document.getElementById("number").value);
+
+            // Get the third digit
+            // Another way to do this is to check whether the result is >= 7 and < 8, but this is more elegant
+            var digit = Math.floor((number % 1000) / 100);
+
+            if (digit == 7) {
+                document.getElementById("result").innerHTML = "The third digit from right to left is 7.";
+            }
+            else {
+                document.getElementById("result").innerHTML = "The third digit from right to left is not 7.";
+            }
+        }
+    </script>
+</body>
+</html>

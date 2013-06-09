@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part II\Arrays\7. SelectionSort\bin\Release\_7.SelectionSort.exe
+D:\Telerik\C# Programming - Part II\Arrays\7. SelectionSort\bin\Release\_7.SelectionSort.pdb
+D:\Telerik\C# Programming - Part II\Arrays\7. SelectionSort\obj\Release\_7.SelectionSort.exe
+D:\Telerik\C# Programming - Part II\Arrays\7. SelectionSort\obj\Release\_7.SelectionSort.pdb

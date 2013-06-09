@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part II\Arrays\20. PrintVariations\bin\Release\_20.PrintVariations.exe
+D:\Telerik\C# Programming - Part II\Arrays\20. PrintVariations\bin\Release\_20.PrintVariations.pdb
+D:\Telerik\C# Programming - Part II\Arrays\20. PrintVariations\obj\Release\_20.PrintVariations.exe
+D:\Telerik\C# Programming - Part II\Arrays\20. PrintVariations\obj\Release\_20.PrintVariations.pdb

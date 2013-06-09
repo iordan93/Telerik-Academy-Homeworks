@@ -1,0 +1,77 @@
+﻿/* Corbel font */
+@font-face {
+    font-family: Corbel;
+    src: url('Corbel.ttf');
+}
+
+body {
+    font-family: Corbel, Calibri, Arial, Tahoma, sans-serif;
+    width: 780px;
+}
+
+img {
+    width: 150px;
+    display: block;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+}
+
+    nav a {
+        font-size: 20px;
+        font-weight: bold;
+        color: #20b6f1;
+    }
+
+        nav a:hover {
+            color: #76d7fd;
+        }
+
+        nav a:visited {
+            color: #0ba4dd;
+        }
+
+/* Main content */
+#content {
+    border: 1px solid #000000;
+    padding: 8px;
+    margin-right: 20px;
+    display: table;
+    float: left;
+}
+
+    #content #row {
+        display: table-row;
+    }
+
+    #content fieldset {
+        width: 250px;
+        height: 160px;
+        border: 1px solid #000000;
+        margin: 5px;
+        display: inline-block;
+    }
+
+    #content .leftColumn {
+        float: left;
+        margin-right: 5px;
+    }
+
+        #content .leftColumn p {
+            text-align: center;
+        }
+
+    #content .rightColumn {
+        margin-right: 10px;
+    }
+
+/* Search options */
+aside ul {
+    list-style-type: none;
+}
+
+    aside ul li {
+        font-size: 20px;
+    }

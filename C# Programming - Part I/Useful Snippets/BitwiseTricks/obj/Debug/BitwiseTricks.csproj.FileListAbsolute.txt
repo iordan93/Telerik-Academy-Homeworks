@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Useful Snippets\BitwiseTricks\bin\Debug\BitwiseTricks.exe
+D:\Telerik\C# Programming - Part I\Useful Snippets\BitwiseTricks\bin\Debug\BitwiseTricks.pdb
+D:\Telerik\C# Programming - Part I\Useful Snippets\BitwiseTricks\obj\Debug\BitwiseTricks.exe
+D:\Telerik\C# Programming - Part I\Useful Snippets\BitwiseTricks\obj\Debug\BitwiseTricks.pdb
+D:\Telerik\C# Programming - Part I\Useful Snippets\BitwiseTricks\obj\Debug\BitwiseTricks.csprojResolveAssemblyReference.cache

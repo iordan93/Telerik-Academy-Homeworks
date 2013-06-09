@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Number of divs in a page</title>
+</head>
+<body>
+    <p>This script will count the number of divs in this page.</p>
+    <!-- TODO: Make this work for an arbitrary web page -->
+    <span id="result"></span>
+    <div>
+        <div>
+            <div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        findAllDivs();
+
+        function findAllDivs() {
+            var numberOfDivs = document.getElementsByTagName("div").length;
+            document.getElementById("result").innerHTML = "Number of <strong>&lt;div&gt;</strong> tags (recursive): " + numberOfDivs;
+        }
+    </script>
+</body>
+</html>

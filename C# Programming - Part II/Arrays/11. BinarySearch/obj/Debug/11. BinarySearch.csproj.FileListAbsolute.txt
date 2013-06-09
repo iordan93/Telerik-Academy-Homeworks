@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part II\Arrays\11. BinarySearch\bin\Debug\_11.BinarySearch.exe
+D:\Telerik\C# Programming - Part II\Arrays\11. BinarySearch\bin\Debug\_11.BinarySearch.pdb
+D:\Telerik\C# Programming - Part II\Arrays\11. BinarySearch\obj\Debug\_11.BinarySearch.exe
+D:\Telerik\C# Programming - Part II\Arrays\11. BinarySearch\obj\Debug\_11.BinarySearch.pdb

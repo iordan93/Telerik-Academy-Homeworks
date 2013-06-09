@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\3. SandGlass\bin\Debug\_3.SandGlass.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\3. SandGlass\bin\Debug\_3.SandGlass.pdb
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\3. SandGlass\obj\Debug\_3.SandGlass.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\3. SandGlass\obj\Debug\_3.SandGlass.pdb

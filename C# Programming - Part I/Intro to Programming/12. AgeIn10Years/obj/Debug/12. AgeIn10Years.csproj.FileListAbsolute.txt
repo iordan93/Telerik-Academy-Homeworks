@@ -1,0 +1,7 @@
+D:\Telerik\C# Programming - Part I\Intro to Programming\12. AgeIn10Years\bin\Debug\_12.AgeIn10Years.exe.config
+D:\Telerik\C# Programming - Part I\Intro to Programming\12. AgeIn10Years\bin\Debug\_12.AgeIn10Years.exe
+D:\Telerik\C# Programming - Part I\Intro to Programming\12. AgeIn10Years\bin\Debug\_12.AgeIn10Years.pdb
+D:\Telerik\C# Programming - Part I\Intro to Programming\12. AgeIn10Years\bin\Debug\_12.AgeIn10Years.exe.CodeAnalysisLog.xml
+D:\Telerik\C# Programming - Part I\Intro to Programming\12. AgeIn10Years\bin\Debug\_12.AgeIn10Years.exe.lastcodeanalysissucceeded
+D:\Telerik\C# Programming - Part I\Intro to Programming\12. AgeIn10Years\obj\Debug\_12.AgeIn10Years.exe
+D:\Telerik\C# Programming - Part I\Intro to Programming\12. AgeIn10Years\obj\Debug\_12.AgeIn10Years.pdb

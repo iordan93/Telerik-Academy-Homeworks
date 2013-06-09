@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Initialize an array</title>
+</head>
+<body>
+    <p>This script will initialize an array of N integers.</p>
+    <label for="size">Enter the size of the array: </label>
+    <input type="text" id="size" />
+    <input type="submit" id="initializeArray" onclick="initializeArray()" value="Submit" />
+    <div id="arrayContents"></div>
+
+    <script type="text/javascript">
+        function initializeArray() {
+            // Read the number
+            var number = parseInt(document.getElementById("size").value);
+
+            // Initialize the array and print each element
+            var array = [];
+            for (var i = 0; i < number; i++) {
+                array[i] = 5 * i;
+                document.getElementById("arrayContents").innerHTML += array[i] + "<br />";
+            }
+        }
+    </script>
+</body>
+</html>

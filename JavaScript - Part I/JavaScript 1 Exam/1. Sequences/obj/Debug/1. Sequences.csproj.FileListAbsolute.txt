@@ -1,0 +1,5 @@
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam\1. Sequences\bin\_1.Sequences.dll
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam\1. Sequences\bin\_1.Sequences.pdb
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam\1. Sequences\obj\Debug\1. Sequences.csprojResolveAssemblyReference.cache
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam\1. Sequences\obj\Debug\_1.Sequences.dll
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam\1. Sequences\obj\Debug\_1.Sequences.pdb

@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part II\Arrays\2. CompareArraysElementByElement\bin\Release\_2.CompareArraysElementByElement.exe
+D:\Telerik\C# Programming - Part II\Arrays\2. CompareArraysElementByElement\bin\Release\_2.CompareArraysElementByElement.pdb
+D:\Telerik\C# Programming - Part II\Arrays\2. CompareArraysElementByElement\obj\Release\_2.CompareArraysElementByElement.exe
+D:\Telerik\C# Programming - Part II\Arrays\2. CompareArraysElementByElement\obj\Release\_2.CompareArraysElementByElement.pdb

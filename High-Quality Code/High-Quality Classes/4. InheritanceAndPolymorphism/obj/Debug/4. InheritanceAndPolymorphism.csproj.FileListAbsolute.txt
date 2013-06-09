@@ -1,0 +1,5 @@
+D:\Telerik\High-Quality Code\High-Quality Classes\4. InheritanceAndPolymorphism\bin\Debug\_4.InheritanceAndPolymorphism.exe.config
+D:\Telerik\High-Quality Code\High-Quality Classes\4. InheritanceAndPolymorphism\bin\Debug\_4.InheritanceAndPolymorphism.exe
+D:\Telerik\High-Quality Code\High-Quality Classes\4. InheritanceAndPolymorphism\bin\Debug\_4.InheritanceAndPolymorphism.pdb
+D:\Telerik\High-Quality Code\High-Quality Classes\4. InheritanceAndPolymorphism\obj\Debug\_4.InheritanceAndPolymorphism.exe
+D:\Telerik\High-Quality Code\High-Quality Classes\4. InheritanceAndPolymorphism\obj\Debug\_4.InheritanceAndPolymorphism.pdb

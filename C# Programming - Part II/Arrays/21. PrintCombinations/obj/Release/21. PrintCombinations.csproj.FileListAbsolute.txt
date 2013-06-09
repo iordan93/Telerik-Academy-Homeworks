@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part II\Arrays\21. PrintCombinations\bin\Release\_21.PrintCombinations.exe
+D:\Telerik\C# Programming - Part II\Arrays\21. PrintCombinations\bin\Release\_21.PrintCombinations.pdb
+D:\Telerik\C# Programming - Part II\Arrays\21. PrintCombinations\obj\Release\_21.PrintCombinations.exe
+D:\Telerik\C# Programming - Part II\Arrays\21. PrintCombinations\obj\Release\_21.PrintCombinations.pdb

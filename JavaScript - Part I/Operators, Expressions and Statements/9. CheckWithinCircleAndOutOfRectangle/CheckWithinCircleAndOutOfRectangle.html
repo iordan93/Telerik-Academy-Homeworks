@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Check if a point is in a circle and out of a rectangle</title>
+</head>
+<body>
+    <p>Please enter the coordinates (x,y) of the point to check whether it is within the circle K((1,1); 5) and out of the rectangle R((1,-1); 6, 2):</p>
+    <label for="pointX">X = </label>
+    <input type="text" id="pointX" />
+    <br />
+    <label for="pointY">Y = </label>
+    <input type="text" id="pointY" />
+    <br />
+
+    <input type="submit" id="checkPoint" value="Submit" onclick="checkPoint()" />
+    <br />
+    <span id="result"></span>
+
+    <script type="text/javascript">
+        function checkPoint() {
+            // Read the coordinates
+            var pointX = parseFloat(document.getElementById("pointX").value);
+            var pointY = parseFloat(document.getElementById("pointY").value);
+
+            // Introduce variables so that their values can be changed easily later
+            var circleCenterX = 1;
+            var circleCenterY = 1;
+            var circleRadius = 3;
+            var pointIsInCircle = false;
+            var pointIsInRectangle = false;
+            var rectangleTopLeftX = -1;
+            var rectangleTopLeftY = 1;
+            var rectangleWidth = 6;
+            var rectangleHeight = 2;
+
+            // Check position relative to the circle
+            if (Math.pow((pointX - circleCenterX), 2) + Math.pow((pointY - circleCenterY), 2) <= Math.pow(circleRadius, 2)) {
+                pointIsInCircle = true;
+            }
+
+            // Check position relative to the rectangle
+            if (pointX >= rectangleTopLeftX
+                && pointX <= rectangleTopLeftX + rectangleWidth
+                && pointY <= rectangleTopLeftY
+                && pointY >= rectangleTopLeftY - rectangleHeight) {
+                pointIsInRectangle = true;
+            }
+
+            // Output
+            if (pointIsInCircle && !pointIsInRectangle) {
+                document.getElementById("result").innerHTML = "Point (" + pointX + "; " + pointY + ") is within the circle and outside the rectangle."
+            }
+            else {
+                document.getElementById("result").innerHTML = "Point (" + pointX + "; " + pointY + ")'s position is not within the circle and outside the rectangle."
+            }
+        }
+    </script>
+</body>
+</html>

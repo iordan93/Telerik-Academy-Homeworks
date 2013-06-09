@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\1. MathExpression\obj\Debug\1. MathExpression.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\1. MathExpression\bin\Debug\_1.MathExpression.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\1. MathExpression\bin\Debug\_1.MathExpression.pdb
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\1. MathExpression\obj\Debug\_1.MathExpression.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\1. MathExpression\obj\Debug\_1.MathExpression.pdb

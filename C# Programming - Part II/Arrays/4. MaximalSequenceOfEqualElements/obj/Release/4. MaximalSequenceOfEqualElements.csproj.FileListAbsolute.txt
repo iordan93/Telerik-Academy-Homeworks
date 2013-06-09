@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part II\Arrays\4. MaximalSequenceOfEqualElements\bin\Release\_4.MaximalSequenceOfEqualElements.exe
+D:\Telerik\C# Programming - Part II\Arrays\4. MaximalSequenceOfEqualElements\bin\Release\_4.MaximalSequenceOfEqualElements.pdb
+D:\Telerik\C# Programming - Part II\Arrays\4. MaximalSequenceOfEqualElements\obj\Release\_4.MaximalSequenceOfEqualElements.exe
+D:\Telerik\C# Programming - Part II\Arrays\4. MaximalSequenceOfEqualElements\obj\Release\_4.MaximalSequenceOfEqualElements.pdb

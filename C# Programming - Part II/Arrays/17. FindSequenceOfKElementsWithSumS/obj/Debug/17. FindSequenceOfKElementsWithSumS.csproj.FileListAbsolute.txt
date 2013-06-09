@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part II\Arrays\17. FindSequenceOfKElementsWithSumS\bin\Debug\_17.FindSequenceOfKElementsWithSumS.exe
+D:\Telerik\C# Programming - Part II\Arrays\17. FindSequenceOfKElementsWithSumS\bin\Debug\_17.FindSequenceOfKElementsWithSumS.pdb
+D:\Telerik\C# Programming - Part II\Arrays\17. FindSequenceOfKElementsWithSumS\obj\Debug\_17.FindSequenceOfKElementsWithSumS.exe
+D:\Telerik\C# Programming - Part II\Arrays\17. FindSequenceOfKElementsWithSumS\obj\Debug\_17.FindSequenceOfKElementsWithSumS.pdb

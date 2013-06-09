@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Find all occurences of a word</title>
+</head>
+<body>
+    <p>This script will find all occurrences of a word in a given text. You can perform case-sensitive or case-insensitive search.</p>
+    <label for="number">Please enter the text to search in: </label>
+    <input type="text" id="textToSearch" />
+    <br />
+    <label for="number">Please enter the word to look for: </label>
+    <input type="text" id="word" />
+    <br />
+    <input type="radio" name="caseSensitive" id="true" value="1" />
+    <label for="true">Case-sensitive search</label>
+    <br />
+    <input type="radio" name="caseSensitive" id="false" value="0" />
+    <label for="true">Case-insensitive search</label>
+    <br />
+    <input type="submit" id="produceOutput" onclick="produceOutput()" value="Submit" />
+    <span id="result"></span>
+
+    <script type="text/javascript">
+        function findOccurrences(text, word, caseSensitive) {
+            caseSensitive = caseSensitive || false;
+            var occurrencesCount = 0;
+
+            // Split the text by all non-word characters
+            var words = text.split(/\W+/);
+
+            for (var i = 0; i < words.length; i++) {
+                if (caseSensitive === true) {
+                    if (word == words[i]) {
+                        occurrencesCount++;
+                    }
+                }
+                else {
+                    if (word.toLowerCase() == words[i].toLowerCase()) {
+                        occurrencesCount++;
+                    }
+                }
+            }
+            return occurrencesCount;
+        }
+
+        function produceOutput() {
+            // Get the text and word to look for
+            var text = document.getElementById("textToSearch").value;
+            var word = document.getElementById("word").value;
+
+            // Get the value of the radio button and produce output
+            var caseSensitive = document.getElementsByName("caseSensitive");
+            for (var i = 0; i < caseSensitive.length; i++) {
+                if (caseSensitive[i].checked) {
+                    switch (caseSensitive[i].value) {
+                        case "0":
+                            document.getElementById("result").innerHTML = "The word \"" + word + "\" occurs " + findOccurrences(text, word) + " times.";
+                            break;
+                        case "1":
+                            document.getElementById("result").innerHTML = "The word \"" + word + "\" occurs " + findOccurrences(text, word, true) + " times.";
+                            break;
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

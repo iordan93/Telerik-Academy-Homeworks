@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Find the biggest of three integers</title>
+</head>
+<body>
+    <label for="firstNumber">Please enter the first number: </label>
+    <input type="text" id="firstNumber" />
+    <br />
+    <label for="secondNumber">Please enter the second number: </label>
+    <input type="text" id="secondNumber" />
+    <br />
+    <label for="thirdNumber">Please enter the third number: </label>
+    <input type="text" id="thirdNumber" />
+    <br />
+    <input type="submit" id="checkBiggest" onclick="checkBiggest()" value="Submit" />
+    <span id="result"></span>
+
+    <script type="text/javascript">
+        function checkBiggest() {
+            // Read the numbers
+            var firstNumber = parseFloat(document.getElementById("firstNumber").value);
+            var secondNumber = parseFloat(document.getElementById("secondNumber").value);
+            var thirdNumber = parseFloat(document.getElementById("thirdNumber").value);
+            var biggestNumber;
+
+            if (firstNumber > secondNumber) {
+                if (thirdNumber > firstNumber) {
+                    biggestNumber = thirdNumber;
+                }
+                else {
+                    biggestNumber = firstNumber;
+                }
+            }
+            else {
+                if (thirdNumber > secondNumber) {
+                    biggestNumber = thirdNumber;
+                }
+                else {
+                    biggestNumber = secondNumber;
+                }
+            }
+
+            document.getElementById("result").innerHTML = "The biggest number is " + biggestNumber + ".";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Find the max and min number</title>
+</head>
+<body>
+    <p>This script will find the maximal and minimal number in a sequence of numbers.</p>
+    <label for="number">Please enter a number: </label>
+    <input type="text" id="number" />
+    <input type="submit" id="addNumber" onclick="addNumber()" value="Add number" />
+    <input type="submit" id="printNumbers" onclick="printNumbers()" value="Submit" />
+    <div id="result"></div>
+    <div id="arrayContents"></div>
+
+    <script type="text/javascript">
+        // An array to store the numbers
+        var numberArray = [];
+
+        function addNumber() {
+            // Read the number
+            var number = parseFloat(document.getElementById("number").value);
+
+            // Push each number into the array
+            numberArray.push(number);
+
+            // Print the added number in a sequence
+            document.getElementById("arrayContents").innerHTML += number + "<br />";
+
+        }
+
+        function printNumbers() {
+            // Clear the div each time (if not cleared, the new result appends to the bottom)
+            document.getElementById("result").innerHTML = "";
+
+            // Sort the array
+            numberArray.sort();
+
+            // Output - return the minimal and maximal element
+            document.getElementById("result").innerHTML = "<strong>Minimal number: </strong>" + numberArray[0] + "<br />" +
+                                                          "<strong>Maximal number: </strong>" + numberArray[numberArray.length - 1];
+        }
+    </script>
+</body>
+</html>

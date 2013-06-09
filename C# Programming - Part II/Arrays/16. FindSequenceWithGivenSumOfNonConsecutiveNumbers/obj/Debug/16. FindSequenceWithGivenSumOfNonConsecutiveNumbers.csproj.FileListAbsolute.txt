@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part II\Arrays\16. FindSequenceWithGivenSumOfNonConsecutiveNumbers\bin\Debug\_16.FindSequenceWithGivenSumOfNonConsecutiveNumbers.exe
+D:\Telerik\C# Programming - Part II\Arrays\16. FindSequenceWithGivenSumOfNonConsecutiveNumbers\bin\Debug\_16.FindSequenceWithGivenSumOfNonConsecutiveNumbers.pdb
+D:\Telerik\C# Programming - Part II\Arrays\16. FindSequenceWithGivenSumOfNonConsecutiveNumbers\obj\Debug\_16.FindSequenceWithGivenSumOfNonConsecutiveNumbers.exe
+D:\Telerik\C# Programming - Part II\Arrays\16. FindSequenceWithGivenSumOfNonConsecutiveNumbers\obj\Debug\_16.FindSequenceWithGivenSumOfNonConsecutiveNumbers.pdb

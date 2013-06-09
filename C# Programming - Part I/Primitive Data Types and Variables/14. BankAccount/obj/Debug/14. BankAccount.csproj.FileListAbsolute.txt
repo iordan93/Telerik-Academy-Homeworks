@@ -1,0 +1,1 @@
+D:\Telerik\C# Programming - Part I\Primitive Data Types and Variables\14. BankAccount\bin\Debug\_14.BankAccount.exe.config

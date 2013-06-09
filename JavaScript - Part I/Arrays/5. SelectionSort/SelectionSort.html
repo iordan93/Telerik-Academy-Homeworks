@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sort an array using selection sort</title>
+</head>
+<body>
+    <p>This script will sort an array of numbers using the Selection sort algorithm.</p>
+    <label for="number">Please enter the array, a number at a time: </label>
+    <input type="text" id="number" />
+    <input type="submit" id="addNumber" onclick="addNumber()" value="Add number" />
+    <input type="submit" id="sortArray" onclick="sortArray()" value="Submit" />
+    <div id="result"></div>
+    <div id="arrayContents"></div>
+
+    <script type="text/javascript">
+        // An array to store the numbers
+        var array = [];
+
+        function addNumber() {
+            // Read the number
+            var number = parseFloat(document.getElementById("number").value);
+
+            // Push each number into the array
+            array.push(number);
+
+            // Print the added number in a sequence
+            document.getElementById("arrayContents").innerHTML += number + "<br />";
+
+        }
+
+        function sortArray() {
+            // Clear the div each time (if not cleared, the new result appends to the bottom)
+            document.getElementById("result").innerHTML = "";
+
+            var minValue = 0;
+            for (var i = 0; i < array.length; i++) {
+                // Suppose that the minimum is equal to the ith element
+                minValue = array[i];
+                // Check all the elements in the array after the ith element if some of them is smaller
+                for (var j = i + 1; j < array.length; j++) {
+                    // If some element after the ith is smaller than it, swap array[i] and array[j]
+                    if (array[j] <= array[i]) {
+                        minValue = array[j];
+                        array[j] = array[i];
+                        array[i] = minValue;
+                    }
+                }
+            }
+
+            // Output - print the sorted array.
+            // I do not use the unsorted array anymore, so I did not use another array to solve the task
+            document.getElementById("result").innerHTML = "The sorted array is ";
+            for (var i = 0; i < array.length; i++) {
+                document.getElementById("result").innerHTML += array[i] + (i != array.length - 1 ? ", " : ".")
+            }
+        }
+    </script>
+</body>
+</html>

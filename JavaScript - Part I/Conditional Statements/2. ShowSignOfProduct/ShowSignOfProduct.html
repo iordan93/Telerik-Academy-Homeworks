@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Show the sign of the product of three numbers</title>
+</head>
+<body>
+    <label for="firstNumber">Please enter the first number: </label>
+    <input type="text" id="firstNumber" />
+    <br />
+    <label for="secondNumber">Please enter the second number: </label>
+    <input type="text" id="secondNumber" />
+    <br />
+    <label for="thirdNumber">Please enter the third number: </label>
+    <input type="text" id="thirdNumber" />
+    <br />
+    <input type="submit" id="checkSign" onclick="checkSign()" value="Submit" />
+    <span id="result"></span>
+
+    <script type="text/javascript">
+        function checkSign() {
+            // Read the numbers
+            var firstNumber = parseFloat(document.getElementById("firstNumber").value);
+            var secondNumber = parseFloat(document.getElementById("secondNumber").value);
+            var thirdNumber = parseFloat(document.getElementById("thirdNumber").value);
+
+            // This is best checked using a diagram
+            if (firstNumber == 0 || secondNumber == 0 || thirdNumber == 0) {
+                document.getElementById("result").innerHTML = "The product is zero.";
+            }
+            else {
+                if (firstNumber > 0) {
+                    if (secondNumber > 0) {
+                        if (thirdNumber > 0) {
+                            document.getElementById("result").innerHTML = "The product is positive.";
+                        }
+                        else {
+                            document.getElementById("result").innerHTML = "The product is negative.";
+                        }
+                    }
+                    else {
+                        if (thirdNumber > 0) {
+                            document.getElementById("result").innerHTML = "The product is negative.";
+                        }
+                        else {
+                            document.getElementById("result").innerHTML = "The product is positive.";
+                        }
+                    }
+                }
+                else {
+                    if (secondNumber > 0) {
+                        if (thirdNumber > 0) {
+                            document.getElementById("result").innerHTML = "The product is negative.";
+                        }
+                        else {
+                            document.getElementById("result").innerHTML = "The product is positive.";
+                        }
+                    }
+                    else {
+                        if (thirdNumber > 0) {
+                            document.getElementById("result").innerHTML = "The product is positive.";
+                        }
+                        else {
+                            document.getElementById("result").innerHTML = "The product is negative.";
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

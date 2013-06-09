@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Solve a quadratic equation</title>
+</head>
+<body>
+    <label for="a">Please enter the coefficient <strong>a</strong>: </label>
+    <input type="text" id="a" />
+    <br />
+    <label for="b">Please enter the coefficient <strong>b</strong>: </label>
+    <input type="text" id="b" />
+    <br />
+    <label for="c">Please enter the coefficient <strong>c</strong>: </label>
+    <input type="text" id="c" />
+    <br />
+    <input type="submit" id="solve" onclick="solveEquation()" value="Submit" />
+    <span id="result"></span>
+
+    <script type="text/javascript">
+        function solveEquation() {
+            // Read the numbers
+            var a = parseFloat(document.getElementById("a").value);
+            var b = parseFloat(document.getElementById("b").value);
+            var c = parseFloat(document.getElementById("c").value);
+
+            var discriminant = b * b - 4 * a * c;
+
+            if (discriminant > 0) {
+                var x1 = (-b - Math.sqrt(discriminant)) / (2 * a);
+                var x2 = (-b + Math.sqrt(discriminant)) / (2 * a);
+                document.getElementById("result").innerHTML = "x1 = " + x1 + ", x2 = " + x2;
+            }
+            else if (discriminant == 0) {
+                var x = -b / (2 * a);
+                document.getElementById("result").innerHTML = "x1 = x2 = " + x;
+            }
+            else {
+                document.getElementById("result").innerHTML = "The quadratic equation has no real roots.";
+            }
+        }
+    </script>
+</body>
+</html>

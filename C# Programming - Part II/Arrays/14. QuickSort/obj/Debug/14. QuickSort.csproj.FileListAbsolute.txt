@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part II\Arrays\14. QuickSort\bin\Debug\_14.QuickSort.exe
+D:\Telerik\C# Programming - Part II\Arrays\14. QuickSort\bin\Debug\_14.QuickSort.pdb
+D:\Telerik\C# Programming - Part II\Arrays\14. QuickSort\obj\Debug\_14.QuickSort.exe
+D:\Telerik\C# Programming - Part II\Arrays\14. QuickSort\obj\Debug\_14.QuickSort.pdb
+D:\Telerik\C# Programming - Part II\Arrays\14. QuickSort\obj\Debug\14. QuickSort.csprojResolveAssemblyReference.cache

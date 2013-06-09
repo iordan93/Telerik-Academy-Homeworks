@@ -1,0 +1,7 @@
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMUnitTests\bin\Debug\GSMUnitTests.dll
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMUnitTests\bin\Debug\GSMUnitTests.pdb
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMUnitTests\bin\Debug\_1._12.GSM.dll
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMUnitTests\bin\Debug\_1._12.GSM.pdb
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMUnitTests\obj\Debug\GSMUnitTests.csprojResolveAssemblyReference.cache
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMUnitTests\obj\Debug\GSMUnitTests.dll
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMUnitTests\obj\Debug\GSMUnitTests.pdb

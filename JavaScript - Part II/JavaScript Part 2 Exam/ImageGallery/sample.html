@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Image Gallery Samples</title>
+    <link href="styles/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="image-gallery-holder">
+    </div>
+    <div id="enlarged-image-holder">
+    </div>
+
+    <script src="scripts/local-storage-extensions.js"></script>
+    <script src="scripts/repository.js"></script>
+    <script src="scripts/gallery.js"></script>
+
+    <!--  Task 1 -->
+    <script type="text/javascript">
+        var gallery = controls.getImageGallery("#image-gallery-holder");
+        gallery.addImage("JS Ninja", "images/js-ninja.png");
+        gallery.addImage("JS Ninja", "images/js-ninja.png");
+        gallery.addImage("JS Ninja", "images/js-ninja.png");
+
+        var ninjasAlbum = gallery.addAlbum("Ninjas");
+        ninjasAlbum.addImage("JS Ninja2", "images/js-ninja.png");
+        ninjasAlbum.addImage("JS Ninja2", "images/js-ninja.png");
+        ninjasAlbum.addImage("JS Ninja2", "images/js-ninja.png");
+        
+        gallery.render();
+    </script>
+    
+    <!-- Task 2 (with escaping demo)
+    <script type="text/javascript">
+        var gallery = controls.getImageGallery("#image-gallery-holder");
+        gallery.addImage("JS Ninja", "images/js-ninja.png");
+        gallery.addImage("JS Ninja", "images/js-ninja.png");
+        gallery.addImage("JS Ninja", "images/js-ninja.png");
+
+        var ninjasAlbum = gallery.addAlbum("Ninjas");
+        ninjasAlbum.addImage("JS Ninja2", "images/js-ninja.png");
+        ninjasAlbum.addImage("JS Ninja2", "images/js-ninja.png");
+        ninjasAlbum.addImage("JS Ninja2", "images/js-ninja.png");
+
+        var kidsNinjas = ninjasAlbum.addAlbum("<br />");
+        kidsNinjas.addImage("<br />", "images/js-ninja.png");
+        kidsNinjas.addImage("Kid Ninja", "images/js-ninja.png");
+
+        var nestedNinjas = kidsNinjas.addAlbum("Nested Ninjas");
+        nestedNinjas.addImage("Nested Ninja", "images/js-ninja.png");
+        nestedNinjas.addImage("Nested Ninja", "images/js-ninja.png");
+
+        ninjasAlbum.addImage("Another Ninja", "images/js-ninja.png");
+        ninjasAlbum.addImage("Another Ninja", "images/js-ninja.png");
+        gallery.render();gallery.render();
+    </script>
+    -->
+
+    <!-- Task 3 - just click on some of the items marked with a border -->
+
+    <!-- Task 4
+    <script type="text/javascript">
+        var imageGalleryData = [];
+        imageGalleryRepository.save("ninjas-gallery", imageGalleryData);
+        console.log(imageGalleryRepository.load("ninjas-gallery"));
+    </script>
+    -->
+
+    <!-- Task 5
+    <script type="text/javascript">
+        var gallery = controls.getImageGallery("#image-gallery-holder");
+        gallery.addImage("JS Ninja", "images/js-ninja.png");
+        gallery.addImage("JS Ninja", "images/js-ninja.png");
+
+        var ninjasAlbum = gallery.addAlbum("Ninjas");
+        ninjasAlbum.addImage("JS Ninja2", "images/js-ninja.png");
+        ninjasAlbum.addImage("JS Ninja2", "images/js-ninja.png");
+
+        gallery.render();
+
+        var imageGalleryData = gallery.getImageGalleryData();
+        imageGalleryRepository.save("ninjas-gallery", imageGalleryData);
+        console.log(imageGalleryRepository.load("ninjas-gallery"));
+    </script>
+    -->
+
+    <!-- Task 6 (to test, first save a gallery to the repository)
+    <script type="text/javascript">
+        var imageGalleryData = imageGalleryRepository.load("ninjas-gallery");
+        var ninjasGallery = controls.buildImageGallery("#image-gallery-holder", imageGalleryData);
+    </script>
+    -->
+
+    <!-- Task 7 - just click on some image
+        (to initialize a gallery with such functionality, specify the enlarged image selector as second parameter, 
+        also to see the difference, select a different image target) 
+    <script type="text/javascript">
+        var gallery = controls.getImageGallery("#image-gallery-holder", "#enlarged-image-holder");
+        gallery.addImage("JS Ninja", "images/js-ninja.png");
+        gallery.addImage("JS Ninja", "images/js-ninja.png");
+        gallery.addImage("JS Ninja", "images/js-ninja.png");
+
+        var ninjasAlbum = gallery.addAlbum("Ninjas");
+        ninjasAlbum.addImage("JS Ninja2", "images/js-ninja.png");
+        ninjasAlbum.addImage("JS Ninja2", "images/js-ninja.png");
+        ninjasAlbum.addImage("JS Ninja2", "images/js-ninja.png");
+
+        var kidsNinjas = ninjasAlbum.addAlbum("<br />");
+        kidsNinjas.addImage("<br />", "images/js-ninja.png");
+        kidsNinjas.addImage("Kid Ninja", "images/js-ninja.png");
+
+        var nestedNinjas = kidsNinjas.addAlbum("Nested Ninjas");
+        nestedNinjas.addImage("Nested Ninja", "images/js-ninja.png");
+        nestedNinjas.addImage("Nested Ninja", "images/js-ninja.png");
+
+        ninjasAlbum.addImage("Another Ninja", "images/js-ninja.png");
+        ninjasAlbum.addImage("Another Ninja", "images/js-ninja.png");
+        gallery.render();
+
+        var imageGalleryData = gallery.getImageGalleryData();
+        imageGalleryRepository.save("ninjas-gallery", imageGalleryData);
+        console.log(imageGalleryRepository.load("ninjas-gallery")); 
+    </script>
+        -->
+</body>
+</html>

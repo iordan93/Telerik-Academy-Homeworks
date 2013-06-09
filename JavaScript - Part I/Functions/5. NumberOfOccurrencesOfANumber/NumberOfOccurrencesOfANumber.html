@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Find the number of occurrences of each number in an array</title>
+</head>
+<body>
+    <p>This script will find the number of occurrences of each number in an array.</p>
+    <label for="number">Please enter the array, a number at a time: </label>
+    <input type="text" id="number" />
+    <input type="submit" id="addNumber" onclick="addNumber()" value="Add number" />
+    <br />
+    <label for="numberToLookFor">Please enter the number to look for: </label>
+    <input type="text" id="numberToLookFor" />
+    <input type="submit" id="produceOutput" onclick="produceOutput()" value="Submit" />
+    <br />
+    <input type="submit" id="testFunction" onclick="testFunction()" value="Test function" />
+    <div id="result"></div>
+    <div id="arrayContents"></div>
+
+    <script type="text/javascript">
+        // An array to store the numbers
+        var array = [];
+
+        function addNumber() {
+            // Read the number
+            var number = parseFloat(document.getElementById("number").value);
+
+            // Push each number into the array
+            array.push(number);
+
+            // Print the added number in a sequence
+            document.getElementById("arrayContents").innerHTML += number + "<br />";
+
+        }
+
+        function getOccurrences(array, number) {
+            // Clear the div each time (if not cleared, the new result appends to the bottom)
+            document.getElementById("result").innerHTML = "";
+
+            var counter = 0;
+
+            for (var i = 0; i < array.length; i++) {
+                if (array[i] == number) {
+                    counter++;
+                }
+            }
+
+            return counter;
+        }
+
+        function produceOutput() {
+            var number = document.getElementById("numberToLookFor").value;
+            document.getElementById("result").innerHTML = "Occurences of " + number + ": " + getOccurrences(array, number);
+        }
+
+        function testFunction() {
+            var array = [1,
+                        2, 2,
+                        3, 3, 3,
+                        4, 4, 4, 4,
+                        5, 5, 5, 5, 5,
+                        6, 6, 6, 6, 6, 6,
+                        7, 7, 7, 7, 7, 7, 7,
+                        8, 8, 8, 8, 8, 8, 8, 8,
+                        9, 9, 9, 9, 9, 9, 9, 9, 9];
+
+            // The testing function is for debugging purposes only, so the result should be written on the console
+            console.log(getOccurrences(array, 1) == 1 ? "Passed test 1" : "Failed test 1");
+            console.log(getOccurrences(array, 2) == 2 ? "Passed test 2" : "Failed test 2");
+            console.log(getOccurrences(array, 3) == 3 ? "Passed test 3" : "Failed test 3");
+            console.log(getOccurrences(array, 4) == 4 ? "Passed test 4" : "Failed test 4");
+            console.log(getOccurrences(array, 5) == 5 ? "Passed test 5" : "Failed test 5");
+            console.log(getOccurrences(array, 6) == 6 ? "Passed test 6" : "Failed test 6");
+            console.log(getOccurrences(array, 7) == 7 ? "Passed test 7" : "Failed test 7");
+            console.log(getOccurrences(array, 8) == 8 ? "Passed test 8" : "Failed test 8");
+            console.log(getOccurrences(array, 9) == 9 ? "Passed test 9" : "Failed test 9");
+
+        }
+    </script>
+</body>
+</html>

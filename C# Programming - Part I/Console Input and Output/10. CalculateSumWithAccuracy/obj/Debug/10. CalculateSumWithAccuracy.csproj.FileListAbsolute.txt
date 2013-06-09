@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Console Input and Output\10. CalculateSumWithAccuracy\bin\Debug\_10.CalculateSumWithAccuracy.exe
+D:\Telerik\C# Programming - Part I\Console Input and Output\10. CalculateSumWithAccuracy\bin\Debug\_10.CalculateSumWithAccuracy.pdb
+D:\Telerik\C# Programming - Part I\Console Input and Output\10. CalculateSumWithAccuracy\obj\Debug\_10.CalculateSumWithAccuracy.exe
+D:\Telerik\C# Programming - Part I\Console Input and Output\10. CalculateSumWithAccuracy\obj\Debug\_10.CalculateSumWithAccuracy.pdb
+D:\Telerik\C# Programming - Part I\Console Input and Output\10. CalculateSumWithAccuracy\obj\Debug\10. CalculateSumWithAccuracy.csprojResolveAssemblyReference.cache

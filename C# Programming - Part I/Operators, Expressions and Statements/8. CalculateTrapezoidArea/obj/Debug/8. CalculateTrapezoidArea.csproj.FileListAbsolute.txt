@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\8. CalculateTrapezoidArea\bin\Debug\_8.CalculateTrapezoidArea.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\8. CalculateTrapezoidArea\bin\Debug\_8.CalculateTrapezoidArea.pdb
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\8. CalculateTrapezoidArea\obj\Debug\_8.CalculateTrapezoidArea.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\8. CalculateTrapezoidArea\obj\Debug\_8.CalculateTrapezoidArea.pdb

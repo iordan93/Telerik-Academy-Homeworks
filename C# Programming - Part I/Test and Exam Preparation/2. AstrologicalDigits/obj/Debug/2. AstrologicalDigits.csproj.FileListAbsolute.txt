@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\2. AstrologicalDigits\bin\Debug\_2.AstrologicalDigits.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\2. AstrologicalDigits\bin\Debug\_2.AstrologicalDigits.pdb
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\2. AstrologicalDigits\obj\Debug\2. AstrologicalDigits.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\2. AstrologicalDigits\obj\Debug\_2.AstrologicalDigits.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\2. AstrologicalDigits\obj\Debug\_2.AstrologicalDigits.pdb

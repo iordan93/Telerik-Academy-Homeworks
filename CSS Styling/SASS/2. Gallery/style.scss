@@ -1,0 +1,33 @@
+nav {
+    ul {
+        li {
+            list-style-type: none;
+            display: inline-block;
+
+            label {
+                img {
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        }
+    }
+}
+
+.images {
+    position: relative;
+
+    input[type=radio] {
+        display: none;
+    }
+
+    img {
+        position: absolute;
+        z-index: 0;
+    }
+
+    input[type=radio]:checked + img {
+        display: block;
+        z-index: 1;
+    }
+}

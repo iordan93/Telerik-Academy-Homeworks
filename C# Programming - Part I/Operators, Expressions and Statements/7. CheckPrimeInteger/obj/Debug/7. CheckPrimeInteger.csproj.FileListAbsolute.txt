@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\7. CheckPrimeInteger\bin\Debug\_7.CheckPrimeInteger.exe.config
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\7. CheckPrimeInteger\bin\Debug\_7.CheckPrimeInteger.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\7. CheckPrimeInteger\bin\Debug\_7.CheckPrimeInteger.pdb
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\7. CheckPrimeInteger\obj\Debug\_7.CheckPrimeInteger.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\7. CheckPrimeInteger\obj\Debug\_7.CheckPrimeInteger.pdb

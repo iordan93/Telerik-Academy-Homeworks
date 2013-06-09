@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Carousel", "1. Carousel\1. Carousel.csproj", "{3B78A3C5-89C0-437C-BFAD-24673CFDA82D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. ToDoList", "2. ToDoList\2. ToDoList.csproj", "{BFFDA16B-720E-4313-B5B1-05D63A756A05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B78A3C5-89C0-437C-BFAD-24673CFDA82D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B78A3C5-89C0-437C-BFAD-24673CFDA82D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B78A3C5-89C0-437C-BFAD-24673CFDA82D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B78A3C5-89C0-437C-BFAD-24673CFDA82D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFFDA16B-720E-4313-B5B1-05D63A756A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFFDA16B-720E-4313-B5B1-05D63A756A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFFDA16B-720E-4313-B5B1-05D63A756A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFFDA16B-720E-4313-B5B1-05D63A756A05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

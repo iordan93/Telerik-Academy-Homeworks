@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part II\Arrays\14. QuickSort\bin\Release\_14.QuickSort.exe
+D:\Telerik\C# Programming - Part II\Arrays\14. QuickSort\bin\Release\_14.QuickSort.pdb
+D:\Telerik\C# Programming - Part II\Arrays\14. QuickSort\obj\Release\_14.QuickSort.exe
+D:\Telerik\C# Programming - Part II\Arrays\14. QuickSort\obj\Release\_14.QuickSort.pdb

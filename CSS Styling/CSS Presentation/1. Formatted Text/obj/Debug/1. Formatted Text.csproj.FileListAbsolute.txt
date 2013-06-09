@@ -1,0 +1,5 @@
+D:\Telerik\CSS Styling\CSS Presentation\1. Formatted Text\bin\_1.Formatted_Text.dll
+D:\Telerik\CSS Styling\CSS Presentation\1. Formatted Text\bin\_1.Formatted_Text.pdb
+D:\Telerik\CSS Styling\CSS Presentation\1. Formatted Text\obj\Debug\1. Formatted Text.csprojResolveAssemblyReference.cache
+D:\Telerik\CSS Styling\CSS Presentation\1. Formatted Text\obj\Debug\_1.Formatted_Text.dll
+D:\Telerik\CSS Styling\CSS Presentation\1. Formatted Text\obj\Debug\_1.Formatted_Text.pdb

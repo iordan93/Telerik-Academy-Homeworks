@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\3. Trapezoid\bin\Debug\_3.Trapezoid.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\3. Trapezoid\bin\Debug\_3.Trapezoid.pdb
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\3. Trapezoid\obj\Debug\_3.Trapezoid.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\3. Trapezoid\obj\Debug\_3.Trapezoid.pdb

@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\5. Lines\bin\Debug\_5.Lines.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\5. Lines\bin\Debug\_5.Lines.pdb
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\5. Lines\obj\Debug\5. Lines.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\5. Lines\obj\Debug\_5.Lines.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\5. Lines\obj\Debug\_5.Lines.pdb

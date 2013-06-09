@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part II\Arrays\7. SelectionSort\bin\Debug\_7.SelectionSort.exe
+D:\Telerik\C# Programming - Part II\Arrays\7. SelectionSort\bin\Debug\_7.SelectionSort.pdb
+D:\Telerik\C# Programming - Part II\Arrays\7. SelectionSort\obj\Debug\7. SelectionSort.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part II\Arrays\7. SelectionSort\obj\Debug\_7.SelectionSort.exe
+D:\Telerik\C# Programming - Part II\Arrays\7. SelectionSort\obj\Debug\_7.SelectionSort.pdb

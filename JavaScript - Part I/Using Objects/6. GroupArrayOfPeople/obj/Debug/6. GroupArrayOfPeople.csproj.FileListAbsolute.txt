@@ -1,0 +1,5 @@
+D:\Telerik\JavaScript - Part I\Using Objects\6. GroupArrayOfPeople\bin\_6.GroupArrayOfPeople.dll
+D:\Telerik\JavaScript - Part I\Using Objects\6. GroupArrayOfPeople\bin\_6.GroupArrayOfPeople.pdb
+D:\Telerik\JavaScript - Part I\Using Objects\6. GroupArrayOfPeople\obj\Debug\6. GroupArrayOfPeople.csprojResolveAssemblyReference.cache
+D:\Telerik\JavaScript - Part I\Using Objects\6. GroupArrayOfPeople\obj\Debug\_6.GroupArrayOfPeople.dll
+D:\Telerik\JavaScript - Part I\Using Objects\6. GroupArrayOfPeople\obj\Debug\_6.GroupArrayOfPeople.pdb

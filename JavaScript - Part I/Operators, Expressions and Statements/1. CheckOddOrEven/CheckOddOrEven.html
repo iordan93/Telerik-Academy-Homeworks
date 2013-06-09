@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Check if a number is odd or even</title>
+</head>
+<body>
+    <label for="isOddOrEven">Please enter a number: </label>
+    <input type="text" id="isOddOrEven" />
+    <input type="submit" id="checkNumber" onclick="checkOddOrEven()" value="Submit" />
+    <span id="result"></span>
+
+    <script type="text/javascript">
+        function checkOddOrEven() {
+            // Read the number
+            var number = parseInt(document.getElementById("isOddOrEven").value);
+
+            // If the number is divisible by 2 without remainder, it is even; else it is odd
+            if (number % 2 == 0) {
+                document.getElementById("result").innerHTML = "The number is even.";
+            }
+            else if (number % 2 == 1) {
+                document.getElementById("result").innerHTML = "The number is odd.";
+            }
+
+            // If the user enters a floating point number, a string or nothing, display an error message
+            else {
+                document.getElementById("result").innerHTML = "Please enter a valid number.";
+
+            }
+        }
+    </script>
+</body>
+</html>

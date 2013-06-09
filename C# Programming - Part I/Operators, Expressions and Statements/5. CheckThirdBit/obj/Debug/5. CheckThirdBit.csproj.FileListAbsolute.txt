@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\5. CheckThirdBit\bin\Debug\_5.CheckThirdBit.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\5. CheckThirdBit\bin\Debug\_5.CheckThirdBit.pdb
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\5. CheckThirdBit\obj\Debug\_5.CheckThirdBit.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\5. CheckThirdBit\obj\Debug\_5.CheckThirdBit.pdb

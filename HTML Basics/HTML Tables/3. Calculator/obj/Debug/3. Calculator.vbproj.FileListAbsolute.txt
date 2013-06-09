@@ -1,0 +1,8 @@
+D:\Telerik\HTML Basics\HTML Tables\3. Calculator\bin\_3.Calculator.dll
+D:\Telerik\HTML Basics\HTML Tables\3. Calculator\bin\_3.Calculator.pdb
+D:\Telerik\HTML Basics\HTML Tables\3. Calculator\bin\_3.Calculator.xml
+D:\Telerik\HTML Basics\HTML Tables\3. Calculator\obj\Debug\_3.Calculator.Resources.resources
+D:\Telerik\HTML Basics\HTML Tables\3. Calculator\obj\Debug\3. Calculator.vbproj.GenerateResource.Cache
+D:\Telerik\HTML Basics\HTML Tables\3. Calculator\obj\Debug\_3.Calculator.dll
+D:\Telerik\HTML Basics\HTML Tables\3. Calculator\obj\Debug\_3.Calculator.xml
+D:\Telerik\HTML Basics\HTML Tables\3. Calculator\obj\Debug\_3.Calculator.pdb

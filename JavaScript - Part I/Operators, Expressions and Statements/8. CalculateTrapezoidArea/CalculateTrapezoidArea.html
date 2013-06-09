@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Calculate the area of a trapezoid given a, b and h</title>
+</head>
+<body>
+    <p>Please enter the two bases of the trapezoid, a and b, and the height h:</p>
+    <label for="bigBase">a = </label>
+    <input type="text" id="bigBase" />
+    <br />
+    <label for="smallBase">b = </label>
+    <input type="text" id="smallBase" />
+    <br />
+    <label for="height">h = </label>
+    <input type="text" id="height" />
+    <br />
+
+    <input type="submit" id="calculateArea" value="Submit" onclick="calculateArea()" />
+    <br />
+    <span id="result"></span>
+
+    <script type="text/javascript">
+        function calculateArea() {
+            // Read the numbers
+            var bigBase = parseFloat(document.getElementById("bigBase").value); 
+            var smallBase = parseFloat(document.getElementById("smallBase").value);
+            var height = parseFloat(document.getElementById("height").value);
+
+            // Calculate the area
+            var area = 0.5 * (bigBase + smallBase) * height;
+
+            // Output
+            document.getElementById("result").innerHTML = "The area of the trapezoid is " + area + " square units.";
+
+
+        }
+    </script>
+</body>
+</html>

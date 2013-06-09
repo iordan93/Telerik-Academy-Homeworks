@@ -1,0 +1,4 @@
+D:\Telerik\CSS Styling\CSS Presentation\2. Violet Page\bin\_2.Violet_Page.dll
+D:\Telerik\CSS Styling\CSS Presentation\2. Violet Page\bin\_2.Violet_Page.pdb
+D:\Telerik\CSS Styling\CSS Presentation\2. Violet Page\obj\Debug\_2.Violet_Page.dll
+D:\Telerik\CSS Styling\CSS Presentation\2. Violet Page\obj\Debug\_2.Violet_Page.pdb

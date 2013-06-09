@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Check whether an element is bigger than its neighbours</title>
+</head>
+<body>
+    <p>This script will check whether the element at a specified position is bigger than its two neighbours.</p>
+    <label for="number">Please enter the array, a number at a time: </label>
+    <input type="text" id="number" />
+    <input type="submit" id="addNumber" onclick="addNumber()" value="Add number" />
+    <br />
+    <label for="numberToLookFor">Please enter the position of the number to check: </label>
+    <input type="text" id="position" />
+    <input type="submit" id="produceOutput" onclick="produceOutput()" value="Submit" />
+    <br />
+    <div id="result"></div>
+    <div id="arrayContents"></div>
+
+    <script type="text/javascript">
+        // An array to store the numbers
+        var array = [];
+
+        function addNumber() {
+            // Read the number
+            var number = parseFloat(document.getElementById("number").value);
+
+            // Push each number into the array
+            array.push(number);
+
+            // Print the added number in a sequence
+            document.getElementById("arrayContents").innerHTML += number + "<br />";
+
+        }
+
+        function checkBiggerThanNeighbours(array, index) {
+            if (index == 0) {
+                if (array[0] > array[1]) {
+                    return true;
+                }
+                return false;
+            }
+            else if (index == array.length - 1) {
+                if (array[array.length - 1] > array[array.length - 2]) {
+                    return true;
+                }
+                return false;
+            }
+            else {
+                if ((array[index] > array[index - 1]) && (array[index] > array[parseInt(index) + 1])) {
+                    return true;
+                }
+                return false;
+            }
+        }
+
+        function produceOutput() {
+            var position = document.getElementById("position").value;
+            if ((position < 0) || (position >= array.length)) {
+                document.getElementById("result").innerHTML = "The position you entered is invalid";
+            }
+            else {
+                document.getElementById("result").innerHTML = "The number " + array[position];
+                document.getElementById("result").innerHTML += checkBiggerThanNeighbours(array, position) ? " is " : " is not ";
+                document.getElementById("result").innerHTML += "bigger than its neighbours.";
+            }
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\2. Tribonacci\bin\Debug\_2.Tribonacci.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\2. Tribonacci\bin\Debug\_2.Tribonacci.pdb
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\2. Tribonacci\obj\Debug\2. Tribonacci.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\2. Tribonacci\obj\Debug\_2.Tribonacci.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\2. Tribonacci\obj\Debug\_2.Tribonacci.pdb

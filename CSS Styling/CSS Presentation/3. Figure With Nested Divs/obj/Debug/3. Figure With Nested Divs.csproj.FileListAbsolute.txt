@@ -1,0 +1,5 @@
+D:\Telerik\CSS Styling\CSS Presentation\3. Figure With Nested Divs\bin\_3.Figure_With_Nested_Divs.dll
+D:\Telerik\CSS Styling\CSS Presentation\3. Figure With Nested Divs\bin\_3.Figure_With_Nested_Divs.pdb
+D:\Telerik\CSS Styling\CSS Presentation\3. Figure With Nested Divs\obj\Debug\_3.Figure_With_Nested_Divs.dll
+D:\Telerik\CSS Styling\CSS Presentation\3. Figure With Nested Divs\obj\Debug\_3.Figure_With_Nested_Divs.pdb
+D:\Telerik\CSS Styling\CSS Presentation\3. Figure With Nested Divs\obj\Debug\3. Figure With Nested Divs.csprojResolveAssemblyReference.cache

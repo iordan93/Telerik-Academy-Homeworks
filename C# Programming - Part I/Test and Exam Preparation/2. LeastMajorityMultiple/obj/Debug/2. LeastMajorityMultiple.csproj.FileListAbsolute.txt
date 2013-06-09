@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\2. LeastMajorityMultiple\bin\Debug\_2.LeastMajorityMultiple.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\2. LeastMajorityMultiple\bin\Debug\_2.LeastMajorityMultiple.pdb
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\2. LeastMajorityMultiple\obj\Debug\_2.LeastMajorityMultiple.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\2. LeastMajorityMultiple\obj\Debug\_2.LeastMajorityMultiple.pdb

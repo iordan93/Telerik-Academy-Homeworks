@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part II\Arrays\2. CompareArraysElementByElement\bin\Debug\_2.CompareArraysElementByElement.exe
+D:\Telerik\C# Programming - Part II\Arrays\2. CompareArraysElementByElement\bin\Debug\_2.CompareArraysElementByElement.pdb
+D:\Telerik\C# Programming - Part II\Arrays\2. CompareArraysElementByElement\obj\Debug\2. CompareArraysElementByElement.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part II\Arrays\2. CompareArraysElementByElement\obj\Debug\_2.CompareArraysElementByElement.exe
+D:\Telerik\C# Programming - Part II\Arrays\2. CompareArraysElementByElement\obj\Debug\_2.CompareArraysElementByElement.pdb

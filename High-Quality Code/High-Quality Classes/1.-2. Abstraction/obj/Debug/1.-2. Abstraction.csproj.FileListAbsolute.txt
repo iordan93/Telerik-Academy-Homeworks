@@ -1,0 +1,5 @@
+D:\Telerik\High-Quality Code\High-Quality Classes\1.-2. Abstraction\bin\Debug\_1._2.Abstraction.exe.config
+D:\Telerik\High-Quality Code\High-Quality Classes\1.-2. Abstraction\bin\Debug\_1._2.Abstraction.exe
+D:\Telerik\High-Quality Code\High-Quality Classes\1.-2. Abstraction\bin\Debug\_1._2.Abstraction.pdb
+D:\Telerik\High-Quality Code\High-Quality Classes\1.-2. Abstraction\obj\Debug\_1._2.Abstraction.exe
+D:\Telerik\High-Quality Code\High-Quality Classes\1.-2. Abstraction\obj\Debug\_1._2.Abstraction.pdb

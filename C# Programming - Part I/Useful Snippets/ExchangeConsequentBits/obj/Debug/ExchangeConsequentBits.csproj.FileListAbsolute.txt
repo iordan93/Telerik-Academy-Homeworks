@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Useful Snippets\ExchangeConsequentBits\bin\Debug\ExchangeConsequentBits.exe
+D:\Telerik\C# Programming - Part I\Useful Snippets\ExchangeConsequentBits\bin\Debug\ExchangeConsequentBits.pdb
+D:\Telerik\C# Programming - Part I\Useful Snippets\ExchangeConsequentBits\obj\Debug\ExchangeConsequentBits.exe
+D:\Telerik\C# Programming - Part I\Useful Snippets\ExchangeConsequentBits\obj\Debug\ExchangeConsequentBits.pdb
+D:\Telerik\C# Programming - Part I\Useful Snippets\ExchangeConsequentBits\obj\Debug\ExchangeConsequentBits.csprojResolveAssemblyReference.cache

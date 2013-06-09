@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        function Solve(args) {
+            var number = args[0];
+            if (number === "0") {
+                return "A";
+            }
+            else return ConvertFromDecimal(number);
+        }
+
+        function GetSymbol(n) {
+            var smallLetters = ["", "a", "b", "c", "d", "e", "f", "g", "h", "i"];
+            var capitalLetters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+            var kaspichan = new Array(smallLetters.length * capitalLetters.length);
+            var m, i, j;
+
+            for (i = 0; i < kaspichan.length; i++) {
+                kaspichan[i] = smallLetters[parseInt(i / 26)] + capitalLetters[i % 26];
+            }
+
+            for (i = 0; i < 256; i++) {
+                if (n === i) {
+                    return kaspichan[i];
+                }
+            }
+            return "";
+        }
+
+        function ConvertFromDecimal(number) {
+            // Get the remnants in reverse order
+            var result = "";
+            while (number != 0) {
+                result = GetSymbol(number % 256) + result;
+                number = parseInt(number / 256);
+            }
+            return result;
+        }
+
+
+        console.log(Solve(["0"]));
+    </script>
+</body>
+</html>

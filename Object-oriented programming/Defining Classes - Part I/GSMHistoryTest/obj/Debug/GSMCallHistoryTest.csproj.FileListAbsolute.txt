@@ -1,0 +1,7 @@
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMHistoryTest\bin\Debug\GSMHistoryTest.exe
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMHistoryTest\bin\Debug\GSMHistoryTest.pdb
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMHistoryTest\bin\Debug\_1._12.GSM.dll
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMHistoryTest\bin\Debug\_1._12.GSM.pdb
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMHistoryTest\obj\Debug\GSMCallHistoryTest.csprojResolveAssemblyReference.cache
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMHistoryTest\obj\Debug\GSMHistoryTest.exe
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\GSMHistoryTest\obj\Debug\GSMHistoryTest.pdb

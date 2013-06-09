@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part II\Arrays\5. MaximalIncreasingSequence\bin\Debug\_5.MaximalIncreasingSequence.exe
+D:\Telerik\C# Programming - Part II\Arrays\5. MaximalIncreasingSequence\bin\Debug\_5.MaximalIncreasingSequence.pdb
+D:\Telerik\C# Programming - Part II\Arrays\5. MaximalIncreasingSequence\obj\Debug\_5.MaximalIncreasingSequence.exe
+D:\Telerik\C# Programming - Part II\Arrays\5. MaximalIncreasingSequence\obj\Debug\_5.MaximalIncreasingSequence.pdb

@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. PlanarCoordinates", "1. PlanarCoordinates\1. PlanarCoordinates.csproj", "{A133CA7E-ACE4-436A-A36B-FD2FC493279F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. RemoveElements", "2. RemoveElements\2. RemoveElements.csproj", "{21DCA7E3-0610-45D3-BC32-87077ECEC39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. DeepCopy", "3. DeepCopy\3. DeepCopy.csproj", "{AA71C41A-F76D-43AC-AA4A-0496BA318EF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. CheckIfObjectContainsProperty", "4. CheckIfObjectContainsProperty\4. CheckIfObjectContainsProperty.csproj", "{2AF69F5E-DEC8-44BB-AB3A-8BB21B9C5A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. FindYoungestPerson", "5. FindYoungestPerson\5. FindYoungestPerson.csproj", "{25A4745F-16A4-4262-9568-05D06135AAC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. GroupArrayOfPeople", "6. GroupArrayOfPeople\6. GroupArrayOfPeople.csproj", "{BE41BD40-892D-4C18-9D7F-272DA5C96A9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A133CA7E-ACE4-436A-A36B-FD2FC493279F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A133CA7E-ACE4-436A-A36B-FD2FC493279F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A133CA7E-ACE4-436A-A36B-FD2FC493279F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A133CA7E-ACE4-436A-A36B-FD2FC493279F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21DCA7E3-0610-45D3-BC32-87077ECEC39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21DCA7E3-0610-45D3-BC32-87077ECEC39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21DCA7E3-0610-45D3-BC32-87077ECEC39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21DCA7E3-0610-45D3-BC32-87077ECEC39B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA71C41A-F76D-43AC-AA4A-0496BA318EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA71C41A-F76D-43AC-AA4A-0496BA318EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA71C41A-F76D-43AC-AA4A-0496BA318EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA71C41A-F76D-43AC-AA4A-0496BA318EF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF69F5E-DEC8-44BB-AB3A-8BB21B9C5A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF69F5E-DEC8-44BB-AB3A-8BB21B9C5A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF69F5E-DEC8-44BB-AB3A-8BB21B9C5A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF69F5E-DEC8-44BB-AB3A-8BB21B9C5A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25A4745F-16A4-4262-9568-05D06135AAC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A4745F-16A4-4262-9568-05D06135AAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A4745F-16A4-4262-9568-05D06135AAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A4745F-16A4-4262-9568-05D06135AAC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE41BD40-892D-4C18-9D7F-272DA5C96A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE41BD40-892D-4C18-9D7F-272DA5C96A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE41BD40-892D-4C18-9D7F-272DA5C96A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE41BD40-892D-4C18-9D7F-272DA5C96A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,72 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Links */
+a:link {
+    color: #dde4a6;
+    text-decoration: none;
+}
+
+a:hover, a:visited:hover {
+    color: #f81e30;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #bbc18c;
+}
+
+/* Table */
+table {
+    background-color: #595959;
+    margin: auto;
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 12px;
+    color: #b2b2b2;
+}
+
+th {
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: normal;
+    text-align: left;
+}
+
+th, td {
+    padding: 7px;
+}
+
+    td:not(.label) {
+        padding-right: 80px;
+    }
+
+.label {
+    font-style: italic;
+    color: #ffffff;
+}
+
+#answerStatus {
+    color: #dc692c;
+    font-weight: bold;
+}
+
+/* Divs in table cells */
+div#online {
+    width: 12px;
+    height: 12px;
+    background-color: #71b47a;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+}
+
+div#name {
+    color: #dde4a6;
+}
+
+div#supportStatus {
+    color: #f81e30;
+    font-weight: bold;
+}

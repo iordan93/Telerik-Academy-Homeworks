@@ -1,0 +1,7 @@
+D:\Telerik\C# Programming - Part I\Intro to Programming\9. MembersOfSequence\bin\Debug\_9.MembersOfSequence.exe.config
+D:\Telerik\C# Programming - Part I\Intro to Programming\9. MembersOfSequence\bin\Debug\_9.MembersOfSequence.exe
+D:\Telerik\C# Programming - Part I\Intro to Programming\9. MembersOfSequence\bin\Debug\_9.MembersOfSequence.pdb
+D:\Telerik\C# Programming - Part I\Intro to Programming\9. MembersOfSequence\bin\Debug\_9.MembersOfSequence.exe.CodeAnalysisLog.xml
+D:\Telerik\C# Programming - Part I\Intro to Programming\9. MembersOfSequence\bin\Debug\_9.MembersOfSequence.exe.lastcodeanalysissucceeded
+D:\Telerik\C# Programming - Part I\Intro to Programming\9. MembersOfSequence\obj\Debug\_9.MembersOfSequence.exe
+D:\Telerik\C# Programming - Part I\Intro to Programming\9. MembersOfSequence\obj\Debug\_9.MembersOfSequence.pdb

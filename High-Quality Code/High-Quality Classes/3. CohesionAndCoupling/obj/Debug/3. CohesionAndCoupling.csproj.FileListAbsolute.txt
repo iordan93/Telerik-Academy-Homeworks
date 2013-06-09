@@ -1,0 +1,6 @@
+D:\Telerik\High-Quality Code\High-Quality Classes\3. CohesionAndCoupling\bin\Debug\_3.CohesionAndCoupling.exe.config
+D:\Telerik\High-Quality Code\High-Quality Classes\3. CohesionAndCoupling\bin\Debug\_3.CohesionAndCoupling.exe
+D:\Telerik\High-Quality Code\High-Quality Classes\3. CohesionAndCoupling\bin\Debug\_3.CohesionAndCoupling.pdb
+D:\Telerik\High-Quality Code\High-Quality Classes\3. CohesionAndCoupling\obj\Debug\3. CohesionAndCoupling.csprojResolveAssemblyReference.cache
+D:\Telerik\High-Quality Code\High-Quality Classes\3. CohesionAndCoupling\obj\Debug\_3.CohesionAndCoupling.exe
+D:\Telerik\High-Quality Code\High-Quality Classes\3. CohesionAndCoupling\obj\Debug\_3.CohesionAndCoupling.pdb

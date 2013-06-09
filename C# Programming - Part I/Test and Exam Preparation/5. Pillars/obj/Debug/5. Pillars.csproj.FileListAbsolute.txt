@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\5. Pillars\bin\Debug\_5.Pillars.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\5. Pillars\bin\Debug\_5.Pillars.pdb
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\5. Pillars\obj\Debug\5. Pillars.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\5. Pillars\obj\Debug\_5.Pillars.exe
+D:\Telerik\C# Programming - Part I\Test and Exam Preparation\5. Pillars\obj\Debug\_5.Pillars.pdb

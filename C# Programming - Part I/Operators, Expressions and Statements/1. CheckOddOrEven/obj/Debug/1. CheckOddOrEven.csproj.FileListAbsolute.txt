@@ -1,0 +1,6 @@
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\1. CheckOddOrEven\bin\Debug\_1.CheckOddOrEven.exe.config
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\1. CheckOddOrEven\obj\Debug\1. CheckOddOrEven.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\1. CheckOddOrEven\bin\Debug\_1.CheckOddOrEven.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\1. CheckOddOrEven\bin\Debug\_1.CheckOddOrEven.pdb
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\1. CheckOddOrEven\obj\Debug\_1.CheckOddOrEven.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\1. CheckOddOrEven\obj\Debug\_1.CheckOddOrEven.pdb

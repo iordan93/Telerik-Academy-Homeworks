@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part II\Arrays\19. PrintPermutations\bin\Debug\_19.PrintPermutations.exe
+D:\Telerik\C# Programming - Part II\Arrays\19. PrintPermutations\bin\Debug\_19.PrintPermutations.pdb
+D:\Telerik\C# Programming - Part II\Arrays\19. PrintPermutations\obj\Debug\_19.PrintPermutations.exe
+D:\Telerik\C# Programming - Part II\Arrays\19. PrintPermutations\obj\Debug\_19.PrintPermutations.pdb

@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Useful Snippets\PointsRelativeToACricle\obj\Debug\PointsRelativeToACricle.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Programming - Part I\Useful Snippets\PointsRelativeToACricle\bin\Debug\PointsRelativeToACricle.exe
+D:\Telerik\C# Programming - Part I\Useful Snippets\PointsRelativeToACricle\bin\Debug\PointsRelativeToACricle.pdb
+D:\Telerik\C# Programming - Part I\Useful Snippets\PointsRelativeToACricle\obj\Debug\PointsRelativeToACricle.exe
+D:\Telerik\C# Programming - Part I\Useful Snippets\PointsRelativeToACricle\obj\Debug\PointsRelativeToACricle.pdb

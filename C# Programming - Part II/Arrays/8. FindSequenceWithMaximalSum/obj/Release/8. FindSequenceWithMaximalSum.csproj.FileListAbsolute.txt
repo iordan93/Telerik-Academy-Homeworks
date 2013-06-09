@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part II\Arrays\8. FindSequenceWithMaximalSum\bin\Release\_8.FindSequenceWithMaximalSum.exe
+D:\Telerik\C# Programming - Part II\Arrays\8. FindSequenceWithMaximalSum\bin\Release\_8.FindSequenceWithMaximalSum.pdb
+D:\Telerik\C# Programming - Part II\Arrays\8. FindSequenceWithMaximalSum\obj\Release\_8.FindSequenceWithMaximalSum.exe
+D:\Telerik\C# Programming - Part II\Arrays\8. FindSequenceWithMaximalSum\obj\Release\_8.FindSequenceWithMaximalSum.pdb

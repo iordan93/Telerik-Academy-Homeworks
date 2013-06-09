@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Navigation", "1. Navigation\1. Navigation.csproj", "{35CC7D2A-68CA-4B1C-B9AA-2E957B284141}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Registration and Login Form", "2. Registration and Login Form\2. Registration and Login Form.csproj", "{CE18D428-BC35-4A15-8535-3F08D5BE1852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Product List", "3. Product List\3. Product List.csproj", "{ABBDD40C-D677-4686-B7CD-3C20C977821E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35CC7D2A-68CA-4B1C-B9AA-2E957B284141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CC7D2A-68CA-4B1C-B9AA-2E957B284141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CC7D2A-68CA-4B1C-B9AA-2E957B284141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CC7D2A-68CA-4B1C-B9AA-2E957B284141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE18D428-BC35-4A15-8535-3F08D5BE1852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE18D428-BC35-4A15-8535-3F08D5BE1852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE18D428-BC35-4A15-8535-3F08D5BE1852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE18D428-BC35-4A15-8535-3F08D5BE1852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABBDD40C-D677-4686-B7CD-3C20C977821E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBDD40C-D677-4686-B7CD-3C20C977821E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBDD40C-D677-4686-B7CD-3C20C977821E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBDD40C-D677-4686-B7CD-3C20C977821E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\1.-12. GSM\bin\Debug\_1._12.GSM.dll
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\1.-12. GSM\bin\Debug\_1._12.GSM.pdb
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\1.-12. GSM\obj\Debug\1.-12. GSM.csprojResolveAssemblyReference.cache
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\1.-12. GSM\obj\Debug\_1._12.GSM.dll
+D:\Telerik\Object-oriented programming\Defining Classes - Part I\1.-12. GSM\obj\Debug\_1._12.GSM.pdb

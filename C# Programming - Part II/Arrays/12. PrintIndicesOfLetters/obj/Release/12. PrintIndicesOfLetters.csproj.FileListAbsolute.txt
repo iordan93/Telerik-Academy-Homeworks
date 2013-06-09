@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part II\Arrays\12. PrintIndicesOfLetters\bin\Release\_12.PrintIndicesOfLetters.exe
+D:\Telerik\C# Programming - Part II\Arrays\12. PrintIndicesOfLetters\bin\Release\_12.PrintIndicesOfLetters.pdb
+D:\Telerik\C# Programming - Part II\Arrays\12. PrintIndicesOfLetters\obj\Release\_12.PrintIndicesOfLetters.exe
+D:\Telerik\C# Programming - Part II\Arrays\12. PrintIndicesOfLetters\obj\Release\_12.PrintIndicesOfLetters.pdb

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Compute", "1. Compute\1. Compute.csproj", "{58DA189C-F4FB-4B8D-852C-134A2EA8B473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. CalcCount", "2. CalcCount\2. CalcCount.csproj", "{BFF7E0F9-2982-4FD9-A34F-3AA9EDEF1EBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. CalcSum", "3. CalcSum\3. CalcSum.csproj", "{834A8666-77F5-4CB9-ABC0-775A95FB9AE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58DA189C-F4FB-4B8D-852C-134A2EA8B473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DA189C-F4FB-4B8D-852C-134A2EA8B473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58DA189C-F4FB-4B8D-852C-134A2EA8B473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58DA189C-F4FB-4B8D-852C-134A2EA8B473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFF7E0F9-2982-4FD9-A34F-3AA9EDEF1EBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF7E0F9-2982-4FD9-A34F-3AA9EDEF1EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF7E0F9-2982-4FD9-A34F-3AA9EDEF1EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF7E0F9-2982-4FD9-A34F-3AA9EDEF1EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{834A8666-77F5-4CB9-ABC0-775A95FB9AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834A8666-77F5-4CB9-ABC0-775A95FB9AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834A8666-77F5-4CB9-ABC0-775A95FB9AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834A8666-77F5-4CB9-ABC0-775A95FB9AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

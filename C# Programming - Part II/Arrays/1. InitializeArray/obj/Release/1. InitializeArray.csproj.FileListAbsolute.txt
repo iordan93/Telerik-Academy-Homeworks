@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part II\Arrays\1. InitializeArray\bin\Release\_1.InitializeArray.exe
+D:\Telerik\C# Programming - Part II\Arrays\1. InitializeArray\bin\Release\_1.InitializeArray.pdb
+D:\Telerik\C# Programming - Part II\Arrays\1. InitializeArray\obj\Release\_1.InitializeArray.exe
+D:\Telerik\C# Programming - Part II\Arrays\1. InitializeArray\obj\Release\_1.InitializeArray.pdb

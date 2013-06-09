@@ -1,0 +1,5 @@
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam Preparation\1. KaspichanNumbers\bin\_1.KaspichanNumbers.dll
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam Preparation\1. KaspichanNumbers\bin\_1.KaspichanNumbers.pdb
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam Preparation\1. KaspichanNumbers\obj\Debug\1. KaspichanNumbers.csprojResolveAssemblyReference.cache
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam Preparation\1. KaspichanNumbers\obj\Debug\_1.KaspichanNumbers.dll
+D:\Telerik\JavaScript - Part I\JavaScript 1 Exam Preparation\1. KaspichanNumbers\obj\Debug\_1.KaspichanNumbers.pdb

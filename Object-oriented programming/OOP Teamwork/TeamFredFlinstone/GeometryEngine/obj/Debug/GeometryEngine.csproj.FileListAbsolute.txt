@@ -1,0 +1,7 @@
+D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\GeometryEngine\bin\Debug\GeometryEngine.dll
+D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\GeometryEngine\bin\Debug\GeometryEngine.pdb
+D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\GeometryEngine\obj\Debug\GeometryEngine.dll
+D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\GeometryEngine\obj\Debug\GeometryEngine.pdb
+D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\GeometryEngine\obj\Debug\GeometryEngine.csprojResolveAssemblyReference.cache
+D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\GeometryEngine\bin\Debug\CustomExceptions.dll
+D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\GeometryEngine\bin\Debug\CustomExceptions.pdb

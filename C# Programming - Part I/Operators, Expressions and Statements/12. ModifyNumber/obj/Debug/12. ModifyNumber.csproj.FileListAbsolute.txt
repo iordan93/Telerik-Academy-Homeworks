@@ -1,0 +1,4 @@
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\12. ModifyNumber\bin\Debug\_12.ModifyNumber.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\12. ModifyNumber\bin\Debug\_12.ModifyNumber.pdb
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\12. ModifyNumber\obj\Debug\_12.ModifyNumber.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\12. ModifyNumber\obj\Debug\_12.ModifyNumber.pdb

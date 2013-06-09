@@ -1,0 +1,5 @@
+D:\Telerik\CSS Styling\CSS Styling Exam\Task 2\bin\Task 2.dll
+D:\Telerik\CSS Styling\CSS Styling Exam\Task 2\bin\Task 2.pdb
+D:\Telerik\CSS Styling\CSS Styling Exam\Task 2\obj\Debug\Task 2.csprojResolveAssemblyReference.cache
+D:\Telerik\CSS Styling\CSS Styling Exam\Task 2\obj\Debug\Task 2.dll
+D:\Telerik\CSS Styling\CSS Styling Exam\Task 2\obj\Debug\Task 2.pdb

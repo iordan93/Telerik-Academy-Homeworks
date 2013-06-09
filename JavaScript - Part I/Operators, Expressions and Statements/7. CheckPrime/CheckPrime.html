@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Check if a posiive integer is prime</title>
+</head>
+<body>
+    <label for="number">Please enter the number: </label>
+    <input type="text" id="number" />
+
+    <input type="submit" id="checkPrime" value="Submit" onclick="checkPrime()" />
+    <span id="result"></span>
+
+    <script type="text/javascript">
+        function checkPrime() {
+            // Read the number
+            var number = parseInt(document.getElementById("number").value);
+
+            if (number <= 0) {
+                document.getElementById("result").innerHTML = "The number must be greater than zero.";
+            }
+            else if (number == 1) {
+                document.getElementById("result").innerHTML = "The number 1 is neither prime, nor not prime.";
+
+            }
+            else {
+                // Suppose the number is prime, then run a loop from 2 to square root of the number
+                // If the number is divisible by some number in the loop, then it is not prime
+                var numberIsPrime = true;
+                for (var i = 2; i <= Math.sqrt(number) ; i++) {
+                    if (number % i == 0) {
+                        numberIsPrime = false;
+                        break;
+                    }
+                }
+
+                // Output
+                if (numberIsPrime) {
+                    document.getElementById("result").innerHTML = "The number " + number + " is prime.";
+                }
+                else {
+                    document.getElementById("result").innerHTML = "The number " + number + " is not prime.";
+
+                }
+            }
+        }
+    </script>
+</body>
+</html>

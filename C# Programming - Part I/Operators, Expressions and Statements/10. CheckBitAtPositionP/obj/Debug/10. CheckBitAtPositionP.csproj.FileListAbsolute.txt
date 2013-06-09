@@ -1,0 +1,5 @@
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\10. CheckBitAtPositionP\bin\Debug\_10.CheckBitAtPositionP.exe.config
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\10. CheckBitAtPositionP\bin\Debug\_10.CheckBitAtPositionP.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\10. CheckBitAtPositionP\bin\Debug\_10.CheckBitAtPositionP.pdb
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\10. CheckBitAtPositionP\obj\Debug\_10.CheckBitAtPositionP.exe
+D:\Telerik\C# Programming - Part I\Operators, Expressions and Statements\10. CheckBitAtPositionP\obj\Debug\_10.CheckBitAtPositionP.pdb

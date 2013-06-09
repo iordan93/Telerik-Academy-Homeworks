@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Deep copy</title>
+</head>
+<body>
+    <p>This script will make a deep copy of an object.</p>
+    <span id="result"></span>
+
+    <script type="text/javascript">
+        function DeepCopy(obj) {
+            // If the object is null or is not an object, return it (to make sure this function will work anytime)
+            if (obj == null || typeof obj != "object") {
+                return obj;
+            }
+
+            // If the object is an array, copy each element
+            if (obj instanceof Array) {
+                var copiedArray = [];
+                for (var i = 0 ; i < obj.length ; i++) {
+                    copiedArray[i] = DeepCopy(obj[i]);
+                }
+                return copiedArray;
+            }
+
+            // If the object is instance of Object (most common case), copy each attribute (property or funciton)
+            if (obj instanceof Object) {
+                var copied = {};
+                for (var attribute in obj) {
+                    if (obj.hasOwnProperty(attribute)) {
+                        copied[attribute] = DeepCopy(obj[attribute]);
+                    }
+                }
+                return copied;
+            }
+            throw new Error("Unable to make a deep copy of the specified object.");
+        }
+
+        var obj = {
+            x: 10,
+            f: function () {
+                return this.x + this.x;
+            }
+        };
+
+        // Test
+        document.getElementById("result").innerHTML = "Original: " + obj.f() + "<br />";
+        var anotherObj = DeepCopy(obj);
+        anotherObj.x = 5;
+        document.getElementById("result").innerHTML += "Copied: " + anotherObj.f() + "<br />";
+        document.getElementById("result").innerHTML += "The original value is still kept intact: " + obj.f() + "<br /> <br />";
+        var array = [2, 3];
+        var array2 = DeepCopy(array);
+        array2[0] = 1;
+        document.getElementById("result").innerHTML += "Deep copied array <br /> Original: " + array[0] + ", " + array[1] +
+                                                        "<br /> Copied: " + array2[0] + ", " + array2[1];
+    </script>
+</body>
+</html>
