@@ -1,6 +1,0 @@
-D:\Telerik\C# Programming - Part I\3. TelerikLogo\3. TelerikLogo\bin\Debug\_3.TelerikLogo.exe.config
-D:\Telerik\C# Programming - Part I\3. TelerikLogo\3. TelerikLogo\bin\Debug\_3.TelerikLogo.exe
-D:\Telerik\C# Programming - Part I\3. TelerikLogo\3. TelerikLogo\bin\Debug\_3.TelerikLogo.pdb
-D:\Telerik\C# Programming - Part I\3. TelerikLogo\3. TelerikLogo\obj\Debug\3. TelerikLogo.csprojResolveAssemblyReference.cache
-D:\Telerik\C# Programming - Part I\3. TelerikLogo\3. TelerikLogo\obj\Debug\_3.TelerikLogo.exe
-D:\Telerik\C# Programming - Part I\3. TelerikLogo\3. TelerikLogo\obj\Debug\_3.TelerikLogo.pdb

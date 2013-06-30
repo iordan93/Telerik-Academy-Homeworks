@@ -1,1 +1,0 @@
-D:\Telerik\C# Programming - Part II\CSharp Part 2 Exam\5. OneTaskIsNotEnough\bin\Debug\_5.OneTaskIsNotEnough.exe.config

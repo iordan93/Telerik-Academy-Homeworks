@@ -1,5 +1,0 @@
-D:\Telerik\Object-oriented programming\OOP Exam\1. SoftwareAcademy\bin\Debug\_1.SoftwareAcademy.exe
-D:\Telerik\Object-oriented programming\OOP Exam\1. SoftwareAcademy\bin\Debug\_1.SoftwareAcademy.pdb
-D:\Telerik\Object-oriented programming\OOP Exam\1. SoftwareAcademy\obj\Debug\1. SoftwareAcademy.csprojResolveAssemblyReference.cache
-D:\Telerik\Object-oriented programming\OOP Exam\1. SoftwareAcademy\obj\Debug\_1.SoftwareAcademy.exe
-D:\Telerik\Object-oriented programming\OOP Exam\1. SoftwareAcademy\obj\Debug\_1.SoftwareAcademy.pdb

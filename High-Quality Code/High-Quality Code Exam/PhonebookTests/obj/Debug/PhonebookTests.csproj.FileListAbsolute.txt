@@ -1,7 +1,0 @@
-D:\Telerik\High-Quality Code\High-Quality Code Exam\PhonebookTests\bin\Debug\PhonebookTests.dll
-D:\Telerik\High-Quality Code\High-Quality Code Exam\PhonebookTests\bin\Debug\PhonebookTests.pdb
-D:\Telerik\High-Quality Code\High-Quality Code Exam\PhonebookTests\obj\Debug\PhonebookTests.csprojResolveAssemblyReference.cache
-D:\Telerik\High-Quality Code\High-Quality Code Exam\PhonebookTests\obj\Debug\PhonebookTests.dll
-D:\Telerik\High-Quality Code\High-Quality Code Exam\PhonebookTests\obj\Debug\PhonebookTests.pdb
-D:\Telerik\High-Quality Code\High-Quality Code Exam\PhonebookTests\bin\Debug\ConsoleApplication1.exe
-D:\Telerik\High-Quality Code\High-Quality Code Exam\PhonebookTests\bin\Debug\ConsoleApplication1.pdb

@@ -1,4 +1,0 @@
-D:\Telerik\C# Programming - Part II\CSharp Part 2 Exam\2. GreedyDwarf\bin\Debug\_2.GreedyDwarf.exe
-D:\Telerik\C# Programming - Part II\CSharp Part 2 Exam\2. GreedyDwarf\bin\Debug\_2.GreedyDwarf.pdb
-D:\Telerik\C# Programming - Part II\CSharp Part 2 Exam\2. GreedyDwarf\obj\Debug\_2.GreedyDwarf.exe
-D:\Telerik\C# Programming - Part II\CSharp Part 2 Exam\2. GreedyDwarf\obj\Debug\_2.GreedyDwarf.pdb

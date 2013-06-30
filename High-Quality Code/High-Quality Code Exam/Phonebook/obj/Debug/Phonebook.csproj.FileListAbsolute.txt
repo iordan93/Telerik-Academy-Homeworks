@@ -1,7 +1,0 @@
-D:\Telerik\High-Quality Code\High-Quality Code Exam\Phonebook\bin\Debug\ConsoleApplication1.exe
-D:\Telerik\High-Quality Code\High-Quality Code Exam\Phonebook\bin\Debug\ConsoleApplication1.pdb
-D:\Telerik\High-Quality Code\High-Quality Code Exam\Phonebook\bin\Debug\PowerCollections.dll
-D:\Telerik\High-Quality Code\High-Quality Code Exam\Phonebook\bin\Debug\PowerCollections.xml
-D:\Telerik\High-Quality Code\High-Quality Code Exam\Phonebook\obj\Debug\Phonebook.csprojResolveAssemblyReference.cache
-D:\Telerik\High-Quality Code\High-Quality Code Exam\Phonebook\obj\Debug\ConsoleApplication1.exe
-D:\Telerik\High-Quality Code\High-Quality Code Exam\Phonebook\obj\Debug\ConsoleApplication1.pdb

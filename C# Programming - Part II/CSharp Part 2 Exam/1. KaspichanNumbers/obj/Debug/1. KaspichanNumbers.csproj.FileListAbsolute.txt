@@ -1,5 +1,0 @@
-D:\Telerik\C# Programming - Part II\CSharp Part 2 Exam\1. KaspichanNumbers\obj\Debug\1. KaspichanNumbers.csprojResolveAssemblyReference.cache
-D:\Telerik\C# Programming - Part II\CSharp Part 2 Exam\1. KaspichanNumbers\bin\Debug\_1.KaspichanNumbers.exe
-D:\Telerik\C# Programming - Part II\CSharp Part 2 Exam\1. KaspichanNumbers\bin\Debug\_1.KaspichanNumbers.pdb
-D:\Telerik\C# Programming - Part II\CSharp Part 2 Exam\1. KaspichanNumbers\obj\Debug\_1.KaspichanNumbers.exe
-D:\Telerik\C# Programming - Part II\CSharp Part 2 Exam\1. KaspichanNumbers\obj\Debug\_1.KaspichanNumbers.pdb
