@@ -1,7 +1,0 @@
-D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\LevelManager\bin\Debug\LevelManager.dll
-D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\LevelManager\bin\Debug\LevelManager.pdb
-D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\LevelManager\obj\Debug\LevelManager.csprojResolveAssemblyReference.cache
-D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\LevelManager\obj\Debug\LevelManager.dll
-D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\LevelManager\obj\Debug\LevelManager.pdb
-D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\LevelManager\bin\Debug\GeometryEngine.dll
-D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\LevelManager\bin\Debug\GeometryEngine.pdb

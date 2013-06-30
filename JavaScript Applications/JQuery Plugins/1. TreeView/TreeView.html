@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Tree View</title>
+    <script src="scripts/jquery-2.0.2.js"></script>
+    <script src="scripts/treeView.js"></script>
+    <link href="styles/style.css" rel="stylesheet" />
+</head>
+<body>
+    <ul id="treeView">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Submenu 1
+            <ul>
+                <li>Subitem 1</li>
+                <li>Subitem 2</li>
+                <li>Subsubmenu 1
+                    <ul>
+                        <li>Subsubitem 1</li>
+                        <li>Subsubitem 2</li>
+                        <li>Subsubitem 3</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Item 3</li>
+        <li>Submenu 2
+            <ul>
+                <li>Subitem 1</li>
+                <li>Subsubmenu 2
+                    <ul>
+                        <li>Subsubitem 1</li>
+                        <li>Subsubitem 2</li>
+                    </ul>
+                </li>
+                <li>Subitem 2</li>
+            </ul>
+        </li>
+        <li>Item 4</li>
+    </ul>
+
+    <script type="text/javascript">
+        $("#treeView").treeView();
+    </script>
+</body>
+</html>

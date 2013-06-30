@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Slider</title>
+    <style>
+        .carousel {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .carousel-panels {
+            position: relative;
+            left: 0;
+        }
+
+        .carousel-panel {
+            float: left;
+            width: 1%;
+        }
+
+        .left,
+        .right {
+            position: absolute;
+            top: 50%;
+            z-index: 1;
+        }
+
+        .left {
+            left: 0;
+        }
+
+        .right {
+            left: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="carousel">
+        <button class="left">Previous</button>
+
+        <div class="carousel-panels">
+            <div class="carousel-panel">
+                <img src="http://placehold.it/350x150" />
+            </div>
+            <div class="carousel-panel">
+                <img src="http://placehold.it/350x150" />
+            </div>
+            <div class="carousel-panel">
+                <img src="http://placehold.it/350x150" />
+            </div>
+        </div>
+
+        <button class="right">Next</button>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="slider.js"></script>
+</body>
+</html>

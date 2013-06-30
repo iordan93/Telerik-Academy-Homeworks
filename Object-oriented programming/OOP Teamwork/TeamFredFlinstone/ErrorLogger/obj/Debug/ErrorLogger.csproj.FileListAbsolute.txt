@@ -1,5 +1,0 @@
-D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\ErrorLogger\bin\Debug\ErrorLogger.dll
-D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\ErrorLogger\bin\Debug\ErrorLogger.pdb
-D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\ErrorLogger\obj\Debug\ErrorLogger.csprojResolveAssemblyReference.cache
-D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\ErrorLogger\obj\Debug\ErrorLogger.dll
-D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\ErrorLogger\obj\Debug\ErrorLogger.pdb

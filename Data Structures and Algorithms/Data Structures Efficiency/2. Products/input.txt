@@ -1,0 +1,4 @@
+﻿Add Laptop Dell;2000.00;Dell Inc.
+Add Keyboard A4 Tech;50.00;A4Tech
+Find 50.00;2000.00
+Find 0;30000

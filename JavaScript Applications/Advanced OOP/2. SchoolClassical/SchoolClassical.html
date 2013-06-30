@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>School - Classical</title>
+    <script src="classicalExtensions.js"></script>
+    <script src="schoolRepository.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        var student = new Student("Allice", "Shawn", 25, 4);
+        document.write("<strong>Student demo:</strong><br />" + student.toString() + "<br />");
+
+        var teacher = new Teacher("John", "Smith", 35, "Maths");
+        document.write("<strong>Teacher demo:</strong><br />" + teacher.toString() + "<br />");
+
+        var klass = new Klass("Physics", 25, [student], teacher);
+        document.write("<strong>Class demo:</strong><br />" + klass.toString() + "<br />");
+
+        var school = new School("The best school", "Sofia", [klass]);
+        document.write("<strong>School demo:</strong><br />" + school.toString() + "<br />");
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Favourites Bar</title>
+    <script src="classicalExtensions.js"></script>
+    <script src="favourites.js"></script>
+</head>
+<body>
+    <div id="favourites"></div>
+
+    <script type="text/javascript">
+        var google = new Url("Google", "http://www.google.com/");
+        var yahoo = new Url("Yahoo!", "http://yahoo.com/");
+        var searchEngines = new Folder("Search engines", [google, yahoo]);
+
+        var tutsplus = new Url("Tuts+", "https://www.tutsplus.com/");
+        var pluralsight = new Url("Pluralsight", "http://www.pluralsight.com/");
+        var tutorials = new Folder("Tutorials", [tutsplus, pluralsight]);
+
+        var telerikAcademy = new Url("Telerik Academy", "http://telerikacademy.com/");
+        var bgCoder = new Url("BGCoder", "http://www.bgcoder.com/");
+
+        var favourites = new FavouritesBar("#favourites", "Favourites", [searchEngines, tutorials], [bgCoder, telerikAcademy]);
+
+        favourites.render();
+    </script>
+</body>
+</html>

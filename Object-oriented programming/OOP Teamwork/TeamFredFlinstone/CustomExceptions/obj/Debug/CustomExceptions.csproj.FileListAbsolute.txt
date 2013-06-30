@@ -1,5 +1,0 @@
-D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\CustomExceptions\bin\Debug\CustomExceptions.dll
-D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\CustomExceptions\bin\Debug\CustomExceptions.pdb
-D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\CustomExceptions\obj\Debug\CustomExceptions.dll
-D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\CustomExceptions\obj\Debug\CustomExceptions.pdb
-D:\Telerik\Object-oriented programming\OOP Teamwork\fredflin\TeamFredFlinstone\CustomExceptions\obj\Debug\CustomExceptions.csprojResolveAssemblyReference.cache

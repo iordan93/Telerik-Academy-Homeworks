@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. OnlineMapTourism", "1. OnlineMapTourism\1. OnlineMapTourism.csproj", "{76920A36-B092-439A-92F4-160F1A633B87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. GooglePlusAndYouTube", "2. GooglePlusAndYouTube\2. GooglePlusAndYouTube.csproj", "{F7ED7A1F-36ED-4F7F-A1DC-CA4AE3312160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. ShowPhotosAndFriends", "3. ShowPhotosAndFriends\3. ShowPhotosAndFriends.csproj", "{A60B67BB-2059-4C27-AFEC-7553DDDC6622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. ShowBirthdayAndLocation", "4. ShowBirthdayAndLocation\4. ShowBirthdayAndLocation.csproj", "{E0856488-5A03-487A-AD4F-F76C05BD9AB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. SendMessageToFriend", "5. SendMessageToFriend\5. SendMessageToFriend.csproj", "{B3B1D8ED-E7CB-4A35-8EA8-11D6A9497F69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. FacebookLogOut", "6. FacebookLogOut\6. FacebookLogOut.csproj", "{992AE03A-9268-4DD6-A0B9-C19193348A3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76920A36-B092-439A-92F4-160F1A633B87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76920A36-B092-439A-92F4-160F1A633B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76920A36-B092-439A-92F4-160F1A633B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76920A36-B092-439A-92F4-160F1A633B87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7ED7A1F-36ED-4F7F-A1DC-CA4AE3312160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7ED7A1F-36ED-4F7F-A1DC-CA4AE3312160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7ED7A1F-36ED-4F7F-A1DC-CA4AE3312160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7ED7A1F-36ED-4F7F-A1DC-CA4AE3312160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A60B67BB-2059-4C27-AFEC-7553DDDC6622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60B67BB-2059-4C27-AFEC-7553DDDC6622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60B67BB-2059-4C27-AFEC-7553DDDC6622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60B67BB-2059-4C27-AFEC-7553DDDC6622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0856488-5A03-487A-AD4F-F76C05BD9AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0856488-5A03-487A-AD4F-F76C05BD9AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0856488-5A03-487A-AD4F-F76C05BD9AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0856488-5A03-487A-AD4F-F76C05BD9AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B1D8ED-E7CB-4A35-8EA8-11D6A9497F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B1D8ED-E7CB-4A35-8EA8-11D6A9497F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B1D8ED-E7CB-4A35-8EA8-11D6A9497F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B1D8ED-E7CB-4A35-8EA8-11D6A9497F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{992AE03A-9268-4DD6-A0B9-C19193348A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{992AE03A-9268-4DD6-A0B9-C19193348A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{992AE03A-9268-4DD6-A0B9-C19193348A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{992AE03A-9268-4DD6-A0B9-C19193348A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

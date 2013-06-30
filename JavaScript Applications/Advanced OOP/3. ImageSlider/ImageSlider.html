@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Image Slider</title>
+    <script src="prototypalExtensions.js"></script>
+    <script src="slider.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="slider"></div>
+        <div id="preview"></div>
+    </div>
+    <script type="text/javascript">
+        var slider = controls.getSlider();
+        slider.init("#slider", "#preview");
+        slider.addImage("Cat 1", "images/1.jpg", "images/1-big.jpg");
+        slider.addImage("Cat 2", "images/2.jpg", "images/2-big.jpg");
+        slider.addImage("Cat 3", "images/3.jpg", "images/3-big.jpg");
+        slider.addImage("Cat 4", "images/4.jpg", "images/4-big.jpg");
+        slider.addImage("Cat 5", "images/5.jpg", "images/5-big.jpg");
+
+        slider.render();
+    </script>
+</body>
+</html>

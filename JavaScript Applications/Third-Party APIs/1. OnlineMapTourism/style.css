@@ -1,0 +1,11 @@
+﻿#map-canvas {
+    width: 800px;
+    height: 500px;
+    display: inline-block
+}
+
+#capitals {
+    position: absolute;
+    top: 0px;
+    left: 820px;
+}

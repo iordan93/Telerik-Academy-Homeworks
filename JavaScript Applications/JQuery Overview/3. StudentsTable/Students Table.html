@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app>
+<head>
+    <title>Students Table</title>
+</head>
+
+<body>
+    <table ng-controller="studentsTable" class="ng-cloak" border="1" cellspacing="0">
+        <tr>
+            <th>First Name</th>
+            <th>Second Name</th>
+            <th>Grade</th>
+        </tr>
+
+        <tr ng-repeat="person in people">
+            <td>{{ person.firstName }}</td>
+            <td>{{ person.lastName }}</td>
+            <td>{{ person.grade }}</td>
+        </tr>
+    </table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script>
+        function studentsTable($scope) {
+            $scope.people =
+                [{ firstName: "Michael", lastName: "Collins", grade: 8 },
+                 { firstName: "Anne", lastName: "Peterson", grade: 12 }]
+        }
+    </script>
+</body>
+</html>
