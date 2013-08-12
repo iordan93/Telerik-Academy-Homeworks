@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. DictionaryMongoDb", "1. DictionaryMongoDb\1. DictionaryMongoDb.csproj", "{4C049183-5930-4DA6-AC21-159A329F8A98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. DictionaryRedis", "2. DictionaryRedis\2. DictionaryRedis.csproj", "{FA336D0B-EBC8-432C-AF52-8F6CF85D315E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C049183-5930-4DA6-AC21-159A329F8A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C049183-5930-4DA6-AC21-159A329F8A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C049183-5930-4DA6-AC21-159A329F8A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C049183-5930-4DA6-AC21-159A329F8A98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA336D0B-EBC8-432C-AF52-8F6CF85D315E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA336D0B-EBC8-432C-AF52-8F6CF85D315E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA336D0B-EBC8-432C-AF52-8F6CF85D315E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA336D0B-EBC8-432C-AF52-8F6CF85D315E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

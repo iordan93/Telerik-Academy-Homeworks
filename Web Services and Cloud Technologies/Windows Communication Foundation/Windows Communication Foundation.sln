@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. DayOfWeekService", "1. DayOfWeekService\1. DayOfWeekService.csproj", "{9C4C734B-C9DA-4AB4-8320-37935062526D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. DayOfWeekServiceClient", "2. DayOfWeekServiceClient\2. DayOfWeekServiceClient.csproj", "{078C4E36-EA42-45EE-BCD0-4B18B3AE330C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9C4C734B-C9DA-4AB4-8320-37935062526D} = {9C4C734B-C9DA-4AB4-8320-37935062526D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. StringOccurrencesService", "3. StringOccurrencesService\3. StringOccurrencesService.csproj", "{9A6A79C1-4686-4FC8-88EB-DDF2D4C93290}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. StringOccurrencesServiceClient", "5. StringOccurrencesServiceClient\5. StringOccurrencesServiceClient.csproj", "{79AD4C91-BCDD-4117-9B25-5245CA5B1698}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5215309B-DE56-46A5-A336-76A0E7CD03E6}"
+	ProjectSection(SolutionItems) = preProject
+		4. StringOccurrencesServiceHosted.jpg = 4. StringOccurrencesServiceHosted.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C4C734B-C9DA-4AB4-8320-37935062526D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4C734B-C9DA-4AB4-8320-37935062526D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4C734B-C9DA-4AB4-8320-37935062526D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4C734B-C9DA-4AB4-8320-37935062526D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{078C4E36-EA42-45EE-BCD0-4B18B3AE330C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078C4E36-EA42-45EE-BCD0-4B18B3AE330C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078C4E36-EA42-45EE-BCD0-4B18B3AE330C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078C4E36-EA42-45EE-BCD0-4B18B3AE330C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6A79C1-4686-4FC8-88EB-DDF2D4C93290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6A79C1-4686-4FC8-88EB-DDF2D4C93290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6A79C1-4686-4FC8-88EB-DDF2D4C93290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6A79C1-4686-4FC8-88EB-DDF2D4C93290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79AD4C91-BCDD-4117-9B25-5245CA5B1698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79AD4C91-BCDD-4117-9B25-5245CA5B1698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79AD4C91-BCDD-4117-9B25-5245CA5B1698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79AD4C91-BCDD-4117-9B25-5245CA5B1698}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

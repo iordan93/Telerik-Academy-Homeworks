@@ -1,0 +1,41 @@
+﻿<?xml-stylesheet type="text/xsl" href="catalogue-transformation.xsl"?>
+<catalogue>
+  <album>
+    <name>Thriller</name>
+    <artist>Michael Jackson</artist>
+    <year>1982</year>
+    <producer>John Landis</producer>
+    <price>150.00</price>
+    <songs>
+      <song>
+        <title>Wanna Be Starting Something</title>
+        <duration>5:51</duration>
+      </song>
+      <song>
+        <title>Baby Be Mine</title>
+        <duration>4:17</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Grease: The Original Soundtrack from the Motion Picture</name>
+    <artist>The Grease Cast</artist>
+    <year>1977</year>
+    <producer>Lous St. Louis, John Farrar, Barry Gibb, Albhy Galuten, Karl Richardson</producer>
+    <price>15.00</price>
+    <songs>
+      <song>
+        <title>Grease</title>
+        <duration>3:24</duration>
+      </song>
+      <song>
+        <title>Summer Nights</title>
+        <duration>3:35</duration>
+      </song>
+      <song>
+        <title>Hopelessly Devoted to You</title>
+        <duration>3:04</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>

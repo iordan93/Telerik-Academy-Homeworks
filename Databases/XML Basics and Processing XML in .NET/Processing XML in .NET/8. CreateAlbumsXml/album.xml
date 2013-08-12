@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<albums>
+	<album>
+		<name>Thriller</name>
+		<artist>Michael Jackson</artist>
+	</album>
+	<album>
+		<name>Grease: The Original Soundtrack from the Motion Picture</name>
+		<artist>The Grease Cast</artist>
+	</album>
+</albums>

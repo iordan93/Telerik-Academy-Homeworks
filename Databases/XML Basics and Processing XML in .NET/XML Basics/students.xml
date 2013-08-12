@@ -1,0 +1,79 @@
+﻿<?xml-stylesheet type="text/xsl" href="students-transformation.xsl"?>
+<students> <!--xmlns="urn:students"-->
+  <student>
+    <name>Michael Brown</name>
+    <sex>Male</sex>
+    <birth-date>5.07.1986</birth-date>
+    <phone>+359888123456</phone>
+    <email>michael.brown@gmail.com</email>
+    <course>first</course>
+    <speciality>Computer science</speciality>
+    <faculty-number>1234567890</faculty-number>
+    <enrollment-date>1.10.2012</enrollment-date>
+    <entrance-exam-result>89.6</entrance-exam-result>
+    <exams>
+      <exam>
+        <exam-name>Networks</exam-name>
+        <tutor>
+          <name>Debra Hopper</name>
+          <endorsements>
+            <endorsement>First endorsement</endorsement>
+            <endorsement>Second endorsement</endorsement>
+            <endorsement>Third endorsement</endorsement>
+          </endorsements>
+        </tutor>
+        <score>85.6</score>
+      </exam>
+      <exam>
+        <exam-name>Computer Science Basics</exam-name>
+        <tutor>
+          <name>Marie Trussel</name>
+          <endorsements>
+            <endorsement>Fourth endorsement</endorsement>
+            <endorsement>Fifth endorsement</endorsement>
+            <endorsement>Sixth endorsement</endorsement>
+          </endorsements>
+        </tutor>
+        <score>79.2</score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Katherine Horn</name>
+    <sex>Female</sex>
+    <birth-date>11.12.1989</birth-date>
+    <phone>+359888654321</phone>
+    <email>khorn@email.com</email>
+    <course>first</course>
+    <speciality>Computer science</speciality>
+    <faculty-number>5556667778</faculty-number>
+    <enrollment-date>1.10.2012</enrollment-date>
+    <entrance-exam-result>98.7</entrance-exam-result>
+    <exams>
+      <exam>
+        <exam-name>Networks</exam-name>
+        <tutor>
+          <name>Debra Hopper</name>
+          <endorsements>
+            <endorsement>First endorsement</endorsement>
+            <endorsement>Second endorsement</endorsement>
+            <endorsement>Third endorsement</endorsement>
+          </endorsements>
+        </tutor>
+        <score>87.6</score>
+      </exam>
+      <exam>
+        <exam-name>Computer Science Basics</exam-name>
+        <tutor>
+          <name>Marie Trussel</name>
+          <endorsements>
+            <endorsement>Fourth endorsement</endorsement>
+            <endorsement>Fifth endorsement</endorsement>
+            <endorsement>Sixth endorsement</endorsement>
+          </endorsements>
+        </tutor>
+        <score>95.5</score>
+      </exam>
+    </exams>
+  </student>
+</students>

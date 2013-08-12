@@ -1,0 +1,15 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AA64DFA2-95E1-443C-881C-3044B86425E4}"
+	ProjectSection(SolutionItems) = preProject
+		students-transformation.xsl = students-transformation.xsl
+		students.xml = students.xml
+		students.xsd = students.xsd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
