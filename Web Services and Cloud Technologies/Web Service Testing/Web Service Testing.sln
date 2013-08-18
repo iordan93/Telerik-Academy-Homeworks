@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsModels", "StudentsModels\StudentsModels.csproj", "{C4FF608B-C75C-4A1F-A77E-74AF4631956F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsData", "StudentsData\StudentsData.csproj", "{E8C4C259-AB5D-4019-9FE4-BA88BC66D509}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsRepositories", "StudentsRepositories\StudentsRepositories.csproj", "{211D52AC-B1D1-4A4A-A0B3-F7E1A940DD9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsServices", "StudentsServices\StudentsServices.csproj", "{FE1C89B6-6388-456E-88C7-CCECD842FB54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsTests", "StudentsTests\StudentsTests.csproj", "{1C7387DD-4480-4DEB-B33A-D06C1DAF2D28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{11B04D0D-5D21-4EEA-9723-D1646F2B204E}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Web Service Testing.vsmdi = Web Service Testing.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Web Service Testing.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4FF608B-C75C-4A1F-A77E-74AF4631956F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4FF608B-C75C-4A1F-A77E-74AF4631956F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4FF608B-C75C-4A1F-A77E-74AF4631956F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4FF608B-C75C-4A1F-A77E-74AF4631956F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C4C259-AB5D-4019-9FE4-BA88BC66D509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C4C259-AB5D-4019-9FE4-BA88BC66D509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C4C259-AB5D-4019-9FE4-BA88BC66D509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C4C259-AB5D-4019-9FE4-BA88BC66D509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{211D52AC-B1D1-4A4A-A0B3-F7E1A940DD9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{211D52AC-B1D1-4A4A-A0B3-F7E1A940DD9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{211D52AC-B1D1-4A4A-A0B3-F7E1A940DD9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{211D52AC-B1D1-4A4A-A0B3-F7E1A940DD9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE1C89B6-6388-456E-88C7-CCECD842FB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE1C89B6-6388-456E-88C7-CCECD842FB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE1C89B6-6388-456E-88C7-CCECD842FB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE1C89B6-6388-456E-88C7-CCECD842FB54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C7387DD-4480-4DEB-B33A-D06C1DAF2D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7387DD-4480-4DEB-B33A-D06C1DAF2D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7387DD-4480-4DEB-B33A-D06C1DAF2D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7387DD-4480-4DEB-B33A-D06C1DAF2D28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
