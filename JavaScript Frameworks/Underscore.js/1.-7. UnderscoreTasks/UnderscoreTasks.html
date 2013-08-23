@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Underscore Tasks</title>
+    <script src="Scripts/class.js"></script>
+    <script src="Scripts/underscore.js"></script>
+    <script src="Scripts/underscoreTasks.js"></script>
+</head>
+<body>
+    <script>
+        var Person = Class.create({
+            init: function (firstName, lastName, age) {
+                this.firstName = firstName;
+                this.lastName = lastName;
+                this.age = age;
+            },
+
+            toString: function () {
+                return this.firstName + " " + this.lastName;
+            }
+        });
+
+        var Student = Person.extend({
+            init: function (firstName, lastName, age, grade, marks) {
+                this._super(firstName, lastName, age);
+                this.grade = grade;
+                this.marks = marks;
+            }
+        });
+
+        var Animal = Class.create({
+            init: function (name, species, legsCount) {
+                this.name = name;
+                this.species = species;
+                this.legsCount = legsCount;
+            }
+        });
+
+        var Book = Class.create({
+            init: function (name, author) {
+                this.name = name;
+                this.author = author;
+            }
+        });
+
+        var students = [
+            new Student("Gary", "Martin", 15, 9, {
+                Maths: [6, 6, 6, 5, 6],
+                Physics: [5, 6, 5],
+                "Computer Sciences": [6, 6, 6]
+            }),
+            new Student("Douglas", "Little", 18, 10, {
+                Maths: [2, 2, 2],
+                "Computer Sciences": [6, 6, 2, 5],
+                Biology: [5, 5, 5, 6]
+            }),
+            new Student("Paul", "Monteiro", 23, 6, {
+                Physics: [6, 6, 5, 6, 6, 6]
+            }),
+            new Student("Gary", "Little", 25, 9, {
+                Physics: [2, 2],
+                Maths: [5, 5],
+                "Computer Sciences": [4]
+            })
+        ];
+
+        var animals = [
+            new Animal("goat", "mammal", 4),
+            new Animal("chicken", "bird", 2),
+            new Animal("dog", "mammal", 4),
+            new Animal("cow", "mammal", 4),
+            new Animal("goose", "bird", 2),
+            new Animal("beetle", "arthropod", 6),
+            new Animal("horse", "mammal", 4),
+            new Animal("spider", "arachnid", 8),
+            new Animal("scorpion", "arachnid", 8),
+            new Animal("ant", "arthropod", 6),
+            new Animal("fly", "arthropod", 6),
+            new Animal("crab", "arthropod", 8),
+            new Animal("centipede", "arthropod", 100)
+        ];
+
+        var books = [
+            new Book("The Count of Monte Christo", "Alexandre Dumas"),
+            new Book("Anna Karenina", "Leo Tolstoy"),
+            new Book("Macbeth", "William Shakespeare"),
+            new Book("Oliver Twist", "Charles Dickens"),
+            new Book("The Picture of Dorian Gray", "Oscar  Wilde"),
+            new Book("Emma", "Jane Austen"),
+            new Book("The Pickwick Papers", "Charles Dickens"),
+            new Book("King Lear", "William Shakespeare"),
+            new Book("Moby Dick", "Herman Melville"),
+            new Book("A Midsummer Night's Dream", "William Shakespeare")
+        ];
+
+        underscoreTasks.getStudentsWithFirstBeforeLastName(students);
+        console.log("------------------------------");
+        underscoreTasks.getStudentsAgedBetween18And24(students);
+        console.log("------------------------------");
+        underscoreTasks.getTheStudentWithHighestMarks(students);
+        console.log("------------------------------");
+        underscoreTasks.groupAnimalsBySpecies(animals);
+        console.log("------------------------------");
+        underscoreTasks.getTotalNumberOfLegs(animals);
+        console.log("------------------------------");
+        underscoreTasks.findMostPopularAuthor(books);
+        console.log("------------------------------");
+        underscoreTasks.findMostCommonFirstName(students);
+        console.log("------------------------------");
+        underscoreTasks.findMostCommonLastName(students);
+    </script>
+</body>
+</html>
