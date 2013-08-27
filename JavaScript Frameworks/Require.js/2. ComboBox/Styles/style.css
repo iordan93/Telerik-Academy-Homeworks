@@ -1,0 +1,14 @@
+﻿ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+li {
+    margin-top: -1px;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+    li:hover {
+        background-color: #dedede;
+    }

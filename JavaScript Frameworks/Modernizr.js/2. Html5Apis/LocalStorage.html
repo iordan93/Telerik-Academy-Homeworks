@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Local storage support</title>
+        <script src="Scripts/libs/polyfill.js"></script>
+        <script src="Scripts/libs/storage.js"></script>
+    </head>
+    <body>
+        <div>
+            <header>
+                <h3>Please have a look at the Console</h3>
+            </header>
+        </div>
+        <script>
+            localStorage.clear();
+            localStorage.setItem("name", "Doncho Minkov");
+            console.log(localStorage["name"]);
+        </script>
+    </body>
+</html>

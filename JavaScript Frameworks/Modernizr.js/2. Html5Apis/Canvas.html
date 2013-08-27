@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Canvas support</title>
+        <script src="Scripts/libs/modernizr-2.6.2.js"></script>
+        <script>
+            Modernizr.load({
+                test: Modernizr.canvas,
+                yep: 'Scripts/canvas.js',
+                nope: ['Scripts/libs/flash-canvas/flashcanvas.js', 'Scripts/canvas.js']
+            });
+        </script>
+    </head>
+    <body>
+        <canvas id="content"></canvas>
+    </body>
+</html>

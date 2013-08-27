@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Students</title>
+</head>
+<script src="Scripts/jquery-2.0.3.js"></script>
+<script src="Scripts/mustache.js"></script>
+<script src="Scripts/class.js"></script>
+<script src="Scripts/table-view.js"></script>
+<script src="Scripts/httpRequester.js"></script>
+<body>
+    <script type="x-mustache-template" id="student-template">	
+<div class="student">
+                <strong>Full name: </strong>{{firstName}} {{lastName}}
+                <br />
+<strong>Age: </strong>{{age}}
+                <strong>Grade: </strong>{{grade}}
+            </div>
+            <div id="marks" style="display:none;">
+                {{#marks}}
+                    <strong>{{subject}} </strong>{{score}}
+                    <br />
+                {{/marks}}
+            </div>
+    </script>
+    <div>
+        <h2>Click on a student's name to view their marks.</h2>
+    </div>
+    <div id="students">
+        <script>
+            var students = httpRequester.getJSON("http://localhost:2838/api/students",
+                function (data) {
+                    var studentTemplate = Mustache.compile(document.getElementById("student-template").innerHTML);
+
+                    var tableView = controls.getTableView(data, 4);
+
+                    var tableViewHtml = tableView.render(studentTemplate);
+                    var clicked = false;
+                    document.getElementById("students").innerHTML = tableViewHtml;
+                    $("#students").on("click", ".student", function () {
+                        var marks = $(this).siblings().first()
+                        if (!clicked) {
+                            marks.show(1000);
+                            clicked = true;
+                        }
+                        else {
+                            marks.hide(1000);
+                            clicked = false;
+                        }
+
+                    });
+                });
+        </script>
+    </div>
+</body>
+</html>

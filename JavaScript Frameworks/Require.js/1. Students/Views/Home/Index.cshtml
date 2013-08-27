@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Students Single Page App</title>
+	<script src="Scripts/libs/require.js" data-main="Scripts/app-config"></script>
+</head>
+<body>
+    <script type="x-mustache-template" id="student-template">
+        <div id="{{id}}">
+			<strong>{{firstName}} {{lastName}}</strong> <br />
+            <strong>Grade: {{grade}}</strong> <br />
+            <strong>Age: {{age}}</strong> <br />
+        </div>	
+    </script>
+
+     <script type="x-mustache-template" id="marks-template">
+			{{#.}}
+                {{subject}}: <strong>{{score}}</strong>							
+            {{/.}}
+            {{^.}}	   
+                This student has no marks yet 						
+            {{/.}}
+    </script>
+    <div id="content"></div>
+</body>
+</html>

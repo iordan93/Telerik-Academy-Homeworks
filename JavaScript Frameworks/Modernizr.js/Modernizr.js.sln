@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. BrowserFeatures", "1. BrowserFeatures\1. BrowserFeatures.csproj", "{7424F611-4355-4C54-A397-0C9ED2736C39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Html5Apis", "2. Html5Apis\2. Html5Apis.csproj", "{4B934FCD-D933-4A9A-BBE5-10C62B68460D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. DatePicker", "3. DatePicker\3. DatePicker.csproj", "{09B367D9-D216-4F39-BFF7-E860666E0944}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7424F611-4355-4C54-A397-0C9ED2736C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7424F611-4355-4C54-A397-0C9ED2736C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7424F611-4355-4C54-A397-0C9ED2736C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7424F611-4355-4C54-A397-0C9ED2736C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B934FCD-D933-4A9A-BBE5-10C62B68460D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B934FCD-D933-4A9A-BBE5-10C62B68460D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B934FCD-D933-4A9A-BBE5-10C62B68460D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B934FCD-D933-4A9A-BBE5-10C62B68460D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B367D9-D216-4F39-BFF7-E860666E0944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B367D9-D216-4F39-BFF7-E860666E0944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B367D9-D216-4F39-BFF7-E860666E0944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B367D9-D216-4F39-BFF7-E860666E0944}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

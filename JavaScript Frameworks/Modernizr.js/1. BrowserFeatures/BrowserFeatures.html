@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Browser Features</title>
+    <script src="scripts/libs/modernizr-2.6.2.js"></script>
+    <script src="scripts/libs/ua-parser.js"></script>
+    <script src="scripts/libs/jquery-2.0.3.js"></script>
+    <script src="scripts/libs/mustache.js"></script>
+
+    <style>
+        table, tbody, tr, th, td {
+            margin-top: 30px;
+            border: 1px solid #000000;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: left;
+        }
+
+        thead tr th {
+            background-color: #dedede;
+            border: 1px solid #000000;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Your browser type, version, OS and device</h2>
+        <div id="browser-info"></div>
+        <div id="os-info"></div>
+        <div id="device-info"></div>
+    </div>
+    <table id="features">
+        <thead>
+            <tr>
+                <th colspan="2" class="heading">Test your browser for HTML5 and CSS3 support! </th>
+            </tr>
+            <tr>
+                <th>Feature</th>
+                <th>Supported?</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script>
+        var parser = new UAParser();
+
+        var browserInfo = parser.getBrowser();
+        var browserTemplateString = "<strong>Browser: {{name}}, Version: {{version}}, Major: {{major}}</strong>";
+        var browserViewHtml = Mustache.render(browserTemplateString, browserInfo);
+        document.getElementById("browser-info").innerHTML = browserViewHtml;
+
+        var osInfo = parser.getOS();
+        var osTemplateString = "<strong>OS: {{name}}, Version: {{version}}</strong>";
+        var osViewHtml = Mustache.render(osTemplateString, osInfo);
+        document.getElementById("os-info").innerHTML = osViewHtml;
+
+        var deviceInfo = parser.getDevice();
+        var deviceTemplateString = "<strong>Device: Model: {{model}}, Vendor: {{vendor}}, Type: {{type}}</strong>";
+        var deviceViewHtml = Mustache.render(deviceTemplateString, deviceInfo);
+        document.getElementById("device-info").innerHTML = deviceViewHtml;
+
+        (function ($) {
+            var target = $('#features > tbody');
+
+            var traverse = function (object, prefix) {
+                prefix = prefix ? prefix + '.' : '';
+
+                for (property in object) {
+                    if (typeof object[property] == 'object') {
+                        traverse(object[property], prefix + property);
+                    }
+                    else if (typeof object[property] == 'boolean') {
+                        var
+                        tr = $('<tr />'),
+                        name = $('<th />', {
+                            text: prefix + property
+                        }),
+                        value = $('<td />', {
+                            text: object[property] ? 'Yes' : 'Nope'
+                        });
+
+                        target.append(tr.append(name).append(value));
+                    }
+                }
+            };
+
+            traverse(Modernizr, 'Modernizr');
+        })(jQuery);
+    </script>
+</body>
+</html>

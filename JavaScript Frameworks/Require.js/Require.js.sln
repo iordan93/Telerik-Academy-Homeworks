@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Students", "1. Students\1. Students.csproj", "{6A9E2120-FF66-4F4D-846E-D29820ABE27B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. ComboBox", "2. ComboBox\2. ComboBox.csproj", "{CD5F43A5-9C44-40B7-B7C5-3144ED3CE91C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A9E2120-FF66-4F4D-846E-D29820ABE27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9E2120-FF66-4F4D-846E-D29820ABE27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9E2120-FF66-4F4D-846E-D29820ABE27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9E2120-FF66-4F4D-846E-D29820ABE27B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD5F43A5-9C44-40B7-B7C5-3144ED3CE91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD5F43A5-9C44-40B7-B7C5-3144ED3CE91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD5F43A5-9C44-40B7-B7C5-3144ED3CE91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD5F43A5-9C44-40B7-B7C5-3144ED3CE91C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
