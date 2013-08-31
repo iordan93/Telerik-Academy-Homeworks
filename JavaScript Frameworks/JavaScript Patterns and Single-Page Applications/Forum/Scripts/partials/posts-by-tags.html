@@ -1,0 +1,27 @@
+﻿<h1>Posts by tags</h1>
+<button id="logout">Logout</button><br />
+{{#.}}
+<div id="post-{{id}}">
+    <h2>{{title}}</h2>
+    <h3>Posted on {{postDate}} by {{postedBy}}</h3>
+    <p id="post-text">{{text}}</p>
+    <strong>Tags:</strong>
+    {{#tags}}
+        {{.}}
+    {{/tags}}
+    {{^tags}}
+    <strong>No tags</strong>
+    {{/tags}}
+    <br />
+    <strong>Comments:</strong>
+    {{#comments}}
+            <div class="comment">
+                <span class="comment-header">Commented by {{commentedBy}} on {{postDate}}</span>
+                <p>{{text}}</p>
+            </div>
+    {{/comments}}
+    {{^comments}}
+    <strong>No comments</strong>
+    {{/comments}}
+</div>
+{{/.}}

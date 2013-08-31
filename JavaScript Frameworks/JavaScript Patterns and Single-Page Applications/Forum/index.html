@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Forum</title>
+
+    <style type="text/css">
+        #error-messages {
+            color: #ff0000;
+        }
+    </style>
+
+    <script src="Scripts/libs/jquery-2.0.3.js"></script>
+    <script src="Scripts/libs/mustache.js"></script>
+    <script src="Scripts/libs/sammy-0.7.4.js"></script>
+    <script src="Scripts/libs/sha1.js"></script>
+    <script src="Scripts/app/class.js"></script>
+    <script src="Scripts/app/http-requester.js"></script>
+    <script src="Scripts/app/persisters.js"></script>
+    <script src="Scripts/app/controller.js"></script>
+    <script src="Scripts/app/controls.js"></script>
+
+    <script src="Scripts/app-config.js" data-main="app-config"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="message">
+            <p>
+                Welcome to my forum! You can register or login on the first page. After that, you can see all posts here. By clicking a post's title,
+                you can see it and add a comment. By clicking any tag at the top of this page, you can see the posts tagged with it.
+                When you've had enough of my forum, you can logout.
+            </p>
+            <p><strong>You may need to refresh the page if the login doesn't work the first time :).</strong></p>
+            <p>Have a nice stay!</p>
+        </div>
+        <div id="all-tags"></div>
+        <div id="content"></div>
+        <div id="error-messages"></div>
+    </div>
+</body>
+</html>

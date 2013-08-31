@@ -1,0 +1,217 @@
+﻿<script type="text/x-mustache-template" id="login-form"> 
+    <h1>Battle game</h1>
+    <div id="login-form">
+    <label for="login-username">Username: </label>
+    <input type="text" size="25" id="login-username" />
+    <br />
+    <label for="login-password">Password: </label>
+    <input type="password" id="login-password" />
+    <br />
+    <button id="login">Login</button>
+    </div>
+    <div id="register-form" style="display: none">
+    <label for="register-username">Username: </label>
+    <input type="text" size="25" id="register-username" />
+    <br />
+    <label for="register-nickname">Nickname: </label>
+    <input type="text" size="25" id="register-nickname" />
+    <br />
+    <label for="register-password">Password: </label>
+    <input type="password" id="register-password" /><br />
+    <button id="register">Register</button>
+    </div>
+    <button id="open-login-form">Login</button>
+    <button id="open-reg-form">Register</button>
+    <div id="error-messages" style="color: red"></div>
+</script>
+
+<script type="text/x-mustache-template" id="dashboard">
+    <span id="nickname">Hello, <strong>{{.}}</strong>!</span>
+    <button id="logout">Logout</button>
+    <div id="create-game-holder">
+    <label for="game-title">Title: </label>
+    <input type="text" size="20" id="game-title" />
+    <br />
+    <button id="create-game">Create game</button>
+    </div>
+    <div id="open-games-holder">
+    <h3>Open games</h3>
+    <div id="open-games"></div>
+    </div>
+    <div id="active-games-holder">
+    <h3>Active games</h3>
+    <div id="active-games"></div>
+    </div>
+    <div id="scores-holder">
+    <h3>Highscores</h3>
+    <div id="scores"></div>
+    </div>
+    <div id="messages-holder">
+    <h3>Messages</h3>
+    <div id="messages"></div>
+    </div>
+    <div id="error-messages"></div>
+</script>
+
+<script type="text/x-mustache-template" id="open-games-list">
+    <ul class="game-list open-games">
+        {{#.}}
+            <li data-game-id="{{id}}">
+                <a href="#">{{title}}</a><span> by {{creator}}</span>
+                <button id="join">Join</button>
+            </li>
+        {{/.}}
+    </ul>
+</script>
+
+<script type="text/x-mustache-template" id="active-games-list">
+    <ul class="game-list active-games">
+        {{#.}}
+        <li class="game-status-{{status}}" data-game-id="{{id}}" data-creator="{{creator}}">
+            <a href="#" class="active-game">{{title}}</a><span> by {{creator}}</span>
+            {{#start}}
+                <button id="start">Start</button>
+            {{/start}}
+            {{#play}}
+                <button id="play">Play</button>
+            {{/play}}  
+        </li>
+        {{/.}}
+    </ul>
+</script>
+
+<script type="text/x-mustache-template" id="messages-list">
+    <ul class="messages-list">
+        {{#.}}
+            <li>
+                <a href="#" class="message-state-{{state}}">{{text}}</a>
+            </li>
+        {{/.}}
+    </ul>
+</script>
+
+<script type="text/x-mustache-template" id="scores">
+    <ul class="scores-list">
+        {{#.}}
+            <li>
+                <strong>{{nickname}}</strong>: {{score}}
+            </li>
+        {{/.}}
+</script>
+
+<script type="text/x-mustache-template" id="game">
+    <button id="logout">Logout</button>
+    <div id="game">
+        <div id="players"></div>
+        <table>
+            <tr>
+                <td id="00"></td>
+                <td id="01"></td>
+                <td id="02"></td>
+                <td id="03"></td>
+                <td id="04"></td>
+                <td id="05"></td>
+                <td id="06"></td>
+                <td id="07"></td>
+                <td id="08"></td>
+            </tr>
+            <tr>
+                <td id="10"></td>
+                <td id="11"></td>
+                <td id="12"></td>
+                <td id="13"></td>
+                <td id="14"></td>
+                <td id="15"></td>
+                <td id="16"></td>
+                <td id="17"></td>
+                <td id="18"></td>
+            </tr>
+            <tr>
+                <td id="20"></td>
+                <td id="21"></td>
+                <td id="22"></td>
+                <td id="23"></td>
+                <td id="24"></td>
+                <td id="25"></td>
+                <td id="26"></td>
+                <td id="27"></td>
+                <td id="28"></td>
+            </tr>
+            <tr>
+                <td id="30"></td>
+                <td id="31"></td>
+                <td id="32"></td>
+                <td id="33"></td>
+                <td id="34"></td>
+                <td id="35"></td>
+                <td id="36"></td>
+                <td id="37"></td>
+                <td id="38"></td>
+            </tr>
+            <tr>
+                <td id="40"></td>
+                <td id="41"></td>
+                <td id="42"></td>
+                <td id="43"></td>
+                <td id="44"></td>
+                <td id="45"></td>
+                <td id="46"></td>
+                <td id="47"></td>
+                <td id="48"></td>
+            </tr>
+            <tr>
+                <td id="50"></td>
+                <td id="51"></td>
+                <td id="52"></td>
+                <td id="53"></td>
+                <td id="54"></td>
+                <td id="55"></td>
+                <td id="56"></td>
+                <td id="57"></td>
+                <td id="58"></td>
+            </tr>
+            <tr>
+                <td id="60"></td>
+                <td id="61"></td>
+                <td id="62"></td>
+                <td id="63"></td>
+                <td id="64"></td>
+                <td id="65"></td>
+                <td id="66"></td>
+                <td id="67"></td>
+                <td id="68"></td>
+            </tr>
+            <tr>
+                <td id="70"></td>
+                <td id="71"></td>
+                <td id="72"></td>
+                <td id="73"></td>
+                <td id="74"></td>
+                <td id="75"></td>
+                <td id="76"></td>
+                <td id="77"></td>
+                <td id="78"></td>
+            </tr>
+            <tr>
+                <td id="80"></td>
+                <td id="81"></td>
+                <td id="82"></td>
+                <td id="83"></td>
+                <td id="84"></td>
+                <td id="85"></td>
+                <td id="86"></td>
+                <td id="87"></td>
+                <td id="88"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="open-games-holder">
+        <h3>Open games</h3>
+        <div id="open-games"></div>
+        <div id="active-games-holder">
+            <h3>Active games</h3>
+            <div id="active-games"></div>
+        </div>
+        <div id="error-messages"></div>
+    </div>
+</script>

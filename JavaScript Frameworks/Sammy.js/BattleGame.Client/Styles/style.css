@@ -1,0 +1,54 @@
+﻿nav a {
+    border: 1px solid black;
+    padding: 5px;
+    display:inline-block;
+}
+
+.game-status-in-progress {
+    color: green;
+}
+
+#open-games-holder {
+    width: 25%;
+    float: left;
+}
+
+#active-games-holder {
+    width: 25%;
+    float: left;
+}
+
+#messages-holder {
+    width: 20%;
+    float: left;
+}
+
+#error-messages {
+    color: red;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+    table tr td {
+        width: 30px;
+        height: 30px;
+        border: 1px solid black;
+    }
+
+
+.selected {
+    background-color: darkgreen;
+}
+
+.redPlayer {
+    font-weight: bold;
+    color: red;
+}
+
+.bluePlayer {
+    font-weight: bold;
+    color: blue;
+}
