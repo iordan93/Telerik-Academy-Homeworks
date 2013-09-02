@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="forum">
+<head>
+    <title>Forum</title>
+    <script src="Scripts/libs/jquery-2.0.3.js"></script>
+    <script src="Scripts/libs/underscore.js"></script>
+    <script src="Scripts/libs/angular.js"></script>
+
+    <script src="Scripts/app-config.js"></script>
+    <script src="Scripts/app/controllers.js"></script>
+</head>
+<body ng-controller="PostsController">
+    <h1>Forum</h1>
+    <a href="#/">All posts</a><br />
+    <a href="#/byCategory">Posts by category</a><br />
+    <a href="#/add">Add new post</a><br />
+    <div ng-view></div>
+</body>
+</html>

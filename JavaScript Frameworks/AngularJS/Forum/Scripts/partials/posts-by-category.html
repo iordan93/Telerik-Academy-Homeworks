@@ -1,0 +1,14 @@
+﻿<select ng-model="selectedCategory">
+		<option ng-repeat="categoryName in categories" value="{{categoryName}}">
+            {{categoryName}}
+		</option>
+	</select>
+
+	<div>
+		<p>{{current.content}}</p>
+	</div>
+	<ul>
+		<li ng-repeat="post in posts | filter:selectedCategory">
+			<p>{{post.content}}</p>
+		</li>
+	</ul>
