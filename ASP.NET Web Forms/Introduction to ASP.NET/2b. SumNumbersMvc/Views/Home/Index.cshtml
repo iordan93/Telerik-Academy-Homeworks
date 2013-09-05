@@ -1,0 +1,29 @@
+﻿@model _2b.SumNumbersMvc.Models.Summator
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sum numbers - MVC</title>
+</head>
+<body>
+    <h1>Summator</h1>
+    <p>Please use your system's default decimal separator to sum floating-point numbers.</p>
+
+    @using (Html.BeginForm())
+    {
+        <div>
+            @Html.LabelFor(m => m.FirstNumber, "First number: ")
+            @Html.TextBoxFor(m => m.FirstNumber)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.SecondNumber, "Second number: ")
+            @Html.TextBoxFor(m => m.SecondNumber)
+        </div>
+        <input type="submit" value="Sum numbers" />
+        <div>
+            @Html.DisplayTextFor(m => m.Result)
+        </div>
+    }
+</body>
+</html>
