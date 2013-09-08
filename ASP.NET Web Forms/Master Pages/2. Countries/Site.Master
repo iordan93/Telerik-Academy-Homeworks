@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="_2.Countries.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>International Offices</title>
+    <link href="Styles/style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Countries" runat="server">
+        <header id="header">
+            International Offices
+        </header>
+        <aside id="sidebar">
+            <div class="sidebar-title">Menu</div>
+            <ul>
+                <li>
+                    <a href="~/US/Home.aspx" runat="server">USA</a>
+                </li>
+                <li>
+                    <a href="~/IT/Home.aspx" runat="server">Italy</a>
+                </li>
+                <li>
+                    <a href="~/DE/Home.aspx" runat="server">Germany</a>
+                </li>
+            </ul>
+        </aside>
+        <section id="main-content">
+            <asp:ContentPlaceHolder ID="PlaceholderMain" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+        <footer id="footer">
+            &copy; <% Response.Write(DateTime.Now.Year); %> All rights reserved.
+        </footer>
+    </form>
+</body>
+</html>

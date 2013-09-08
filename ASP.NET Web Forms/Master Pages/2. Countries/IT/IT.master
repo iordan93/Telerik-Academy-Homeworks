@@ -1,0 +1,16 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="IT.master.cs" Inherits="_2.Countries.US.US" %>
+
+<asp:Content ID="ITContent" ContentPlaceHolderID="PlaceholderMain" runat="server">
+    <aside id="sidebar-inner">
+        <span class="sidebar-title">Italy</span>
+        <nav>
+            <ul>
+                <li><asp:HyperLink ID="HyperLinkITHome" NavigateUrl="~/IT/Home.aspx" runat="server">Home</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLinkITAbout" NavigateUrl="~/IT/About.aspx" runat="server">About</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLinkITContacts" NavigateUrl="~/IT/Contacts.aspx" runat="server">Contacts</asp:HyperLink></li>                
+            </ul>
+        </nav>
+    </aside>
+
+    <asp:ContentPlaceHolder ID="ContentPlaceholderIT" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
