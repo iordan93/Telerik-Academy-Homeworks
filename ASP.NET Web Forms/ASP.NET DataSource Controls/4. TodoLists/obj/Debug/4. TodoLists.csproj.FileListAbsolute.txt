@@ -1,0 +1,10 @@
+D:\Telerik\ASP.NET Web Forms\ASP.NET DataSource Controls\4. TodoLists\bin\_4.TodoLists.dll.config
+D:\Telerik\ASP.NET Web Forms\ASP.NET DataSource Controls\4. TodoLists\bin\_4.TodoLists.dll
+D:\Telerik\ASP.NET Web Forms\ASP.NET DataSource Controls\4. TodoLists\bin\_4.TodoLists.pdb
+D:\Telerik\ASP.NET Web Forms\ASP.NET DataSource Controls\4. TodoLists\bin\EntityFramework.dll
+D:\Telerik\ASP.NET Web Forms\ASP.NET DataSource Controls\4. TodoLists\bin\EntityFramework.xml
+D:\Telerik\ASP.NET Web Forms\ASP.NET DataSource Controls\4. TodoLists\obj\Debug\_4.TodoLists.dll
+D:\Telerik\ASP.NET Web Forms\ASP.NET DataSource Controls\4. TodoLists\obj\Debug\_4.TodoLists.pdb
+D:\Telerik\ASP.NET Web Forms\ASP.NET DataSource Controls\4. TodoLists\obj\Debug\4. TodoLists.csprojResolveAssemblyReference.cache
+D:\Telerik\ASP.NET Web Forms\ASP.NET DataSource Controls\4. TodoLists\bin\EntityFramework.SqlServer.dll
+D:\Telerik\ASP.NET Web Forms\ASP.NET DataSource Controls\4. TodoLists\bin\EntityFramework.SqlServer.xml

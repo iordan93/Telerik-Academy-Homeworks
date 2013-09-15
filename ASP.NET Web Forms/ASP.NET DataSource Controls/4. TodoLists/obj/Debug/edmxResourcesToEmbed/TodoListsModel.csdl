@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TodoListsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TodoLists" Relationship="Self.FK_TodoLists_Categories" FromRole="Categories" ToRole="TodoLists" />
+  </EntityType>
+  <EntityType Name="TodoList">
+    <Key>
+      <PropertyRef Name="TodoListId" />
+    </Key>
+    <Property Name="TodoListId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LastChangeDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="CategoryId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Category" Relationship="Self.FK_TodoLists_Categories" FromRole="TodoLists" ToRole="Categories" />
+  </EntityType>
+  <Association Name="FK_TodoLists_Categories">
+    <End Role="Categories" Type="Self.Category" Multiplicity="1" />
+    <End Role="TodoLists" Type="Self.TodoList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="CategoryId" />
+      </Principal>
+      <Dependent Role="TodoLists">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TodoListsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="TodoLists" EntityType="Self.TodoList" />
+    <AssociationSet Name="FK_TodoLists_Categories" Association="Self.FK_TodoLists_Categories">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="TodoLists" EntitySet="TodoLists" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. PrintBrowserTypeAndIP", "1. PrintBrowserTypeAndIP\1. PrintBrowserTypeAndIP.csproj", "{023057D8-E7C5-4363-A817-82041E17E847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. AddItemsToSessionState", "2. AddItemsToSessionState\2. AddItemsToSessionState.csproj", "{0681992D-A32A-4B45-8D3C-D4065EC3B8CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. LoginCookie", "3. LoginCookie\3. LoginCookie.csproj", "{5FD5FA9B-D0BC-4F09-B4DF-891DDE2093B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. CleanViewState", "4. CleanViewState\4. CleanViewState.csproj", "{B193DEB7-5837-4C58-82B7-7D590DCB1237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. GraphicalWebCounter", "5. GraphicalWebCounter\5. GraphicalWebCounter.csproj", "{26EFF024-1721-4B71-87C2-F1B781618124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. GraphicalWebCounterUsingDb", "6. GraphicalWebCounterUsingDb\6. GraphicalWebCounterUsingDb.csproj", "{6A4CE22F-44FD-4FD3-A0E5-7ACE6684EA82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{023057D8-E7C5-4363-A817-82041E17E847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{023057D8-E7C5-4363-A817-82041E17E847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{023057D8-E7C5-4363-A817-82041E17E847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{023057D8-E7C5-4363-A817-82041E17E847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0681992D-A32A-4B45-8D3C-D4065EC3B8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0681992D-A32A-4B45-8D3C-D4065EC3B8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0681992D-A32A-4B45-8D3C-D4065EC3B8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0681992D-A32A-4B45-8D3C-D4065EC3B8CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD5FA9B-D0BC-4F09-B4DF-891DDE2093B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD5FA9B-D0BC-4F09-B4DF-891DDE2093B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD5FA9B-D0BC-4F09-B4DF-891DDE2093B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD5FA9B-D0BC-4F09-B4DF-891DDE2093B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B193DEB7-5837-4C58-82B7-7D590DCB1237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B193DEB7-5837-4C58-82B7-7D590DCB1237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B193DEB7-5837-4C58-82B7-7D590DCB1237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B193DEB7-5837-4C58-82B7-7D590DCB1237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26EFF024-1721-4B71-87C2-F1B781618124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26EFF024-1721-4B71-87C2-F1B781618124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26EFF024-1721-4B71-87C2-F1B781618124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26EFF024-1721-4B71-87C2-F1B781618124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A4CE22F-44FD-4FD3-A0E5-7ACE6684EA82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4CE22F-44FD-4FD3-A0E5-7ACE6684EA82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4CE22F-44FD-4FD3-A0E5-7ACE6684EA82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4CE22F-44FD-4FD3-A0E5-7ACE6684EA82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
