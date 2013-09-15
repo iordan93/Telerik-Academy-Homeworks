@@ -1,0 +1,16 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Bulgaria.master.cs" Inherits="CompanyWebsite.Offices.Bulgaria.Bulgaria" %>
+
+<asp:Content ID="ContentBulgaria" ContentPlaceHolderID="ContentPlaceHolderMainContent" runat="server">
+    <asp:SiteMapDataSource ID="SiteMapDataSource" runat="server"
+        ShowStartingNode="False" StartingNodeOffset="2" />
+
+    <div class="clear menu">
+        <asp:Menu ID="NavigationMenu" runat="server" CssClass="verticalMenu"
+            EnableViewState="False" IncludeStyleBlock="False" DataSourceID="SiteMapDataSource">
+        </asp:Menu>
+    </div>
+
+    <div class="main">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderBulgaria" runat="server" />
+    </div>
+</asp:Content>
